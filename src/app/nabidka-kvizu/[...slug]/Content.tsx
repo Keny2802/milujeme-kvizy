@@ -12,7 +12,6 @@ import { usePathname, useRouter } from "next/navigation";
 import type { DefaultType } from "@/types/DefaultType";
 import type { LayoutVariantsType } from "@/types/Flex/FlexTypes";
 
-import KeyboardQuizAnswers from "@/app/functions/KeyboardQuizAnswers/KeyboardQuizAnswers";
 import Shuffled from "@/app/functions/Shuffled/Shuffled";
 import QuizesCardArray from "@/app/Arrays/QuizesCardArray/QuizesCardArray";
 import quizItalianCosaNostra from "@/app/json-quizes/quizItalianCosaNostra.json";
@@ -48,13 +47,7 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const [selectedAnswer, setSelectedAnswer] = useState<string>("");
     const [isCorrectAnswerVisible, setCorrectAnswerVisible] = useState<boolean>(false);
     const [layoutVariant, setLayoutVariant] = useState<LayoutVariantsType>("responsive");
-
-    useEffect(() => {
-        window.addEventListener("keydown", () => KeyboardQuizAnswers);
-        
-        return () => window.addEventListener("keydown", () => KeyboardQuizAnswers);
-    }, [currentIndex]);
-
+    
     const currentPage = QuizesCardArray.find((page) => {
         return page.href === currentPathName;
     });
