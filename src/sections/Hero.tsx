@@ -1,3 +1,5 @@
+"use client";
+
 import {
     type FC,
     Fragment
@@ -9,6 +11,7 @@ import Wrapper from "@/components/Wrapper";
 import Flex from "@/components/Flex";
 import Text from "@/components/Text";
 import Cta from "@/components/Cta";
+import HashLess from "@/app/functions/HashLess/HashLess";
 import Photo from "@/components/Photo";
 
 const ctaArray = [
@@ -55,7 +58,10 @@ const Hero:FC<DefaultType> = ({
                                             { backgroundVariant: "violet" } )
                                         }
                                         { ...( idx === 0 && {  borderBackgroundVariant: "violet" } ) }
-                                        href={href}>
+                                        href={href}
+                                        onClick={(e) => {
+                                            HashLess(e, href);
+                                        }}>
                                             <Text
                                             textVariant="strongBodyText"
                                             className="uppercase">

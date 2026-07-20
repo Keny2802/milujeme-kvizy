@@ -90,7 +90,7 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                 layoutVariant={layoutVariant}
                 horizontalVariant="justifyCenter"
                 verticalVariant="itemsCenter"
-                className="min-w-full">
+                className="min-w-full md:p-lg md:pt-0">
                     <QuizMainPhoto
                     layoutVariant={layoutVariant}
                     currentPage={currentPage}

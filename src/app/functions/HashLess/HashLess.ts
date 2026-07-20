@@ -1,5 +1,5 @@
 const HashLess = (
-    e: React.MouseEvent<HTMLAnchorElement>,
+    e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>,
     id: string
 ) => {
     e.preventDefault();

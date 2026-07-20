@@ -11,6 +11,7 @@ import clsx from "clsx";
 
 import type MobileMenuType from "@/types/MobileMenu/MobileMenuType";
 import HeaderItems from "@/app/Arrays/Header/HeaderArray";
+import HashLess from "@/app/functions/HashLess/HashLess";
 import quizHrefs from "@/app/Arrays/QuizHrefs/QuizHrefs";
 import Wrapper from "./Wrapper";
 import Flex from "./Flex";
@@ -21,7 +22,6 @@ import Anchor from "./Anchor";
 import Text from "./Text";
 import Cta from "./Cta";
 import Year from "./Year";
-import Shuffled from "@/app/functions/Shuffled/Shuffled";
 
 const MobileMenu:FC<MobileMenuType> = ({
     isMobileMenuVisible,
@@ -80,7 +80,10 @@ const MobileMenu:FC<MobileMenuType> = ({
                                         <ListItem className="p-xs md:p-mini border-b border-white/25 w-full">
                                             <Anchor
                                             href={href}
-                                            onClick={() => setMobileMenuTovisible(false)}>
+                                            onClick={(e) => {
+                                                setMobileMenuTovisible(false);
+                                                HashLess(e, href);
+                                            }}>
                                                 <Text
                                                 textVariant="strongBodyText"
                                                 className="uppercase">

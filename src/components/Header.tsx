@@ -6,6 +6,7 @@ import {
   useEffect,
   Fragment
 } from "react";
+import { usePathname } from "next/navigation";
 import {
   motion,
   useScroll,
@@ -37,13 +38,13 @@ const randomizeIndex = Math.floor(Math.random() * 1);
 const Header: FC<DefaultType> = ({
   ...attrs
 }) => {
+  const pathname = usePathname();
+
   const [isHidden, setHidden] = useState<boolean>(false);
   const [isScrolling, setToScrolling] = useState<boolean>(false);
   const [randomIndex, setRandomIndex] = useState<number>(0);
   const [isMobileMenuVisible, setMobileMenuTovisible] = useState<boolean>(false);
   const { scrollY } = useScroll();
-
-  // const randomHref = "";
 
   useMotionValueEvent(scrollY, "change", (current) => {
     const previous = scrollY.getPrevious() ?? 0;
@@ -83,7 +84,7 @@ const Header: FC<DefaultType> = ({
           opacity: isHidden ? 0 : 1,
         }}
         className={clsx(
-          "fixed top-0 bg-violet md:mt-md lg:mt-lg p-xs z-50 md:rounded-4xl",
+          "fixed top-0 w-full md:w-11/12 bg-violet md:mt-md lg:mt-lg p-xs z-50 md:rounded-4xl",
         )}
         transition={{
           duration: 0.3,
@@ -116,7 +117,7 @@ const Header: FC<DefaultType> = ({
                     <Fragment key={idx}>
                       <ListItem>
                         <Anchor
-                        href={href}
+                        { ...( pathname === "/" ? { href: href } : { href: href } ) }
                         className="text-white"
                         onClick={(e) => HashLess(e, href)}
                         >
@@ -138,7 +139,7 @@ const Header: FC<DefaultType> = ({
             backgroundVariant="black"
             borderBackgroundVariant="none"
             className={clsx(
-              "uppercase",
+              "hidden md:inline-block uppercase",
             )}>
               <Text>
                 Hrát náhodně
