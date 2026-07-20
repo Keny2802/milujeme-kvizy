@@ -1,0 +1,632 @@
+[
+  {
+    "title": "Kdy začala 2. světová válka?",
+    "subheading": "2. světová válka byla největší vojenský konflikt v dějinách.",
+    "answers": ["01.09.1939", "08.05.1945", "22.06.1941", "20.01.1942"],
+    "correct_answer": "01.09.1939"
+  },
+  {
+    "title": "Která země byla napadena jako první?",
+    "subheading": "Německá invaze odstartovala světový konflikt.",
+    "answers": ["Polsko", "Francie", "Belgie", "Československo"],
+    "correct_answer": "Polsko"
+  },
+  {
+    "title": "Kdo byl vůdcem nacistického Německa?",
+    "subheading": "Stál v čele Německa během většiny války.",
+    "answers": ["Adolf Hitler", "Benito Mussolini", "Josif Stalin", "Winston Churchill"],
+    "correct_answer": "Adolf Hitler"
+  },
+  {
+    "title": "Jak se jmenovala invaze Německa do Sovětského svazu?",
+    "subheading": "Jedna z největších vojenských operací historie.",
+    "answers": ["Operace Barbarossa", "Operace Overlord", "Operace Market Garden", "Operace Torch"],
+    "correct_answer": "Operace Barbarossa"
+  },
+  {
+    "title": "Kdy proběhlo vylodění v Normandii?",
+    "subheading": "Známé také jako Den D.",
+    "answers": ["06.06.1944", "08.05.1945", "07.12.1941", "22.06.1941"],
+    "correct_answer": "06.06.1944"
+  },
+  {
+    "title": "Jak se nazývalo vylodění spojenců v Normandii?",
+    "subheading": "Jedna z nejdůležitějších operací západní fronty.",
+    "answers": ["Operace Overlord", "Operace Barbarossa", "Operace Torch", "Operace Neptune"],
+    "correct_answer": "Operace Overlord"
+  },
+  {
+    "title": "Který stát shodil atomovou bombu na Japonsko?",
+    "subheading": "Šlo o první použití jaderné zbraně ve válce.",
+    "answers": ["USA", "Velká Británie", "Sovětský svaz", "Francie"],
+    "correct_answer": "USA"
+  },
+  {
+    "title": "Na které město byla svržena první atomová bomba?",
+    "subheading": "Stalo se to 6. srpna 1945.",
+    "answers": ["Hirošima", "Nagasaki", "Tokio", "Ósaka"],
+    "correct_answer": "Hirošima"
+  },
+  {
+    "title": "Na které město byla svržena druhá atomová bomba?",
+    "subheading": "Událost urychlila kapitulaci Japonska.",
+    "answers": ["Nagasaki", "Hirošima", "Kjóto", "Tokio"],
+    "correct_answer": "Nagasaki"
+  },
+  {
+    "title": "Který japonský přístav napadlo Japonsko 7. prosince 1941?",
+    "subheading": "Útok přivedl USA do války.",
+    "answers": ["Pearl Harbor", "Midway", "Okinawa", "Guam"],
+    "correct_answer": "Pearl Harbor"
+  },
+  {
+    "title": "Kdo byl britským ministerským předsedou během většiny války?",
+    "subheading": "Proslavil se svými projevy a odhodláním.",
+    "answers": ["Winston Churchill", "Neville Chamberlain", "Charles de Gaulle", "Franklin Roosevelt"],
+    "correct_answer": "Winston Churchill"
+  },
+  {
+    "title": "Kdo byl prezidentem USA během většiny 2. světové války?",
+    "subheading": "Vedl Spojené státy do vítězství nad Osou.",
+    "answers": ["Franklin D. Roosevelt", "Harry S. Truman", "Dwight D. Eisenhower", "John F. Kennedy"],
+    "correct_answer": "Franklin D. Roosevelt"
+  },
+  {
+    "title": "Jak se nazýval šifrovací stroj používaný Německem?",
+    "subheading": "Jeho prolomení výrazně pomohlo Spojencům.",
+    "answers": ["Enigma", "Lorenz", "Colossus", "Ultra"],
+    "correct_answer": "Enigma"
+  },
+  {
+    "title": "Ve kterém městě se nacházel největší nacistický vyhlazovací tábor?",
+    "subheading": "Stal se symbolem holocaustu.",
+    "answers": ["Osvětim", "Drážďany", "Varšava", "Berlín"],
+    "correct_answer": "Osvětim"
+  },
+  {
+    "title": "Jak se nazývala rozhodující letecká bitva o Británii?",
+    "subheading": "Odehrála se v roce 1940.",
+    "answers": ["Bitva o Británii", "Bitva o Atlantik", "Bitva u Midway", "Bitva o Berlín"],
+    "correct_answer": "Bitva o Británii"
+  },
+  {
+    "title": "Která bitva je považována za zlom na východní frontě?",
+    "subheading": "Patří mezi nejkrvavější bitvy historie.",
+    "answers": ["Bitva u Stalingradu", "Bitva u Kurska", "Bitva o Moskvu", "Bitva o Kyjev"],
+    "correct_answer": "Bitva u Stalingradu"
+  },
+  {
+    "title": "Která tanková bitva byla největší v historii?",
+    "subheading": "Odehrála se v létě roku 1943.",
+    "answers": ["Bitva u Kurska", "Bitva u Stalingradu", "Bitva o Berlín", "Bitva u Dunkerku"],
+    "correct_answer": "Bitva u Kurska"
+  },
+  {
+    "title": "Jak se nazývala vojenská aliance Německa, Itálie a Japonska?",
+    "subheading": "Tvořila hlavní protiváhu Spojencům.",
+    "answers": ["Osa", "NATO", "Trojdohoda", "Varšavská smlouva"],
+    "correct_answer": "Osa"
+  },
+  {
+    "title": "Ve kterém roce skončila 2. světová válka v Evropě?",
+    "subheading": "Německo kapitulovalo na jaře.",
+    "answers": ["1945", "1944", "1943", "1946"],
+    "correct_answer": "1945"
+  },
+  {
+    "title": "Ve kterém městě podepsalo Německo bezpodmínečnou kapitulaci?",
+    "subheading": "Událost ukončila válku v Evropě.",
+    "answers": ["Berlín", "Paříž", "Londýn", "Moskva"],
+    "correct_answer": "Berlín"
+  },
+  {
+    "title": "Jak se jmenovala operace vedoucí k atentátu na Reinharda Heydricha?",
+    "subheading": "Patří mezi nejznámější akce československého odboje.",
+    "answers": ["Operace Anthropoid", "Operace Silver A", "Operace Out Distance", "Operace Barium"],
+    "correct_answer": "Operace Anthropoid"
+  },
+  {
+    "title": "Kdo provedl atentát na Reinharda Heydricha?",
+    "subheading": "Šlo o československé parašutisty vyslané z Velké Británie.",
+    "answers": [
+      "Jozef Gabčík a Jan Kubiš",
+      "Jan Žižka a Prokop Holý",
+      "Ludvík Svoboda a Heliodor Píka",
+      "Karel Čurda a Adolf Opálka"
+    ],
+    "correct_answer": "Jozef Gabčík a Jan Kubiš"
+  },
+  {
+    "title": "Ve kterém roce byl spáchán atentát na Reinharda Heydricha?",
+    "subheading": "Jedna z nejvýznamnějších událostí českého odboje.",
+    "answers": ["1942", "1939", "1941", "1944"],
+    "correct_answer": "1942"
+  },
+  {
+    "title": "Která česká obec byla vypálena jako odveta za atentát na Heydricha?",
+    "subheading": "Stala se symbolem nacistických represí.",
+    "answers": ["Lidice", "Ležáky", "Terezín", "Slapy"],
+    "correct_answer": "Lidice"
+  },
+  {
+    "title": "Ve kterém kostele se ukrývali parašutisté po atentátu?",
+    "subheading": "Místo jejich posledního boje v Praze.",
+    "answers": [
+      "Kostel sv. Cyrila a Metoděje",
+      "Katedrála sv. Víta",
+      "Týnský chrám",
+      "Bazilika sv. Jiří"
+    ],
+    "correct_answer": "Kostel sv. Cyrila a Metoděje"
+  },
+  {
+    "title": "Kdo byl prezidentem Československa v exilu během války?",
+    "subheading": "Působil převážně ve Velké Británii.",
+    "answers": [
+      "Edvard Beneš",
+      "Tomáš Garrigue Masaryk",
+      "Emil Hácha",
+      "Ludvík Svoboda"
+    ],
+    "correct_answer": "Edvard Beneš"
+  },
+  {
+    "title": "Která země obsadila Československo v březnu 1939?",
+    "subheading": "Vznikl Protektorát Čechy a Morava.",
+    "answers": ["Německo", "Polsko", "Maďarsko", "Sovětský svaz"],
+    "correct_answer": "Německo"
+  },
+  {
+    "title": "Jak se nazýval český odbojový stát vytvořený Němci?",
+    "subheading": "Existoval od roku 1939 do roku 1945.",
+    "answers": [
+      "Protektorát Čechy a Morava",
+      "Česká republika",
+      "Slovenský stát",
+      "Sudetská župa"
+    ],
+    "correct_answer": "Protektorát Čechy a Morava"
+  },
+  {
+    "title": "Které město bylo hlavním městem Protektorátu Čechy a Morava?",
+    "subheading": "Správním centrem okupovaného území.",
+    "answers": ["Praha", "Brno", "Plzeň", "Ostrava"],
+    "correct_answer": "Praha"
+  },
+  {
+    "title": "Jak se jmenoval německý říšský protektor zavražděný v roce 1942?",
+    "subheading": "Byl označován jako 'Pražský řezník'.",
+    "answers": [
+      "Reinhard Heydrich",
+      "Heinrich Himmler",
+      "Hermann Göring",
+      "Joseph Goebbels"
+    ],
+    "correct_answer": "Reinhard Heydrich"
+  },
+  {
+    "title": "Která bitva znamenala porážku německého loďstva v Pacifiku?",
+    "subheading": "Šlo o rozhodující námořní střetnutí roku 1942.",
+    "answers": [
+      "Bitva u Midway",
+      "Bitva o Guadalcanal",
+      "Bitva v Korálovém moři",
+      "Bitva o Okinawu"
+    ],
+    "correct_answer": "Bitva u Midway"
+  },
+  {
+    "title": "Který ostrov byl jedním z nejkrvavějších bojišť v Tichomoří?",
+    "subheading": "Bitva proběhla v roce 1945.",
+    "answers": ["Okinawa", "Havaj", "Tchaj-wan", "Borneo"],
+    "correct_answer": "Okinawa"
+  },
+  {
+    "title": "Které město bylo hlavním městem nacistického Německa?",
+    "subheading": "Zde sídlilo vedení Třetí říše.",
+    "answers": ["Berlín", "Mnichov", "Hamburk", "Frankfurt"],
+    "correct_answer": "Berlín"
+  },
+  {
+    "title": "Jak se nazývala německá letecká armáda?",
+    "subheading": "Účastnila se bojů na všech frontách.",
+    "answers": ["Luftwaffe", "Kriegsmarine", "Wehrmacht", "SS"],
+    "correct_answer": "Luftwaffe"
+  },
+  {
+    "title": "Jak se nazývalo německé válečné námořnictvo?",
+    "subheading": "Proslulo zejména ponorkovou válkou.",
+    "answers": ["Kriegsmarine", "Luftwaffe", "Wehrmacht", "Gestapo"],
+    "correct_answer": "Kriegsmarine"
+  },
+  {
+    "title": "Jak se nazývala tajná státní policie nacistického Německa?",
+    "subheading": "Pronásledovala odpůrce režimu.",
+    "answers": ["Gestapo", "SS", "SA", "Abwehr"],
+    "correct_answer": "Gestapo"
+  },
+  {
+    "title": "Která organizace měla na starosti ochranu nacistických představitelů a správu koncentračních táborů?",
+    "subheading": "Jednalo se o elitní nacistickou složku.",
+    "answers": ["SS", "Gestapo", "SA", "Wehrmacht"],
+    "correct_answer": "SS"
+  },
+  {
+    "title": "Jak se jmenovala německá armáda během 2. světové války?",
+    "subheading": "Bojovala na evropských i afrických bojištích.",
+    "answers": ["Wehrmacht", "Luftwaffe", "SS", "Kriegsmarine"],
+    "correct_answer": "Wehrmacht"
+  },
+  {
+    "title": "Který německý tank patřil mezi nejznámější těžké tanky války?",
+    "subheading": "Byl obávaný díky silnému pancíři i kanónu.",
+    "answers": ["Tiger I", "Panzer II", "Sherman", "T-34"],
+    "correct_answer": "Tiger I"
+  },
+  {
+    "title": "Který sovětský tank je považován za jeden z nejlepších tanků války?",
+    "subheading": "Vynikal pohyblivostí i odolností.",
+    "answers": ["T-34", "Tiger I", "Panther", "Churchill"],
+    "correct_answer": "T-34"
+  },
+  {
+    "title": "Který americký tank byl nejpoužívanější během 2. světové války?",
+    "subheading": "Patřil k hlavním obrněným vozidlům americké armády.",
+    "answers": ["M4 Sherman", "Tiger I", "Panther", "T-34"],
+    "correct_answer": "M4 Sherman"
+  },
+  {
+    "title": "Jak se jmenoval legendární německý střední tank zavedený v roce 1943?",
+    "subheading": "Byl považován za jedno z nejlepších obrněných vozidel války.",
+    "answers": ["Panther", "Tiger II", "Panzer II", "Sherman"],
+    "correct_answer": "Panther"
+  },
+  {
+    "title": "Které německé letadlo bylo nejznámější stíhačkou Luftwaffe?",
+    "subheading": "Bojovalo téměř na všech evropských frontách.",
+    "answers": ["Messerschmitt Bf 109", "Spitfire", "P-51 Mustang", "Jak-3"],
+    "correct_answer": "Messerschmitt Bf 109"
+  },
+  {
+    "title": "Jak se jmenovala slavná britská stíhačka používaná v Bitvě o Británii?",
+    "subheading": "Stala se symbolem britského odporu.",
+    "answers": ["Supermarine Spitfire", "Hawker Typhoon", "P-47 Thunderbolt", "Messerschmitt Bf 110"],
+    "correct_answer": "Supermarine Spitfire"
+  },
+  {
+    "title": "Které americké letadlo doprovázelo bombardéry hluboko nad Německo?",
+    "subheading": "Patřilo mezi nejlepší stíhačky války.",
+    "answers": ["P-51 Mustang", "B-17 Flying Fortress", "Spitfire", "Ju 87 Stuka"],
+    "correct_answer": "P-51 Mustang"
+  },
+  {
+    "title": "Jak se jmenoval německý střemhlavý bombardér přezdívaný Stuka?",
+    "subheading": "Byl známý svým charakteristickým zvukem při střemhlavém letu.",
+    "answers": ["Junkers Ju 87", "Heinkel He 111", "Messerschmitt Bf 109", "Focke-Wulf Fw 190"],
+    "correct_answer": "Junkers Ju 87"
+  },
+  {
+    "title": "Která spojenecká konference rozhodovala o poválečném uspořádání Evropy v roce 1945?",
+    "subheading": "Sešli se zde Stalin, Churchill a Roosevelt.",
+    "answers": ["Jaltská konference", "Mnichovská konference", "Potsdamská konference", "Teheránská konference"],
+    "correct_answer": "Jaltská konference"
+  },
+  {
+    "title": "Ve kterém městě proběhly norimberské procesy s nacistickými představiteli?",
+    "subheading": "Po válce zde byli souzeni váleční zločinci.",
+    "answers": ["Norimberk", "Berlín", "Mnichov", "Drážďany"],
+    "correct_answer": "Norimberk"
+  },
+  {
+    "title": "Jak se jmenoval německý ministr propagandy?",
+    "subheading": "Řídil nacistickou propagandu po celou válku.",
+    "answers": ["Joseph Goebbels", "Heinrich Himmler", "Albert Speer", "Hermann Göring"],
+    "correct_answer": "Joseph Goebbels"
+  },
+  {
+    "title": "Kdo stál v čele jednotek SS?",
+    "subheading": "Patřil mezi nejmocnější muže nacistického Německa.",
+    "answers": ["Heinrich Himmler", "Joseph Goebbels", "Erwin Rommel", "Karl Dönitz"],
+    "correct_answer": "Heinrich Himmler"
+  },
+  {
+    "title": "Jak se jmenoval německý maršál přezdívaný Pouštní liška?",
+    "subheading": "Proslavil se boji v severní Africe.",
+    "answers": ["Erwin Rommel", "Gerd von Rundstedt", "Friedrich Paulus", "Walter Model"],
+    "correct_answer": "Erwin Rommel"
+  },
+  {
+    "title": "Na kterém kontinentu bojoval Afrikakorps?",
+    "subheading": "Vedl jej maršál Erwin Rommel.",
+    "answers": ["Afrika", "Asie", "Evropa", "Austrálie"],
+    "correct_answer": "Afrika"
+  },
+  {
+    "title": "Jak se jmenovala rozhodující bitva v severní Africe v roce 1942?",
+    "subheading": "Zastavila postup vojsk Osy směrem k Egyptu.",
+    "answers": ["Bitva u El Alameinu", "Bitva u Tobruku", "Bitva o Krétu", "Bitva u Dunkerku"],
+    "correct_answer": "Bitva u El Alameinu"
+  },
+  {
+    "title": "Které město bylo téměř 900 dní obléháno německou armádou?",
+    "subheading": "Jedno z nejdelších obléhání moderních dějin.",
+    "answers": ["Leningrad", "Moskva", "Kyjev", "Minsk"],
+    "correct_answer": "Leningrad"
+  },
+  {
+    "title": "Jak se jmenovala německá bitevní loď potopená v roce 1941?",
+    "subheading": "Byla chloubou německého námořnictva.",
+    "answers": ["Bismarck", "Tirpitz", "Yamato", "Hood"],
+    "correct_answer": "Bismarck"
+  },
+  {
+    "title": "Která japonská bitevní loď byla největší na světě?",
+    "subheading": "Byla potopena americkým letectvem v roce 1945.",
+    "answers": ["Yamato", "Bismarck", "Missouri", "Prince of Wales"],
+    "correct_answer": "Yamato"
+  },
+  {
+    "title": "Jak se nazýval program pronásledování a vyvražďování evropských Židů?",
+    "subheading": "Patří mezi nejtemnější kapitoly lidských dějin.",
+    "answers": ["Holocaust", "Blitzkrieg", "Lebensraum", "Anschluss"],
+    "correct_answer": "Holocaust"
+  },
+  {
+    "title": "Přibližně kolik milionů Židů zahynulo během holocaustu?",
+    "subheading": "Jde o odhad historiků.",
+    "answers": ["6 milionů", "2 miliony", "10 milionů", "15 milionů"],
+    "correct_answer": "6 milionů"
+  },
+  {
+    "title": "Který nacistický koncentrační tábor se nacházel na území dnešního Polska?",
+    "subheading": "Byl největším vyhlazovacím táborem nacistů.",
+    "answers": ["Osvětim", "Terezín", "Buchenwald", "Dachau"],
+    "correct_answer": "Osvětim"
+  },
+  {
+    "title": "Jak se nazývala německá taktika rychlé války využívající tanky a letectvo?",
+    "subheading": "Přinesla Německu řadu rychlých vítězství na začátku války.",
+    "answers": ["Blitzkrieg", "Barbarossa", "Overlord", "Enigma"],
+    "correct_answer": "Blitzkrieg"
+  },
+  {
+    "title": "Který německý admirál se po Hitlerově smrti stal hlavou státu?",
+    "subheading": "Vedl Německo několik dní před konečnou kapitulací.",
+    "answers": ["Karl Dönitz", "Erich Raeder", "Heinrich Himmler", "Albert Speer"],
+    "correct_answer": "Karl Dönitz"
+  },
+  {
+    "title": "Ve kterém roce Německo napadlo Sovětský svaz?",
+    "subheading": "Invaze znamenala otevření východní fronty.",
+    "answers": ["1941", "1939", "1940", "1942"],
+    "correct_answer": "1941"
+  },
+  {
+    "title": "Jak se jmenovala rozhodující bitva v Ardenách na přelomu let 1944 a 1945?",
+    "subheading": "Poslední velká německá ofenzíva na západní frontě.",
+    "answers": ["Bitva v Ardenách", "Bitva u Kurska", "Bitva o Berlín", "Bitva u Dunkerku"],
+    "correct_answer": "Bitva v Ardenách"
+  },
+  {
+    "title": "Které město bylo hlavním cílem závěrečné sovětské ofenzívy v Evropě?",
+    "subheading": "Jeho dobytím skončila válka v Evropě.",
+    "answers": ["Berlín", "Mnichov", "Vídeň", "Hamburk"],
+    "correct_answer": "Berlín"
+  },
+  {
+    "title": "Který sovětský maršál velel útoku na Berlín?",
+    "subheading": "Patřil mezi nejvýznamnější velitele Rudé armády.",
+    "answers": ["Georgij Žukov", "Konstantin Rokossovskij", "Ivan Koněv", "Semjon Buďonnyj"],
+    "correct_answer": "Georgij Žukov"
+  },
+  {
+    "title": "Jak se jmenoval vrchní velitel spojeneckých vojsk při vylodění v Normandii?",
+    "subheading": "Později se stal prezidentem USA.",
+    "answers": ["Dwight D. Eisenhower", "George Patton", "Douglas MacArthur", "Bernard Montgomery"],
+    "correct_answer": "Dwight D. Eisenhower"
+  },
+  {
+    "title": "Který americký generál byl známý svým rychlým postupem přes Francii?",
+    "subheading": "Patřil k nejvýraznějším velitelům americké armády.",
+    "answers": ["George S. Patton", "Omar Bradley", "Dwight D. Eisenhower", "Douglas MacArthur"],
+    "correct_answer": "George S. Patton"
+  },
+  {
+    "title": "Jak se jmenoval nejvyšší představitel Francie v exilu?",
+    "subheading": "Vedl hnutí Svobodná Francie.",
+    "answers": ["Charles de Gaulle", "Philippe Pétain", "Georges Clemenceau", "François Mitterrand"],
+    "correct_answer": "Charles de Gaulle"
+  },
+  {
+    "title": "Který francouzský maršál vedl vichistický režim?",
+    "subheading": "Po porážce Francie spolupracoval s Německem.",
+    "answers": ["Philippe Pétain", "Charles de Gaulle", "Ferdinand Foch", "Jean Moulin"],
+    "correct_answer": "Philippe Pétain"
+  },
+  {
+    "title": "Která země byla spojencem Německa až do roku 1943?",
+    "subheading": "Vedl ji Benito Mussolini.",
+    "answers": ["Itálie", "Španělsko", "Švýcarsko", "Portugalsko"],
+    "correct_answer": "Itálie"
+  },
+  {
+    "title": "Kdo byl vůdcem fašistické Itálie během většiny války?",
+    "subheading": "Patřil mezi hlavní představitele mocností Osy.",
+    "answers": ["Benito Mussolini", "Victor Emanuel III.", "Pietro Badoglio", "Giuseppe Garibaldi"],
+    "correct_answer": "Benito Mussolini"
+  },
+  {
+    "title": "Ve kterém roce vstoupily Spojené státy do 2. světové války?",
+    "subheading": "Stalo se tak po útoku na Pearl Harbor.",
+    "answers": ["1941", "1939", "1940", "1943"],
+    "correct_answer": "1941"
+  },
+  {
+    "title": "Jak se jmenovala největší německá raketa dlouhého doletu?",
+    "subheading": "Byla první balistickou raketou použitou ve válce.",
+    "answers": ["V-2", "V-1", "Enigma", "Panzerfaust"],
+    "correct_answer": "V-2"
+  },
+  {
+    "title": "Jak se nazývala německá bezpilotní střela používaná proti Británii?",
+    "subheading": "Byla známá jako létající bomba.",
+    "answers": ["V-1", "V-2", "Stuka", "Nebelwerfer"],
+    "correct_answer": "V-1"
+  },
+  {
+    "title": "Které město bylo cílem rozsáhlého spojeneckého bombardování v únoru 1945?",
+    "subheading": "Bombardování vyvolává historické debaty dodnes.",
+    "answers": ["Drážďany", "Hamburk", "Mnichov", "Kolín nad Rýnem"],
+    "correct_answer": "Drážďany"
+  },
+  {
+    "title": "Které město bylo osvobozeno americkou armádou 6. května 1945?",
+    "subheading": "Šlo o největší české město osvobozené západními Spojenci.",
+    "answers": ["Plzeň", "Praha", "Brno", "Liberec"],
+    "correct_answer": "Plzeň"
+  },
+  {
+    "title": "Kdy byla osvobozena Praha?",
+    "subheading": "Krátce po skončení Pražského povstání.",
+    "answers": ["09.05.1945", "08.05.1945", "06.05.1945", "10.05.1945"],
+    "correct_answer": "09.05.1945"
+  },
+  {
+    "title": "Jak se nazývalo povstání českého obyvatelstva v květnu 1945?",
+    "subheading": "Pomohlo urychlit osvobození hlavního města.",
+    "answers": ["Pražské povstání", "Slovenské národní povstání", "Varšavské povstání", "Květnová revoluce"],
+    "correct_answer": "Pražské povstání"
+  },
+  {
+    "title": "Ve kterém roce vypuklo Slovenské národní povstání?",
+    "subheading": "Jedna z nejvýznamnějších ozbrojených akcí proti nacistům ve střední Evropě.",
+    "answers": ["1944", "1942", "1943", "1945"],
+    "correct_answer": "1944"
+  },
+  {
+    "title": "Jak se jmenovalo zařízení, které pomohlo Spojencům prolomit šifru Enigmy?",
+    "subheading": "Patřilo mezi první elektronické počítače.",
+    "answers": ["Colossus", "ENIAC", "Mark I", "Z3"],
+    "correct_answer": "Colossus"
+  },
+  {
+    "title": "Jak se nazývala německá invaze do Francie v roce 1940?",
+    "subheading": "Německo během několika týdnů porazilo francouzskou armádu.",
+    "answers": ["Fall Gelb", "Operace Overlord", "Fall Weiss", "Operace Citadela"],
+    "correct_answer": "Fall Gelb"
+  },
+  {
+    "title": "Jak se nazývala evakuace spojeneckých vojáků z Dunkerku v roce 1940?",
+    "subheading": "Zachránila stovky tisíc britských a spojeneckých vojáků.",
+    "answers": ["Operace Dynamo", "Operace Torch", "Operace Sea Lion", "Operace Market Garden"],
+    "correct_answer": "Operace Dynamo"
+  },
+  {
+    "title": "Jak se nazýval plánované německé vylodění ve Velké Británii?",
+    "subheading": "Nikdy nebylo uskutečněno.",
+    "answers": ["Operace Lvoun", "Operace Barbarossa", "Operace Overlord", "Operace Citadela"],
+    "correct_answer": "Operace Lvoun"
+  },
+  {
+    "title": "Který německý generál velel útoku na Sovětský svaz v rámci operace Barbarossa?",
+    "subheading": "Operace začala 22. června 1941.",
+    "answers": ["Walther von Brauchitsch", "Erwin Rommel", "Erich von Manstein", "Friedrich Paulus"],
+    "correct_answer": "Walther von Brauchitsch"
+  },
+  {
+    "title": "Která bitva zastavila německý postup směrem k Moskvě?",
+    "subheading": "Byla první velkou porážkou německé armády na východní frontě.",
+    "answers": ["Bitva o Moskvu", "Bitva u Kurska", "Bitva u Stalingradu", "Bitva o Kyjev"],
+    "correct_answer": "Bitva o Moskvu"
+  },
+  {
+    "title": "Který německý generál velel armádě obklíčené u Stalingradu?",
+    "subheading": "Jeho kapitulace znamenala velký zlom ve válce.",
+    "answers": ["Friedrich Paulus", "Erwin Rommel", "Erich Manstein", "Gerd von Rundstedt"],
+    "correct_answer": "Friedrich Paulus"
+  },
+  {
+    "title": "Jak se nazývala německá tajná vojenská zpravodajská služba?",
+    "subheading": "Působila během vlády nacistického Německa.",
+    "answers": ["Abwehr", "Gestapo", "SS", "SD"],
+    "correct_answer": "Abwehr"
+  },
+  {
+    "title": "Který stát napadl Sovětský svaz společně s Německem v roce 1941?",
+    "subheading": "Připojil se k tažení proti Rudé armádě.",
+    "answers": ["Rumunsko", "Švédsko", "Švýcarsko", "Portugalsko"],
+    "correct_answer": "Rumunsko"
+  },
+  {
+    "title": "Jak se nazývala německá ponorková válka proti spojeneckým lodím?",
+    "subheading": "Cílem bylo přerušit zásobování Velké Británie.",
+    "answers": ["Bitva o Atlantik", "Operace Barbarossa", "Bitva o Británii", "Operace Sea Lion"],
+    "correct_answer": "Bitva o Atlantik"
+  },
+  {
+    "title": "Která země byla poslední hlavní mocností Osy, která kapitulovala?",
+    "subheading": "Kapitulovala v září 1945.",
+    "answers": ["Japonsko", "Itálie", "Německo", "Maďarsko"],
+    "correct_answer": "Japonsko"
+  },
+  {
+    "title": "Kdy podepsalo Japonsko kapitulaci?",
+    "subheading": "Tím definitivně skončila 2. světová válka.",
+    "answers": ["02.09.1945", "08.05.1945", "15.08.1945", "06.08.1945"],
+    "correct_answer": "02.09.1945"
+  },
+  {
+    "title": "Na jaké lodi byla podepsána kapitulace Japonska?",
+    "subheading": "Událost proběhla v Tokijském zálivu.",
+    "answers": ["USS Missouri", "USS Arizona", "HMS Victory", "Yamato"],
+    "correct_answer": "USS Missouri"
+  },
+  {
+    "title": "Jak se nazývala německá okupace Francie během války?",
+    "subheading": "Francie byla rozdělena na okupovanou a neokupovanou část.",
+    "answers": ["Okupace Francie", "Anschluss", "Sudetská krize", "Blitzkrieg"],
+    "correct_answer": "Okupace Francie"
+  },
+  {
+    "title": "Která země byla neutrální během celé 2. světové války?",
+    "subheading": "Zůstala mimo přímé boje v Evropě.",
+    "answers": ["Švýcarsko", "Polsko", "Norsko", "Belgie"],
+    "correct_answer": "Švýcarsko"
+  },
+  {
+    "title": "Jak se nazývala spojenecká invaze do severní Afriky v roce 1942?",
+    "subheading": "Byla první velkou americkou operací v Evropě a Africe.",
+    "answers": ["Operace Torch", "Operace Overlord", "Operace Husky", "Operace Dragoon"],
+    "correct_answer": "Operace Torch"
+  },
+  {
+    "title": "Jak se nazývala spojenecká invaze na Sicílii v roce 1943?",
+    "subheading": "Vedla k pádu Mussoliniho režimu.",
+    "answers": ["Operace Husky", "Operace Torch", "Operace Avalanche", "Operace Market Garden"],
+    "correct_answer": "Operace Husky"
+  },
+  {
+    "title": "Která země jako první vyvinula proudový stíhací letoun?",
+    "subheading": "Německo nasadilo proudové letouny na konci války.",
+    "answers": ["Německo", "USA", "Velká Británie", "Sovětský svaz"],
+    "correct_answer": "Německo"
+  },
+  {
+    "title": "Jak se jmenoval první operačně nasazený proudový stíhací letoun?",
+    "subheading": "Patřil německé Luftwaffe.",
+    "answers": ["Messerschmitt Me 262", "Messerschmitt Bf 109", "Focke-Wulf Fw 190", "Heinkel He 111"],
+    "correct_answer": "Messerschmitt Me 262"
+  },
+  {
+    "title": "Který německý vůdce spáchal sebevraždu 30. dubna 1945?",
+    "subheading": "Stalo se tak během bitvy o Berlín.",
+    "answers": ["Adolf Hitler", "Joseph Goebbels", "Heinrich Himmler", "Hermann Göring"],
+    "correct_answer": "Adolf Hitler"
+  },
+  {
+    "title": "Jaký dokument vznikl po konferenci Spojenců v roce 1943 a požadoval bezpodmínečnou kapitulaci Osy?",
+    "subheading": "Spojenci odmítli uzavřít kompromis s Německem.",
+    "answers": ["Deklarace z Casablancy", "Atlantická charta", "Mnichovská dohoda", "Varšavská smlouva"],
+    "correct_answer": "Deklarace z Casablancy"
+  }
+]
