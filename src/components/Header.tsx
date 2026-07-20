@@ -41,7 +41,6 @@ const Header: FC<DefaultType> = ({
   const [isScrolling, setToScrolling] = useState<boolean>(false);
   const [randomIndex, setRandomIndex] = useState<number>(0);
   const [isMobileMenuVisible, setMobileMenuTovisible] = useState<boolean>(false);
-  const [isHeaderHidden, setHeaderToHidden] = useState<boolean>(false);
   const { scrollY } = useScroll();
 
   // const randomHref = "";
@@ -85,8 +84,6 @@ const Header: FC<DefaultType> = ({
         }}
         className={clsx(
           "fixed top-0 bg-violet md:mt-md lg:mt-lg p-xs z-50 md:rounded-4xl",
-          "transition-all ease-in-out duration-300",
-          isHeaderHidden ? "w-auto" : "w-full md:w-11/12",
         )}
         transition={{
           duration: 0.3,
@@ -106,12 +103,9 @@ const Header: FC<DefaultType> = ({
             } ) }
             className={clsx(
               "mx-sm md:mx-0 transition-all ease-in-out duration-300",
-              isHeaderHidden ? "hidden" : "static",
             )}
             />
-            <List className={clsx(
-              isHeaderHidden ? "hidden" : "hidden md:flex",
-            )}>
+            <List className="hidden md:flex">
               <Flex
               layoutVariant="desktopOnly"
               gapVariant="xl">
@@ -145,7 +139,6 @@ const Header: FC<DefaultType> = ({
             borderBackgroundVariant="none"
             className={clsx(
               "uppercase",
-              isHeaderHidden ? "hidden" : "hidden md:inline-block",
             )}>
               <Text>
                 Hrát náhodně
@@ -162,17 +155,6 @@ const Header: FC<DefaultType> = ({
                 className="w-8 h-8 md:w-10 md:h-10 text-white cursor-pointer" />
               )}
             </Wrapper>
-            {
-              isHeaderHidden ? (
-                <PlusIcon
-                onClick={() => setHeaderToHidden(false)}
-                className="w-8 h-8 md:w-10 md:h-10 z-50 text-white cursor-pointer mr-sm" />
-              ) : (
-                <MinusIcon
-                onClick={() => setHeaderToHidden(true)}
-                className="w-8 h-8 md:w-10 md:h-10 z-50 text-white cursor-pointer" />
-              )
-            }
           </Flex>
         </motion.header>
       </Flex>
