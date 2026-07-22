@@ -73,7 +73,8 @@ export const metadata:Metadata = {
     },
   ],
   openGraph: {
-    title: "Milujeme kvízy - jednoduché | pokročilé | složité",
+    // title: "Milujeme kvízy - jednoduché | pokročilé | složité",
+    title: "Milujeme Kvízy - kvízy, které milujete a na jednom místě",
     description: "Hrajte kvízy, které Vás provedou bitvami 2. světové války až po mafiánské přestřelky americko-italské mafie. ",
     images: [
       {
@@ -96,7 +97,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="cs"
       className={`
       ${fontSpaceGrotesk.variable}
       ${fontInter.variable}

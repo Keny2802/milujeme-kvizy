@@ -3,11 +3,11 @@
 import {
     type FC,
     useState,
-    useEffect,
     Fragment,
-    useCallback,
 } from "react";
+import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
 import { usePathname, useRouter } from "next/navigation";
+// icon komponenta
 
 import type { DefaultType } from "@/types/DefaultType";
 import type { LayoutVariantsType } from "@/types/Flex/FlexTypes";
@@ -36,6 +36,10 @@ import QuizControllers from "@/components/QuizControllers";
 - Timer
 - Features lišta
 - Icon komponenta
+- Border komponenta
+- Uložení do congrats page správných a špatných odpovědí
+- Uložení aktuální otázky do localstorage
+- Úpravy ze seznamu
 */
 
 const Content: FC<DefaultType> = ({ ...attrs }) => {
@@ -46,6 +50,8 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const [score, setScore] = useState<number>(currentIndex);
     const [selectedAnswer, setSelectedAnswer] = useState<string>("");
     const [isCorrectAnswerVisible, setCorrectAnswerVisible] = useState<boolean>(false);
+    const [correctAnswersCount, setCorrectAnswersCount] = useState<number>(0);
+    const [inCorrectAnswersCount, setInCorrectAnswersCount] = useState<number>(0);
     const [layoutVariant, setLayoutVariant] = useState<LayoutVariantsType>("responsive");
     
     const currentPage = QuizesCardArray.find((page) => {
@@ -74,7 +80,10 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
         };
 
         setCurrentIndex((prev: number) => prev === currentQuiz.length - 1 ? 0 : prev + 1);
-        setScore((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev - 1);
+        // setScore((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev - 1);
+        // setScore((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev);
+        setCorrectAnswersCount((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev);
+        setInCorrectAnswersCount((prev: number) => selectedAnswer !== correctAnswer ? prev + 1 : prev);
         setSelectedAnswer("");
         setCorrectAnswerVisible(false);
     };
@@ -107,12 +116,28 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                             className="w-full">
                                 <Text
                                 textVariant="card"
-                                className="whitespace-nowrap">{score} / {currentQuiz.length}</Text>
-                                <ProgressBar
-                                value={score}
-                                quiz={currentQuiz}
-                                />
+                                className="whitespace-nowrap">{currentIndex} / {currentQuiz.length}</Text>
+                                <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
+                                <Flex
+                                layoutVariant="desktopOnly"
+                                verticalVariant="itemsCenter"
+                                gapVariant="sm">
+                                    <CheckCircleIcon className="w-8 h-8 text-green-500" />
+                                    <Text>{correctAnswersCount}</Text>
+                                </Flex>
+                                <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
+                                <Flex
+                                layoutVariant="desktopOnly"
+                                verticalVariant="itemsCenter"
+                                gapVariant="sm">
+                                    <XCircleIcon className="w-8 h-8 text-red-500" />
+                                    <Text>{inCorrectAnswersCount}</Text>
+                                </Flex>
                             </Flex>
+                            <ProgressBar
+                            value={correctAnswersCount}
+                            quiz={currentQuiz}
+                            />
                             <Text
                             textVariant="card"
                             className="uppercase">
