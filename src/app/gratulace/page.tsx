@@ -12,6 +12,7 @@ import Flex from "@/components/Flex";
 import Photo from "@/components/Photo";
 import Text from "@/components/Text";
 import Cta from "@/components/Cta";
+import ScoreContextProvider, { useScore } from "../context/ScoreContext";
 
 const ctaArray = [
     { href: "/#nabidka-kvizu", title: "Přejít na všechny kvízy", },
@@ -23,6 +24,7 @@ const Page:FC<DefaultType> = ({
 }) => {
     // const { currentScore } = useScoreContext();
     const router = useRouter();
+    // const { score } = useScore();
     
     return (
         <Fragment>
@@ -42,11 +44,6 @@ const Page:FC<DefaultType> = ({
                     alt="Gratulace za schopnost dokončení celého kvízu"
                     loading="eager"
                     />
-                    {/* <ScoreContext.Provider value={{ currentScore: currentScore }}>
-                        <Text textVariant="card">
-                            {currentScore}
-                        </Text>
-                    </ScoreContext.Provider> */}
                     <Text
                     textVariant="section"
                     className="uppercase">

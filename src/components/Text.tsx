@@ -16,7 +16,7 @@ const Text: FC<TextType> = ({
   const TextVariants: MappedTextVariantsType = {
     hero: "text-4xl md:text-6xl font-black",
     section: "text-4xl md:text-5xl font-extrabold",
-    card: "text-3xl font-bold",
+    card: "text-2xl md:text-3xl font-bold",
     // bodyText -> lg:text-[calc(var(--spacing-sm)/1.09)]
     bodyText: "text-lg md:text-[calc(var(--spacing-sm)/1.09)]",
     // strongBodyText -> lg:text-[calc(var(--spacing-sm)/1.09)]

@@ -3,6 +3,8 @@
 import {
     type FC,
     useState,
+    useEffect,
+    useMemo,
     Fragment,
 } from "react";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
@@ -31,6 +33,7 @@ import Wrapper from "@/components/Wrapper";
 import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
 import QuizControllers from "@/components/QuizControllers";
+import ScoreContextProvider from "@/app/context/ScoreContext";
 
 /*
 - Timer
@@ -63,7 +66,9 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const worldWarPage = currentPage?.href === "/nabidka-kvizu/kviz-2-svetova-valka";
     const currentQuiz = italianCosaNostraPage ? quizItalianCosaNostra : americanMafiaPage ? quizAmericanMafia : worldWarPage ? quizWorldWar : quizWorldWar;
     const quizAnswers = currentQuiz[currentIndex].answers;
-    const mixedQuizAnswers = Shuffled(quizAnswers);
+    const mixedQuizAnswers = useMemo(() => {
+        return Shuffled(quizAnswers);
+    }, [currentIndex]);
     const correctAnswer = currentQuiz[currentIndex].correct_answer;
 
     const PreviousQuizAnswer = () => {
@@ -73,6 +78,7 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const NextQuizAnswer = () => {
         if (currentIndex === currentQuiz.length - 1) {
             router.push("/gratulace");
+            return;
         };
 
         if (isCorrectAnswerVisible) {
@@ -105,70 +111,73 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                     currentPage={currentPage}
                     className="p-xs md:p-0 rounded-3xl"
                     />
-                    <Wrapper className="mt-sm md:mt-md lg:mt-lg w-full md:min-w-[calc(var(--spacing-3xl)*6)] md:max-w-[calc(var(--spacing-3xl)*10)]">
-                        <Flex
-                        layoutVariant="mobileOnly"
-                        gapVariant="sm"
-                        className="p-sm md:p-0">
+                    <ScoreContextProvider>
+                        <Wrapper className="mt-sm md:mt-md lg:mt-lg w-full md:min-w-[calc(var(--spacing-3xl)*6)] md:max-w-[calc(var(--spacing-3xl)*10)]">
                             <Flex
-                            layoutVariant="desktopOnly"
-                            verticalVariant="itemsCenter"
-                            className="w-full">
+                            layoutVariant="mobileOnly"
+                            gapVariant="sm"
+                            className="p-sm md:p-0">
+                                <Flex
+                                layoutVariant="desktopOnly"
+                                verticalVariant="itemsCenter"
+                                className="w-full">
+                                    <Text
+                                    textVariant="card"
+                                    className="whitespace-nowrap">{currentIndex} / {currentQuiz.length}</Text>
+                                    <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
+                                    <Flex
+                                    layoutVariant="desktopOnly"
+                                    verticalVariant="itemsCenter"
+                                    gapVariant="sm">
+                                        <CheckCircleIcon className="w-8 h-8 text-green-500" />
+                                        <Text>{correctAnswersCount}</Text>
+                                    </Flex>
+                                    <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
+                                    <Flex
+                                    layoutVariant="desktopOnly"
+                                    verticalVariant="itemsCenter"
+                                    gapVariant="sm">
+                                        <XCircleIcon className="w-8 h-8 text-red-500" />
+                                        <Text>{inCorrectAnswersCount}</Text>
+                                    </Flex>
+                                </Flex>
+                                <ProgressBar
+                                value={correctAnswersCount}
+                                quiz={currentQuiz}
+                                />
                                 <Text
                                 textVariant="card"
-                                className="whitespace-nowrap">{currentIndex} / {currentQuiz.length}</Text>
-                                <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
-                                <Flex
-                                layoutVariant="desktopOnly"
-                                verticalVariant="itemsCenter"
-                                gapVariant="sm">
-                                    <CheckCircleIcon className="w-8 h-8 text-green-500" />
-                                    <Text>{correctAnswersCount}</Text>
-                                </Flex>
-                                <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
-                                <Flex
-                                layoutVariant="desktopOnly"
-                                verticalVariant="itemsCenter"
-                                gapVariant="sm">
-                                    <XCircleIcon className="w-8 h-8 text-red-500" />
-                                    <Text>{inCorrectAnswersCount}</Text>
-                                </Flex>
+                                className="uppercase">
+                                    { currentQuiz[currentIndex].title }
+                                </Text>
+                                <Text>{ currentQuiz[currentIndex]?.subheading }</Text>
+                                <QuizCtas
+                                mixedQuizAnswers={mixedQuizAnswers}
+                                selectedAnswer={selectedAnswer}
+                                setSelectedAnswer={setSelectedAnswer}
+                                
+                                />
                             </Flex>
-                            <ProgressBar
-                            value={correctAnswersCount}
-                            quiz={currentQuiz}
-                            />
-                            <Text
-                            textVariant="card"
-                            className="uppercase">
-                                { currentQuiz[currentIndex].title }
-                            </Text>
-                            <Text>{ currentQuiz[currentIndex]?.subheading }</Text>
-                            <QuizCtas
-                            mixedQuizAnswers={mixedQuizAnswers}
-                            selectedAnswer={selectedAnswer}
-                            setSelectedAnswer={setSelectedAnswer}
-                            />
-                        </Flex>
-                        <Flex
-                        layoutVariant="mobileOnly"
-                        gapVariant="mini">
-                            <QuizFeatureList
-                            setScore={setScore}
-                            isCorrectAnswerVisible={isCorrectAnswerVisible}
-                            setCorrectAnswerVisible={setCorrectAnswerVisible}
-                            correctAnswer={correctAnswer}
-                            layoutVariant={layoutVariant}
-                            setLayoutVariant={setLayoutVariant}
-                            />
-                            <QuizControllers
-                            currentIndex={currentIndex}
-                            selectedAnswer={selectedAnswer}
-                            PreviousQuizAnswer={PreviousQuizAnswer}
-                            NextQuizAnswer={NextQuizAnswer}
-                            />
-                        </Flex>
-                    </Wrapper>
+                            <Flex
+                            layoutVariant="mobileOnly"
+                            gapVariant="mini">
+                                <QuizFeatureList
+                                setScore={setScore}
+                                isCorrectAnswerVisible={isCorrectAnswerVisible}
+                                setCorrectAnswerVisible={setCorrectAnswerVisible}
+                                correctAnswer={correctAnswer}
+                                layoutVariant={layoutVariant}
+                                setLayoutVariant={setLayoutVariant}
+                                />
+                                <QuizControllers
+                                currentIndex={currentIndex}
+                                selectedAnswer={selectedAnswer}
+                                PreviousQuizAnswer={PreviousQuizAnswer}
+                                NextQuizAnswer={NextQuizAnswer}
+                                />
+                            </Flex>
+                        </Wrapper>
+                    </ScoreContextProvider>
                 </Flex>
             </Section>
             <Quizes className="md:mt-[calc(var(--spacing-xl)*1.25)]" />

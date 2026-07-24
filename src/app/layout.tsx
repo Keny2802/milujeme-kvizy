@@ -74,7 +74,8 @@ export const metadata:Metadata = {
   ],
   openGraph: {
     // title: "Milujeme kvízy - jednoduché | pokročilé | složité",
-    title: "Milujeme Kvízy - kvízy, které milujete a na jednom místě",
+    // title: "Milujeme Kvízy - Kvízy, které milujete a na jednom místě",
+    title: "Milujeme Kvízy - Kvízy, které milujete.",
     description: "Hrajte kvízy, které Vás provedou bitvami 2. světové války až po mafiánské přestřelky americko-italské mafie. ",
     images: [
       {

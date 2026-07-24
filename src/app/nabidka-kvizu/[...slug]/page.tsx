@@ -23,6 +23,14 @@ export const generateMetadata = async ({ params }: Props):Promise<Metadata> => {
         metadataBase: currentPage?.metadataBase,
         title: currentPage?.title,
         description: currentPage?.description,
+        openGraph: {
+            title: currentPage?.openGraph.title,
+            description: currentPage?.openGraph.description,
+            images: currentPage?.openGraph.images,
+        },
+        alternates: {
+            canonical: currentPage?.alternates.canonical,
+        },
     };
 };
 

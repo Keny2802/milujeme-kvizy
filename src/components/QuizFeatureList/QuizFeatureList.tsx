@@ -83,6 +83,7 @@ const QuizFeatureList:FC<QuizFeatureListType> = ({
                         )}><TableCellsIcon /></Icon>
                     )
                 }
+                className="hidden md:inline-block"
                 text="Změna rozložení vzhledu"
                 />
             </Flex>
