@@ -1,4 +1,4 @@
-const Shuffled = (shuffledArray: string[]) => {
+const Shuffled = (shuffledArray: any[]) => {
   for (let i = shuffledArray.length - 1; i > 0; i--) {
     const shuffledIndex = Math.floor(Math.random() * (i + 1));
     

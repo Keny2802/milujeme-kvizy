@@ -4,6 +4,7 @@ import {
 } from "react";
 import {
     InformationCircleIcon,
+    ArrowPathIcon,
     ViewColumnsIcon,
     TableCellsIcon,
 } from "@heroicons/react/24/solid";
@@ -15,12 +16,13 @@ import ToolTip from "../ToolTip";
 import Icon from "../Icon/Icon";
 import Text from "../Text";
 
-
 type QuizFeatureListType = {
     isCorrectAnswerVisible: boolean;
     setScore: (type: any) => void;
     setCorrectAnswerVisible: (type: boolean) => void;
     correctAnswer: string;
+    isShuffled: boolean;
+    setToShuffled: (type: boolean) => void;
     layoutVariant: LayoutVariantsType;
     setLayoutVariant: (type: LayoutVariantsType) => void;
 };
@@ -30,6 +32,8 @@ const QuizFeatureList:FC<QuizFeatureListType> = ({
         setScore,
         setCorrectAnswerVisible,
         correctAnswer,
+        isShuffled = false,
+        setToShuffled,
         layoutVariant = "responsive",
         setLayoutVariant
     }) => {
@@ -66,6 +70,17 @@ const QuizFeatureList:FC<QuizFeatureListType> = ({
                     />
                     {isCorrectAnswerVisible && ( <Text>Správna odpověď: {correctAnswer}</Text> )}
                 </Flex>
+                <ToolTip
+                parent={
+                    <Icon
+                    backgroundVariant={isShuffled ? "violet" : "blackOne"}
+                    onClick={() => setToShuffled(true)}
+                    className="transition-colors duration-300 ease-in-out">
+                        <ArrowPathIcon />
+                    </Icon>
+                }
+                text="Stisknutím zamícháte otázky"
+                />
                 <ToolTip
                 parent={
                     layoutVariant === "responsive" ? (

@@ -34,7 +34,6 @@ import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
 import QuizControllers from "@/components/QuizControllers";
 import ScoreContextProvider from "@/app/context/ScoreContext";
-
 /*
 - Timer
 - Features lišta
@@ -50,13 +49,44 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const router = useRouter();
 
     const [currentIndex, setCurrentIndex] = useState<number>(0);
+    // const [currentIndex, setCurrentIndex] = useState<number>(83);
     const [score, setScore] = useState<number>(currentIndex);
     const [selectedAnswer, setSelectedAnswer] = useState<string>("");
     const [isCorrectAnswerVisible, setCorrectAnswerVisible] = useState<boolean>(false);
+    const [isShuffled, setToShuffled] = useState<boolean>(false);
+    const [layoutVariant, setLayoutVariant] = useState<LayoutVariantsType>("responsive");
     const [correctAnswersCount, setCorrectAnswersCount] = useState<number>(0);
     const [inCorrectAnswersCount, setInCorrectAnswersCount] = useState<number>(0);
-    const [layoutVariant, setLayoutVariant] = useState<LayoutVariantsType>("responsive");
-    
+    const [storedQuiz, setStoredQuiz] = useState<any>();
+
+    // useEffect(() => {
+    //     // localStorage.setItem("stored_quiz_question", JSON.stringify(currentQuiz[currentIndex].title));
+
+    //     const setStoredNewQuiz = () => {
+    //         // if (storedNewQuiz) {}
+    //         // if (!localStorage.getItem("stored_quiz_question")) {
+    //             // localStorage.setItem("stored_quiz_question", JSON.stringify(currentQuiz[currentIndex]));
+    //         // };
+    //         localStorage.setItem("stored_quiz_question", JSON.stringify(currentQuiz[currentIndex].title));
+    //     };
+
+    //     const getStoredNewQuiz = () => {
+    //         localStorage.getItem("stored_quiz_question");
+    //     };
+
+    //     const newCurrentStoredQuiz = JSON.parse(JSON.stringify(localStorage.getItem("stored_quiz_question")));
+    //     // const newCurrentStoredQuiz = localStorage.getItem("stored_quiz_question");
+    //     setStoredQuiz(newCurrentStoredQuiz);
+
+    //     window.addEventListener("beforeunload", getStoredNewQuiz);
+    //     window.addEventListener("load", setStoredNewQuiz);
+
+    //     return () => {
+    //         window.removeEventListener("beforeunload", getStoredNewQuiz);
+    //         window.removeEventListener("load", setStoredNewQuiz);
+    //     };
+    // }, [currentIndex]);
+
     const currentPage = QuizesCardArray.find((page) => {
         return page.href === currentPathName;
     });
@@ -65,6 +95,10 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const americanMafiaPage = currentPage?.href === "/nabidka-kvizu/kviz-americko-italska-mafie";
     const worldWarPage = currentPage?.href === "/nabidka-kvizu/kviz-2-svetova-valka";
     const currentQuiz = italianCosaNostraPage ? quizItalianCosaNostra : americanMafiaPage ? quizAmericanMafia : worldWarPage ? quizWorldWar : quizWorldWar;
+    const mixedCurrentQuiz = useMemo(() => {
+        return Shuffled(currentQuiz);
+    }, [isShuffled]);
+    // const mixedCurrentQuiz = Shuffled(currentQuiz);
     const quizAnswers = currentQuiz[currentIndex].answers;
     const mixedQuizAnswers = useMemo(() => {
         return Shuffled(quizAnswers);
@@ -148,14 +182,23 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                                 <Text
                                 textVariant="card"
                                 className="uppercase">
-                                    { currentQuiz[currentIndex].title }
+                                    { isShuffled && mixedCurrentQuiz[currentIndex].title }
+                                    { !isShuffled && currentQuiz[currentIndex].title }
+                                    {/* {storedQuiz} */}
                                 </Text>
-                                <Text>{ currentQuiz[currentIndex]?.subheading }</Text>
+                                {/* <Text>{ currentQuiz[currentIndex]?.subheading }</Text> */}
+                                <Text>
+                                    { isShuffled && mixedCurrentQuiz[currentIndex]?.subheading }
+                                    { !isShuffled && currentQuiz[currentIndex]?.subheading }
+                                </Text>
                                 <QuizCtas
-                                mixedQuizAnswers={mixedQuizAnswers}
+                                // mixedQuizAnswers={mixedQuizAnswers}
+                                mixedQuizAnswers={
+                                    isShuffled && mixedCurrentQuiz[currentIndex].answers ||
+                                    !isShuffled && mixedQuizAnswers
+                                }
                                 selectedAnswer={selectedAnswer}
                                 setSelectedAnswer={setSelectedAnswer}
-                                
                                 />
                             </Flex>
                             <Flex
@@ -166,6 +209,8 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                                 isCorrectAnswerVisible={isCorrectAnswerVisible}
                                 setCorrectAnswerVisible={setCorrectAnswerVisible}
                                 correctAnswer={correctAnswer}
+                                isShuffled={isShuffled}
+                                setToShuffled={setToShuffled}
                                 layoutVariant={layoutVariant}
                                 setLayoutVariant={setLayoutVariant}
                                 />

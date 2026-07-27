@@ -9,10 +9,10 @@ const QuizesArray = [
         metadataBase: "https://milujemekvizy.cz/nabidka-kvizu/kviz-italske-cosa-nostry",
         slug: "/nabidka-kvizu/kviz-italske-cosa-nostry",
         title: "Kvíz Italské Cosa Nostry",
-        description: "Zažijte až 120 dobrodružných a napínavých kvízových otázek v Italské mafii Cosa Nostra.",
+        description: "Zažijte až 220 dobrodružných a napínavých kvízových otázek v Italské mafii Cosa Nostra.",
         openGraph: {
             title: "Kvíz Italské Cosa Nostry | Milujeme Kvízy",
-            description: "Zažijte až 120 dobrodružných a napínavých kvízových otázek v Italské mafii Cosa Nostra.",
+            description: "Zažijte až přes 200 napínavých kvízových otázek v Italské mafii Cosa Nostra.",
             images: [
                 {
                     url: "/nabidka-kvizu/mafie-v-italii.avif",
