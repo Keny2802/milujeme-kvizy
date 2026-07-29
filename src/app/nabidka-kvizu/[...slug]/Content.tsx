@@ -97,13 +97,15 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const currentQuiz = italianCosaNostraPage ? quizItalianCosaNostra : americanMafiaPage ? quizAmericanMafia : worldWarPage ? quizWorldWar : quizWorldWar;
     
     const mixedCurrentQuiz = useMemo(() => {
-        if (!isShuffled) {
-            // setToShuffled(true);
-            return;
-        };
+        // if (!isShuffled) {
+        //     // setToShuffled(true);
+        //     return;
+        // };
         // else return Shuffled(currentQuiz);
 
-        // return Shuffled(currentQuiz);
+        if (!isShuffled) return;
+
+        return Shuffled(currentQuiz);
     }, [isShuffled]);
     // const mixedCurrentQuiz = Shuffled(currentQuiz);
     const quizAnswers = currentQuiz[currentIndex].answers;
@@ -115,6 +117,11 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     // po vypnutí shuffle feature by se mělo vrátit na předchozí current index kvízové otázky
     // Přidat icon komponentu, vyčistit kód, zrefaktorovat a rozřadit do komponent
     // Spočítat můj celý code base
+    // MD file pro issues a nápady
+    /*
+    - Zrefaktorovat main a other codebase
+    - Rozdělit kód do komponent
+    */
 
     const correctAnswer = currentQuiz[currentIndex].correct_answer;
 
@@ -198,19 +205,19 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                                     {/* { currentQuiz[currentIndex].title } */}
                                     {/* { isShuffled === true && mixedCurrentQuiz[currentIndex].title }
                                     { isShuffled === false && currentQuiz[currentIndex].title } */}
-                                    { isShuffled && mixedCurrentQuiz[currentIndex]?.title }
+                                    { isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex]?.title }
                                     { !isShuffled && currentQuiz[currentIndex]?.title }
                                     {/* {storedQuiz} */}
                                 </Text>
                                 {/* <Text>{ currentQuiz[currentIndex]?.subheading }</Text> */}
                                 <Text>
-                                    { isShuffled && mixedCurrentQuiz[currentIndex]?.subheading }
+                                    { isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex]?.subheading }
                                     { !isShuffled && currentQuiz[currentIndex]?.subheading }
                                 </Text>
                                 <QuizCtas
                                 // mixedQuizAnswers={mixedQuizAnswers}
                                 mixedQuizAnswers={
-                                    isShuffled && mixedCurrentQuiz[currentIndex].answers ||
+                                    isShuffled && mixedCurrentQuiz &&mixedCurrentQuiz[currentIndex].answers ||
                                     !isShuffled && mixedQuizAnswers
                                 }
                                 selectedAnswer={selectedAnswer}
