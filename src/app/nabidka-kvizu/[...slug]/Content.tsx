@@ -95,14 +95,27 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const americanMafiaPage = currentPage?.href === "/nabidka-kvizu/kviz-americko-italska-mafie";
     const worldWarPage = currentPage?.href === "/nabidka-kvizu/kviz-2-svetova-valka";
     const currentQuiz = italianCosaNostraPage ? quizItalianCosaNostra : americanMafiaPage ? quizAmericanMafia : worldWarPage ? quizWorldWar : quizWorldWar;
+    
     const mixedCurrentQuiz = useMemo(() => {
-        return Shuffled(currentQuiz);
+        if (!isShuffled) {
+            // setToShuffled(true);
+            return;
+        };
+        // else return Shuffled(currentQuiz);
+
+        // return Shuffled(currentQuiz);
     }, [isShuffled]);
     // const mixedCurrentQuiz = Shuffled(currentQuiz);
     const quizAnswers = currentQuiz[currentIndex].answers;
+
     const mixedQuizAnswers = useMemo(() => {
         return Shuffled(quizAnswers);
-    }, [currentIndex]);
+    }, [currentIndex, isShuffled]); 
+    // chyba renderuje se to když vypnu shuffle tak sice nezmění answers cta ale jejich pozice ano, vede k nežádanému re-renderu
+    // po vypnutí shuffle feature by se mělo vrátit na předchozí current index kvízové otázky
+    // Přidat icon komponentu, vyčistit kód, zrefaktorovat a rozřadit do komponent
+    // Spočítat můj celý code base
+
     const correctAnswer = currentQuiz[currentIndex].correct_answer;
 
     const PreviousQuizAnswer = () => {
@@ -182,8 +195,11 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                                 <Text
                                 textVariant="card"
                                 className="uppercase">
-                                    { isShuffled && mixedCurrentQuiz[currentIndex].title }
-                                    { !isShuffled && currentQuiz[currentIndex].title }
+                                    {/* { currentQuiz[currentIndex].title } */}
+                                    {/* { isShuffled === true && mixedCurrentQuiz[currentIndex].title }
+                                    { isShuffled === false && currentQuiz[currentIndex].title } */}
+                                    { isShuffled && mixedCurrentQuiz[currentIndex]?.title }
+                                    { !isShuffled && currentQuiz[currentIndex]?.title }
                                     {/* {storedQuiz} */}
                                 </Text>
                                 {/* <Text>{ currentQuiz[currentIndex]?.subheading }</Text> */}

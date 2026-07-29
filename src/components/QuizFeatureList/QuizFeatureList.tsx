@@ -74,7 +74,7 @@ const QuizFeatureList:FC<QuizFeatureListType> = ({
                 parent={
                     <Icon
                     backgroundVariant={isShuffled ? "violet" : "blackOne"}
-                    onClick={() => setToShuffled(true)}
+                    onClick={() => setToShuffled(!isShuffled)}
                     className="transition-colors duration-300 ease-in-out">
                         <ArrowPathIcon />
                     </Icon>
