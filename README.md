@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Milujeme Kvízy
+- Je webová aplikace, která se zaměřuje na kvízové otázky, ohledně zločinu a 2. světové války.
 
 ## Getting Started
 
