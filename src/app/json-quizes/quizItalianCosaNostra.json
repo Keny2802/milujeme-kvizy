@@ -1,142 +1,314 @@
 [
   {
     "title": "Na kterém italském ostrově vznikla Cosa Nostra?",
-    "subheading": "Tato organizace má své kořeny již v 19. století.",
+    "subheading": "Organizace je historicky spojována s jedním konkrétním regionem.",
     "answers": ["Sicílie", "Sardinie", "Korsika", "Elba"],
     "correct_answer": "Sicílie"
   },
   {
     "title": "Co znamená název Cosa Nostra?",
-    "subheading": "Jde o tradiční označení sicilské mafie.",
+    "subheading": "Výraz pochází z italštiny a používá se v mafiánském prostředí.",
     "answers": ["Naše věc", "Černá ruka", "Rodinná čest", "Bratrstvo"],
     "correct_answer": "Naše věc"
   },
   {
     "title": "Ve kterém století se začala formovat sicilská Cosa Nostra?",
-    "subheading": "Její počátky sahají hluboko do historie Sicílie.",
+    "subheading": "Její vznik souvisel se společenskými změnami na Sicílii.",
     "answers": ["19. století", "16. století", "18. století", "20. století"],
     "correct_answer": "19. století"
   },
   {
     "title": "Jak se nazývá zákon mlčení dodržovaný členy Cosa Nostry?",
-    "subheading": "Porušení tohoto pravidla bylo považováno za zradu.",
+    "subheading": "Tento pojem označuje nepsané pravidlo organizovaného zločinu.",
     "answers": ["Omertà", "Vendetta", "Caporegime", "Onorata"],
     "correct_answer": "Omertà"
   },
   {
     "title": "Jak se označuje mafiánská rodina na Sicílii?",
-    "subheading": "Každá ovládala určité území.",
+    "subheading": "Jednalo se o základní organizační jednotku mafie.",
     "answers": ["Cosca", "Clan", "Brigata", "Famiglia Reale"],
     "correct_answer": "Cosca"
   },
   {
     "title": "Jak se nazývá vůdce jedné mafiánské rodiny?",
-    "subheading": "Stojí v čele organizace na svém území.",
+    "subheading": "Tato osoba rozhodovala o fungování celé skupiny.",
     "answers": ["Capomafia", "Consigliere", "Soldato", "Caporegime"],
     "correct_answer": "Capomafia"
   },
   {
     "title": "Kdo byl Don Calò Vizzini?",
-    "subheading": "Patřil mezi nejvlivnější sicilské mafiány během druhé světové války.",
+    "subheading": "Patřil mezi známé postavy sicilského podsvětí 20. století.",
     "answers": ["Mafiánský boss", "Italský generál", "Policista", "Starosta Říma"],
     "correct_answer": "Mafiánský boss"
   },
   {
     "title": "Ve kterém městě působil Don Calò Vizzini?",
-    "subheading": "Byl považován za neformálního vládce této oblasti.",
+    "subheading": "Místo bylo spojováno s jeho dlouhodobým vlivem.",
     "answers": ["Villalba", "Palermo", "Messina", "Catania"],
     "correct_answer": "Villalba"
   },
   {
     "title": "Jaká spojenecká operace zahájila invazi na Sicílii v roce 1943?",
-    "subheading": "Šlo o jednu z největších obojživelných operací druhé světové války.",
+    "subheading": "Operace patřila mezi významné akce spojeneckých vojsk ve Středomoří.",
     "answers": ["Operation Husky", "Operation Torch", "Operation Avalanche", "Operation Overlord"],
     "correct_answer": "Operation Husky"
   },
   {
     "title": "Ve kterém roce proběhla spojenecká invaze na Sicílii?",
-    "subheading": "Událost znamenala začátek osvobozování Itálie.",
+    "subheading": "Událost změnila politickou situaci v Itálii.",
     "answers": ["1943", "1941", "1942", "1944"],
     "correct_answer": "1943"
   },
   {
     "title": "S kým podle historických pramenů spolupracovali někteří sicilští mafiáni během invaze na Sicílii?",
-    "subheading": "Spolupráce měla usnadnit postup spojeneckých vojsk.",
+    "subheading": "Tato spolupráce je dodnes předmětem historických debat.",
     "answers": ["Se spojenci", "S nacistickým Německem", "Se Sovětským svazem", "S Japonskem"],
     "correct_answer": "Se spojenci"
   },
   {
     "title": "Který americký mafián měl podle některých historiků pomoci navázat kontakty mezi spojenci a sicilskou mafií?",
-    "subheading": "V té době si odpykával trest ve vězení.",
+    "subheading": "Jeho jméno je spojováno s americkým organizovaným zločinem.",
     "answers": ["Lucky Luciano", "Al Capone", "Frank Costello", "Joe Bonanno"],
     "correct_answer": "Lucky Luciano"
   },
   {
     "title": "Do které země odešlo na přelomu 19. a 20. století mnoho sicilských emigrantů?",
-    "subheading": "Mezi nimi byli i budoucí členové Cosa Nostry.",
+    "subheading": "Migrace ovlivnila vznik mafiánských struktur mimo Itálii.",
     "answers": ["Spojené státy americké", "Francie", "Španělsko", "Kanada"],
     "correct_answer": "Spojené státy americké"
   },
   {
-    "title": "Které americké město se stalo hlavním centrem sicilské mafie v USA?",
-    "subheading": "Právě zde vznikly nejmocnější mafiánské rodiny.",
-    "answers": ["New York", "Los Angeles", "Dallas", "Seattle"],
-    "correct_answer": "New York"
-  },
-  {
-    "title": "Jak se nazývala organizace sicilských přistěhovalců v USA, která se postupně proměnila v americkou Cosa Nostru?",
-    "subheading": "Šlo o pokračování tradic sicilské mafie.",
-    "answers": ["Americká Cosa Nostra", "Camorra", "Sacra Corona Unita", "Ndrangheta"],
-    "correct_answer": "Americká Cosa Nostra"
-  },
-  {
     "title": "Jaký byl hlavní zdroj příjmů rané sicilské mafie v 19. století?",
-    "subheading": "Mafie nabízela ochranu výměnou za peníze.",
-    "answers": [
-      "Vydírání a ochrana pozemků",
-      "Hazardní hry",
-      "Obchod s drogami",
-      "Padělání peněz"
-    ],
+    "subheading": "Způsob získávání peněz byl založen na kontrole a nátlaku.",
+    "answers": ["Vydírání a ochrana pozemků", "Hazardní hry", "Obchod s drogami", "Padělání peněz"],
     "correct_answer": "Vydírání a ochrana pozemků"
   },
   {
     "title": "Jak se nazývá krvavá msta mezi sicilskými rodinami?",
-    "subheading": "Šlo o tradiční způsob řešení sporů.",
+    "subheading": "Pojem označuje dlouhodobý konflikt mezi znepřátelenými stranami.",
     "answers": ["Vendetta", "Omertà", "Commissione", "Caporegime"],
     "correct_answer": "Vendetta"
   },
   {
     "title": "Jaký byl vztah fašistického režimu Benita Mussoliniho k sicilské mafii?",
-    "subheading": "Ve 20. letech zahájil proti mafii rozsáhlé tažení.",
-    "answers": [
-      "Tvrdě ji potlačoval",
-      "Financoval ji",
-      "Neměl o ni zájem",
-      "Spojil se s ní"
-    ],
+    "subheading": "Fašistická vláda se snažila posílit kontrolu nad ostrovem.",
+    "answers": ["Tvrdě ji potlačoval", "Financoval ji", "Neměl o ni zájem", "Spojil se s ní"],
     "correct_answer": "Tvrdě ji potlačoval"
   },
   {
     "title": "Který prefekt vedl Mussoliniho tažení proti sicilské mafii?",
-    "subheading": "Pro svou tvrdost získal přezdívku 'Železný prefekt'.",
-    "answers": [
-      "Cesare Mori",
-      "Giovanni Falcone",
-      "Paolo Borsellino",
-      "Vito Cascio Ferro"
-    ],
+    "subheading": "Jeho působení na Sicílii se stalo symbolem boje proti organizovanému zločinu.",
+    "answers": ["Cesare Mori", "Giovanni Falcone", "Paolo Borsellino", "Vito Cascio Ferro"],
+    "correct_answer": "Cesare Mori"
+  },
+  {
+    "title": "Kdo byl Vito Cascio Ferro?",
+    "subheading": "Jeho jméno je spojováno s obdobím vzniku moderní sicilské mafie.",
+    "answers": ["Mafiánský boss", "Italský ministr", "Velitel policie", "Fašistický politik"],
+    "correct_answer": "Mafiánský boss"
+  },
+  {
+    "title": "Které město je považováno za historické centrum sicilské Cosa Nostry?",
+    "subheading": "Město mělo významnou roli v historii sicilského podsvětí.",
+    "answers": ["Palermo", "Řím", "Neapol", "Milán"],
+    "correct_answer": "Palermo"
+  },
+  {
+    "title": "Která organizace působí především v oblasti Neapole?",
+    "subheading": "Itálie má více historických zločineckých organizací s různým původem.",
+    "answers": ["Camorra", "Cosa Nostra", "Sacra Corona Unita", "Yakuza"],
+    "correct_answer": "Camorra"
+  },
+  {
+    "title": "Která zločinecká organizace pochází z Kalábrie?",
+    "subheading": "Její vliv přesahuje hranice původního regionu.",
+    "answers": ["'Ndrangheta", "Camorra", "Cosa Nostra", "Triády"],
+    "correct_answer": "'Ndrangheta"
+  },
+  {
+    "title": "Jak se nazývala nejvyšší rada sicilské Cosa Nostry?",
+    "subheading": "Tento orgán měl řešit otázky mezi jednotlivými skupinami.",
+    "answers": ["Commissione", "Senato", "Consiglio", "Direzione"],
+    "correct_answer": "Commissione"
+  },
+  {
+    "title": "Jak se označuje plnoprávný člen sicilské Cosa Nostry?",
+    "subheading": "Tento titul označuje postavení uvnitř mafiánské hierarchie.",
+    "answers": ["Uomo d'onore", "Caporegime", "Consigliere", "Soldato"],
+    "correct_answer": "Uomo d'onore"
+  },
+  {
+    "title": "Jaký symbol se při přijímacím obřadu Cosa Nostry tradičně používal?",
+    "subheading": "Součástí obřadu byly různé symbolické prvky.",
+    "answers": ["Obrázek svatého", "Kříž", "Vlajka Itálie", "Rodinný erb"],
+    "correct_answer": "Obrázek svatého"
+  },
+  {
+    "title": "Jakou roli hrály citrusové plantáže v počátcích sicilské mafie?",
+    "subheading": "Hospodářské prostředí Sicílie ovlivnilo vznik mafiánských praktik.",
+    "answers": ["Mafie nabízela jejich ochranu", "Pěstovala na nich tabák", "Sloužily jako vojenské základny", "Byly sídlem policie"],
+    "correct_answer": "Mafie nabízela jejich ochranu"
+  },
+  {
+    "title": "Ve kterém desetiletí zahájil Cesare Mori rozsáhlé tažení proti sicilské mafii?",
+    "subheading": "Akce probíhaly v období vlády italského fašistického režimu.",
+    "answers": ["20. léta 20. století", "40. léta 20. století", "50. léta 20. století", "60. léta 20. století"],
+    "correct_answer": "20. léta 20. století"
+  },
+  {
+    "title": "Jaký dopad mělo Mussoliniho tažení proti mafii?",
+    "subheading": "Zásah změnil fungování mafiánských struktur na několik let.",
+    "answers": ["Část mafie uprchla do USA", "Mafie získala větší moc", "Vznikla Camorra", "Byla legalizována"],
+    "correct_answer": "Část mafie uprchla do USA"
+  },
+  {
+    "title": "Jaký byl vztah mezi americkou a sicilskou Cosa Nostrou po emigraci mafiánů?",
+    "subheading": "Vzájemné vazby vznikaly především díky společnému původu členů.",
+    "answers": ["Úzce spolupracovaly", "Vedly proti sobě válku", "Nikdy spolu nekomunikovaly", "Americká mafie je zcela nahradila"],
+    "correct_answer": "Úzce spolupracovaly"
+  },
+  {
+    "title": "Který americký přístav byl důležitým cílem ochrany během druhé světové války, kdy americká vláda navázala kontakt s mafií?",
+    "subheading": "Bezpečnost přístavů byla během války významnou prioritou.",
+    "answers": ["New York", "Boston", "Los Angeles", "Miami"],
+    "correct_answer": "New York"
+  },
+  {
+    "title": "Jak se nazývala tajná spolupráce americké vlády s mafií během druhé světové války?",
+    "subheading": "Projekt souvisel s válečnou bezpečností a zpravodajstvím.",
+    "answers": ["Operation Underworld", "Operation Husky", "Operation Torch", "Operation Neptune"],
+    "correct_answer": "Operation Underworld"
+  },
+  {
+    "title": "Jaké náboženství vyznávala většina členů sicilské Cosa Nostry?",
+    "subheading": "Kulturní prostředí Sicílie ovlivňovalo také symboliku organizace.",
+    "answers": ["Římskokatolické", "Pravoslavné", "Protestantské", "Židovské"],
+    "correct_answer": "Římskokatolické"
+  },
+  {
+    "title": "Jaký byl hlavní princip fungování tradiční sicilské Cosa Nostry před druhou světovou válkou?",
+    "subheading": "Organizace byla založena na vnitřních vztazích a místním vlivu.",
+    "answers": ["Rodinná loajalita a kontrola území", "Veřejné obchodování s drogami", "Bankovní podvody", "Obchod s cennými papíry"],
+    "correct_answer": "Rodinná loajalita a kontrola území"
+  },
+  {
+    "title": "Kdo byli gabelloti na Sicílii?",
+    "subheading": "Tato skupina hrála důležitou roli ve vztazích mezi vlastníky půdy a obyvateli venkova.",
+    "answers": ["Nájemci velkých statků", "Policisté", "Vojáci", "Soudci"],
+    "correct_answer": "Nájemci velkých statků"
+  },
+  {
+    "title": "Jak se nazýval tradiční kodex cti sicilské mafie?",
+    "subheading": "Tento pojem byl spojen s hodnotami a pravidly uvnitř organizace.",
+    "answers": ["Onore", "Giustizia", "Famiglia", "Rispetto"],
+    "correct_answer": "Onore"
+  },
+  {
+    "title": "Co se stalo s Benitem Mussolinim krátce po invazi na Sicílii?",
+    "subheading": "Politická situace v Itálii se po spojeneckém vylodění výrazně změnila.",
+    "answers": ["Byl sesazen z funkce", "Utekl do USA", "Připojil se ke Spojencům", "Stal se prezidentem"],
+    "correct_answer": "Byl sesazen z funkce"
+  },
+  {
+    "title": "Jak se jmenoval americký generál, který velel části invaze na Sicílii?",
+    "subheading": "Během války se stal jedním z nejznámějších amerických velitelů.",
+    "answers": ["George S. Patton", "Douglas MacArthur", "Omar Bradley", "Dwight Eisenhower"],
+    "correct_answer": "George S. Patton"
+  },
+  {
+    "title": "Který britský maršál velel britským silám během operace Husky?",
+    "subheading": "Patřil mezi významné spojenecké velitele ve Středomoří.",
+    "answers": ["Bernard Montgomery", "Alan Brooke", "Harold Alexander", "Claude Auchinleck"],
+    "correct_answer": "Bernard Montgomery"
+  },
+  {
+    "title": "Který americký mafián byl po druhé světové válce deportován do Itálie?",
+    "subheading": "Jeho působení spojovalo americké a sicilské mafiánské prostředí.",
+    "answers": ["Lucky Luciano", "Joe Bonanno", "Frank Costello", "Albert Anastasia"],
+    "correct_answer": "Lucky Luciano"
+  },
+  {
+    "title": "Proč byl Lucky Luciano po válce propuštěn z vězení?",
+    "subheading": "Jeho případ souvisel s událostmi během válečných let.",
+    "answers": ["Za pomoc americkým úřadům během války", "Kvůli nedostatku důkazů", "Protože uprchl", "Byl omilostněn prezidentem bez podmínek"],
+    "correct_answer": "Za pomoc americkým úřadům během války"
+  },
+  {
+    "title": "Jaký symbol byl tradičně spojen s autoritou mafiánského bosse na Sicílii?",
+    "subheading": "Moc uvnitř organizace nebyla založena na státní funkci.",
+    "answers": ["Osobní autorita a respekt", "Vojenská uniforma", "Policejní odznak", "Královská koruna"],
+    "correct_answer": "Osobní autorita a respekt"
+  },
+  {
+    "title": "Jakým jazykem mluvila většina členů sicilské Cosa Nostry v první polovině 20. století?",
+    "subheading": "Místní kultura ovlivňovala každodenní komunikaci na ostrově.",
+    "answers": ["Sicilským dialektem", "Francouzsky", "Německy", "Španělsky"],
+    "correct_answer": "Sicilským dialektem"
+  },
+  {
+    "title": "Jaký byl hlavní důvod, proč se mafie na Sicílii dlouho udržela u moci?",
+    "subheading": "Historické podmínky na ostrově umožnily vznik neoficiálních mocenských struktur.",
+    "answers": ["Slabá státní správa a korupce", "Silná armáda mafie", "Podpora Vatikánu", "Pomoc Spojených států"],
+    "correct_answer": "Slabá státní správa a korupce"
+  },
+  {
+    "title": "Jaký byl hlavní způsob řešení sporů mezi sicilskými mafiánskými rodinami před vznikem Commissione?",
+    "subheading": "Před vytvořením společného orgánu neexistoval jednotný systém rozhodování.",
+    "answers": ["Vyjednávání nebo ozbrojené střety", "Rozhodnutí soudu", "Hlasování veřejnosti", "Zásah armády"],
+    "correct_answer": "Vyjednávání nebo ozbrojené střety"
+  },
+  {
+    "title": "Jaký vliv měla emigrace sicilských mafiánů do USA na organizovaný zločin?",
+    "subheading": "Přesun obyvatelstva změnil podobu organizovaného zločinu mimo Itálii.",
+    "answers": ["Položila základy americké Cosa Nostry", "Ukončila existenci sicilské mafie", "Vedla ke vzniku FBI", "Zastavila organizovaný zločin v USA"],
+    "correct_answer": "Položila základy americké Cosa Nostry"
+  },
+  {
+    "title": "Jak se jmenoval známý sicilský mafiánský boss z města Corleone na počátku 20. století?",
+    "subheading": "Jeho jméno je spojováno s raným obdobím vlivu mafiánských rodin.",
+    "answers": ["Michele Navarra", "Salvatore Riina", "Bernardo Provenzano", "Luciano Liggio"],
+    "correct_answer": "Michele Navarra"
+  },
+  {
+    "title": "Ve kterém regionu Itálie se nachází město Corleone?",
+    "subheading": "Toto místo získalo významné postavení v historii sicilského podsvětí.",
+    "answers": ["Sicílie", "Kalábrie", "Kampánie", "Apulie"],
+    "correct_answer": "Sicílie"
+  },
+  {
+    "title": "Kdo byl starostou Villalby po příchodu spojenců v roce 1943?",
+    "subheading": "Jeho jmenování dodnes vyvolává historické diskuse.",
+    "answers": ["Don Calò Vizzini", "Cesare Mori", "Lucky Luciano", "Vito Cascio Ferro"],
+    "correct_answer": "Don Calò Vizzini"
+  },
+  {
+    "title": "Jaký byl vztah Lucky Luciana k Donu Calò Vizzinimu podle některých historiků?",
+    "subheading": "Historici zkoumají možné vazby mezi americkým a sicilským podsvětím.",
+    "answers": ["Měli kontakty přes sicilské mafiánské struktury", "Nikdy se neznali", "Byli nepřátelé", "Byli bratři"],
+    "correct_answer": "Měli kontakty přes sicilské mafiánské struktury"
+  },
+  {
+    "title": "Který italský král vládl během spojenecké invaze na Sicílii?",
+    "subheading": "Jeho rozhodnutí ovlivnila politickou situaci v Itálii během války.",
+    "answers": ["Viktor Emanuel III.", "Umberto II.", "Karel Albert", "Viktor Emanuel II."],
+    "correct_answer": "Viktor Emanuel III."
+  },
+  {
+    "title": "Jaký byl vztah fašistického režimu Benita Mussoliniho k sicilské mafii?",
+    "subheading": "Ve 20. letech zahájil proti mafii rozsáhlé tažení.",
+    "answers": ["Tvrdě ji potlačoval", "Financoval ji", "Neměl o ni zájem", "Spojil se s ní"],
+    "correct_answer": "Tvrdě ji potlačoval"
+  },
+  {
+    "title": "Který prefekt vedl Mussoliniho tažení proti sicilské mafii?",
+    "subheading": "Pro svou tvrdost získal přezdívku Železný prefekt.",
+    "answers": ["Cesare Mori", "Giovanni Falcone", "Paolo Borsellino", "Vito Cascio Ferro"],
     "correct_answer": "Cesare Mori"
   },
   {
     "title": "Kdo byl Vito Cascio Ferro?",
     "subheading": "Patřil mezi nejznámější sicilské mafiánské bossy počátku 20. století.",
-    "answers": [
-      "Mafiánský boss",
-      "Italský ministr",
-      "Velitel policie",
-      "Fašistický politik"
-    ],
+    "answers": ["Mafiánský boss", "Italský ministr", "Velitel policie", "Fašistický politik"],
     "correct_answer": "Mafiánský boss"
   },
   {
@@ -147,13 +319,13 @@
   },
   {
     "title": "Která organizace působí především v oblasti Neapole?",
-    "subheading": "Nejde o Cosa Nostru, ale o jinou významnou italskou zločineckou organizaci.",
+    "subheading": "Jde o jinou významnou italskou zločineckou organizaci.",
     "answers": ["Camorra", "Cosa Nostra", "Sacra Corona Unita", "Yakuza"],
     "correct_answer": "Camorra"
   },
   {
     "title": "Která zločinecká organizace pochází z Kalábrie?",
-    "subheading": "Dnes je považována za jednu z nejmocnějších mafií světa.",
+    "subheading": "Dnes patří mezi nejmocnější mafie světa.",
     "answers": ["'Ndrangheta", "Camorra", "Cosa Nostra", "Triády"],
     "correct_answer": "'Ndrangheta"
   },
@@ -170,751 +342,122 @@
     "correct_answer": "Uomo d'onore"
   },
   {
-    "title": "Co znamená italský výraz 'Uomo d'onore'?",
-    "subheading": "Jedná se o tradiční označení člena mafie.",
+    "title": "Co znamená italský výraz Uomo d'onore?",
+    "subheading": "Tradiční označení člena mafie.",
     "answers": ["Muž cti", "Velký boss", "Věrný voják", "Rodinný poradce"],
     "correct_answer": "Muž cti"
   },
   {
-    "title": "Jaký symbol se při přijímacím obřadu Cosa Nostry tradičně zapaloval?",
-    "subheading": "Šlo o součást přísahy nového člena.",
-    "answers": ["Obrázek svatého", "Kříž", "Vlajka Itálie", "Rodinný erb"],
-    "correct_answer": "Obrázek svatého"
-  },
-  {
     "title": "Co bylo hlavním cílem zákona Omertà?",
-    "subheading": "Šlo o jedno z nejdůležitějších pravidel mafie.",
-    "answers": [
-      "Nikdy nespolupracovat s úřady",
-      "Chrání rodinný majetek",
-      "Řešit obchodní spory",
-      "Volit mafiánského bosse"
-    ],
+    "subheading": "Jedno z nejdůležitějších pravidel mafie.",
+    "answers": ["Nikdy nespolupracovat s úřady", "Chrání rodinný majetek", "Řešit obchodní spory", "Volit mafiánského bosse"],
     "correct_answer": "Nikdy nespolupracovat s úřady"
   },
   {
-    "title": "Jaký byl hlavní důvod emigrace mnoha Sicilanů do USA na přelomu 19. a 20. století?",
-    "subheading": "Migrace výrazně ovlivnila vznik americké Cosa Nostry.",
-    "answers": [
-      "Chudoba a hledání lepšího života",
-      "Studium na univerzitách",
-      "Turistika",
-      "Vojenská služba"
-    ],
+    "title": "Jaký byl hlavní důvod emigrace mnoha Sicilanů do USA?",
+    "subheading": "Migrace ovlivnila vznik americké Cosa Nostry.",
+    "answers": ["Chudoba a hledání lepšího života", "Studium", "Turistika", "Vojenská služba"],
     "correct_answer": "Chudoba a hledání lepšího života"
   },
   {
-    "title": "Ve kterém americkém státě se usadilo nejvíce sicilských přistěhovalců spojených s mafií?",
-    "subheading": "Právě zde vznikla většina známých mafiánských rodin.",
-    "answers": ["New York", "Texas", "Arizona", "Colorado"],
+    "title": "Které americké město se stalo centrem sicilské mafie v USA?",
+    "subheading": "Vznikly zde nejsilnější mafiánské rodiny.",
+    "answers": ["New York", "Los Angeles", "Dallas", "Seattle"],
     "correct_answer": "New York"
   },
   {
-    "title": "Jakou roli hrály citrusové plantáže v počátcích sicilské mafie?",
-    "subheading": "Právě kolem nich vznikal první systém vydírání.",
-    "answers": [
-      "Mafie nabízela jejich ochranu",
-      "Pěstovala na nich tabák",
-      "Sloužily jako vojenské základny",
-      "Byly sídlem policie"
-    ],
-    "correct_answer": "Mafie nabízela jejich ochranu"
+    "title": "Jak se nazývala organizace sicilských přistěhovalců v USA?",
+    "subheading": "Postupně vytvořila americkou Cosa Nostru.",
+    "answers": ["Americká Cosa Nostra", "Camorra", "Sacra Corona Unita", "Ndrangheta"],
+    "correct_answer": "Americká Cosa Nostra"
   },
   {
-    "title": "Kdo byl Benito Mussolini?",
-    "subheading": "Jeho režim zahájil rozsáhlé tažení proti sicilské mafii.",
-    "answers": [
-      "Italský diktátor",
-      "Mafiánský boss",
-      "Americký generál",
-      "Starosta Palerma"
-    ],
-    "correct_answer": "Italský diktátor"
+    "title": "Jaký byl hlavní zdroj příjmů rané sicilské mafie?",
+    "subheading": "Mafie nabízela ochranu výměnou za peníze.",
+    "answers": ["Vydírání a ochrana pozemků", "Hazardní hry", "Obchod s drogami", "Padělání peněz"],
+    "correct_answer": "Vydírání a ochrana pozemků"
   },
   {
-    "title": "Ve kterém desetiletí zahájil Cesare Mori rozsáhlé tažení proti sicilské mafii?",
-    "subheading": "Šlo o největší zásah proti mafii před druhou světovou válkou.",
-    "answers": [
-      "20. léta 20. století",
-      "40. léta 20. století",
-      "50. léta 20. století",
-      "60. léta 20. století"
-    ],
-    "correct_answer": "20. léta 20. století"
+    "title": "Jak se nazývá krvavá msta mezi sicilskými rodinami?",
+    "subheading": "Tradiční způsob řešení sporů.",
+    "answers": ["Vendetta", "Omertà", "Commissione", "Caporegime"],
+    "correct_answer": "Vendetta"
   },
   {
-    "title": "Jakou přezdívku získal Cesare Mori?",
-    "subheading": "Proslavil se nekompromisním postupem proti mafii.",
-    "answers": [
-      "Železný prefekt",
-      "Lev ze Sicílie",
-      "Bílý vlk",
-      "Generál jihu"
-    ],
-    "correct_answer": "Železný prefekt"
-  },
-  {
-    "title": "Jaký dopad mělo Mussoliniho tažení proti mafii?",
-    "subheading": "Mnoho mafiánů bylo nuceno opustit Sicílii.",
-    "answers": [
-      "Část mafie uprchla do USA",
-      "Mafie získala větší moc",
-      "Vznikla Camorra",
-      "Byla legalizována"
-    ],
-    "correct_answer": "Část mafie uprchla do USA"
-  },
-  {
-    "title": "Jaký byl vztah mezi americkou a sicilskou Cosa Nostrou po emigraci mafiánů?",
-    "subheading": "Obě organizace si udržovaly kontakty po mnoho desetiletí.",
-    "answers": [
-      "Úzce spolupracovaly",
-      "Vedly proti sobě válku",
-      "Nikdy spolu nekomunikovaly",
-      "Americká mafie je zcela nahradila"
-    ],
-    "correct_answer": "Úzce spolupracovaly"
-  },
-  {
-    "title": "Který americký přístav byl důležitým cílem ochrany během druhé světové války, kdy americká vláda navázala kontakt s mafií?",
-    "subheading": "Obavy z německých sabotáží vedly ke spolupráci s podsvětím.",
-    "answers": ["New York", "Boston", "Los Angeles", "Miami"],
-    "correct_answer": "New York"
-  },
-  {
-    "title": "Jak se nazývala tajná spolupráce americké vlády s mafií během druhé světové války?",
-    "subheading": "Jejím cílem bylo zabezpečit přístavy a podpořit invazi na Sicílii.",
-    "answers": [
-      "Operation Underworld",
-      "Operation Husky",
-      "Operation Torch",
-      "Operation Neptune"
-    ],
-    "correct_answer": "Operation Underworld"
-  },
-  {
-    "title": "Jaké náboženství vyznávala většina členů sicilské Cosa Nostry?",
-    "subheading": "Náboženské symboly byly součástí přijímacích rituálů.",
-    "answers": [
-      "Římskokatolické",
-      "Pravoslavné",
-      "Protestantské",
-      "Židovské"
-    ],
-    "correct_answer": "Římskokatolické"
-  },
-  {
-    "title": "Jaký byl hlavní princip fungování tradiční sicilské Cosa Nostry před druhou světovou válkou?",
-    "subheading": "Mafie stavěla na osobní loajalitě a rodinných vazbách.",
-    "answers": [
-      "Rodinná loajalita a kontrola území",
-      "Veřejné obchodování s drogami",
-      "Bankovní podvody",
-      "Obchod s cennými papíry"
-    ],
+    "title": "Jaký byl hlavní princip fungování tradiční sicilské Cosa Nostry?",
+    "subheading": "Stavěla na osobní loajalitě a kontrole území.",
+    "answers": ["Rodinná loajalita a kontrola území", "Veřejné obchodování s drogami", "Bankovní podvody", "Obchod s cennými papíry"],
     "correct_answer": "Rodinná loajalita a kontrola území"
   },
   {
-    "title": "Který sicilský mafián bývá označován za jednoho z nejmocnějších bossů první poloviny 20. století?",
-    "subheading": "Jeho vliv sahal daleko za hranice Sicílie.",
-    "answers": ["Don Calò Vizzini", "Salvatore Riina", "Bernardo Provenzano", "Totò Riina"],
-    "correct_answer": "Don Calò Vizzini"
+    "title": "Kdo byl Don Calò Vizzini?",
+    "subheading": "Jeden z nejvlivnějších sicilských mafiánů první poloviny 20. století.",
+    "answers": ["Mafiánský boss", "Italský generál", "Policista", "Starosta Říma"],
+    "correct_answer": "Mafiánský boss"
   },
   {
-    "title": "Jaký byl hlavní způsob získávání moci sicilské mafie v jejích počátcích?",
-    "subheading": "Mafie nabízela službu, kterou stát často nedokázal zajistit.",
-    "answers": [
-      "Ochrana lidí a majetku za úplatu",
-      "Obchod s drogami",
-      "Bankovní podvody",
-      "Výroba alkoholu"
-    ],
-    "correct_answer": "Ochrana lidí a majetku za úplatu"
+    "title": "Jaká spojenecká operace zahájila invazi na Sicílii v roce 1943?",
+    "subheading": "Jedna z největších obojživelných operací války.",
+    "answers": ["Operation Husky", "Operation Torch", "Operation Avalanche", "Operation Overlord"],
+    "correct_answer": "Operation Husky"
   },
   {
-    "title": "Kdo byli gabelloti na Sicílii?",
-    "subheading": "Jejich postavení přispělo ke vzniku mafiánského vlivu na venkově.",
-    "answers": [
-      "Nájemci velkých statků",
-      "Policisté",
-      "Vojáci",
-      "Soudci"
-    ],
-    "correct_answer": "Nájemci velkých statků"
-  },
-  {
-    "title": "Jak se nazýval tradiční kodex cti sicilské mafie?",
-    "subheading": "Zahrnoval věrnost rodině a mlčenlivost.",
-    "answers": [
-      "Onore",
-      "Giustizia",
-      "Famiglia",
-      "Rispetto"
-    ],
-    "correct_answer": "Onore"
-  },
-  {
-    "title": "Ve kterém roce začala operace Husky?",
-    "subheading": "Spojenecká invaze na Sicílii byla významným zlomem druhé světové války.",
-    "answers": ["1943", "1942", "1941", "1944"],
-    "correct_answer": "1943"
-  },
-  {
-    "title": "Které dvě země vedly invazi na Sicílii v roce 1943?",
-    "subheading": "Šlo o hlavní spojenecké mocnosti na západní frontě.",
-    "answers": [
-      "USA a Velká Británie",
-      "Francie a Kanada",
-      "USA a Sovětský svaz",
-      "Velká Británie a Polsko"
-    ],
-    "correct_answer": "USA a Velká Británie"
-  },
-  {
-    "title": "Jaký byl hlavní cíl operace Husky?",
-    "subheading": "Šlo o první krok ke vstupu spojenců do Itálie.",
-    "answers": [
-      "Dobýt Sicílii",
-      "Osvobodit Řím",
-      "Obsadit Berlín",
-      "Vylodit se v Normandii"
-    ],
-    "correct_answer": "Dobýt Sicílii"
-  },
-  {
-    "title": "Který italský diktátor vládl během spojenecké invaze na Sicílii?",
-    "subheading": "Jeho režim byl krátce poté svržen.",
-    "answers": [
-      "Benito Mussolini",
-      "Vittorio Emanuele III.",
-      "Pietro Badoglio",
-      "Giovanni Giolitti"
-    ],
-    "correct_answer": "Benito Mussolini"
-  },
-  {
-    "title": "Co se stalo s Benitem Mussolinim krátce po invazi na Sicílii?",
-    "subheading": "Událost znamenala zásadní obrat ve válce v Itálii.",
-    "answers": [
-      "Byl sesazen z funkce",
-      "Utekl do USA",
-      "Připojil se ke Spojencům",
-      "Stal se prezidentem"
-    ],
-    "correct_answer": "Byl sesazen z funkce"
-  },
-  {
-    "title": "Jak se jmenoval americký generál, který velel části invaze na Sicílii?",
-    "subheading": "Později velel i spojeneckým vojskům v Evropě.",
-    "answers": [
-      "George S. Patton",
-      "Douglas MacArthur",
-      "Omar Bradley",
-      "Dwight Eisenhower"
-    ],
-    "correct_answer": "George S. Patton"
-  },
-  {
-    "title": "Který britský maršál velel britským silám během operace Husky?",
-    "subheading": "Patřil mezi nejslavnější britské velitele druhé světové války.",
-    "answers": [
-      "Bernard Montgomery",
-      "Alan Brooke",
-      "Harold Alexander",
-      "Claude Auchinleck"
-    ],
-    "correct_answer": "Bernard Montgomery"
-  },
-  {
-    "title": "Který americký mafián byl po druhé světové válce deportován do Itálie?",
-    "subheading": "Po návratu žil převážně v Neapoli.",
-    "answers": [
-      "Lucky Luciano",
-      "Joe Bonanno",
-      "Frank Costello",
-      "Albert Anastasia"
-    ],
+    "title": "Který americký mafián pomohl podle některých historiků navázat kontakty mezi spojenci a mafií?",
+    "subheading": "Během války spolupracoval s americkými úřady.",
+    "answers": ["Lucky Luciano", "Al Capone", "Frank Costello", "Joe Bonanno"],
     "correct_answer": "Lucky Luciano"
   },
   {
-    "title": "Proč byl Lucky Luciano po válce propuštěn z vězení?",
-    "subheading": "Americká vláda ocenila jeho spolupráci během války.",
-    "answers": [
-      "Za pomoc americkým úřadům během války",
-      "Kvůli nedostatku důkazů",
-      "Protože uprchl",
-      "Byl omilostněn prezidentem bez podmínek"
-    ],
-    "correct_answer": "Za pomoc americkým úřadům během války"
-  },
-  {
-    "title": "Jaký přístav byl během války hlavním předmětem ochrany v rámci Operation Underworld?",
-    "subheading": "Obávalo se zde sabotáží ze strany nepřítele.",
-    "answers": [
-      "New York",
-      "Palermo",
-      "Janov",
-      "Neapol"
-    ],
-    "correct_answer": "New York"
-  },
-  {
-    "title": "Jakou výhodu poskytla sicilská mafie spojencům během invaze na Sicílii?",
-    "subheading": "Pomáhala díky své znalosti místního prostředí.",
-    "answers": [
-      "Místní kontakty a zpravodajské informace",
-      "Dodávky tanků",
-      "Výcvik pilotů",
-      "Výrobu zbraní"
-    ],
-    "correct_answer": "Místní kontakty a zpravodajské informace"
-  },
-  {
-    "title": "Jaký symbol byl tradičně spojen s autoritou mafiánského bosse na Sicílii?",
-    "subheading": "Šlo především o respekt a osobní vliv, nikoli o oficiální funkci.",
-    "answers": [
-      "Osobní autorita a respekt",
-      "Vojenská uniforma",
-      "Policejní odznak",
-      "Královská koruna"
-    ],
-    "correct_answer": "Osobní autorita a respekt"
-  },
-  {
-    "title": "Jakým jazykem mluvila většina členů sicilské Cosa Nostry v první polovině 20. století?",
-    "subheading": "Vedle italštiny byl běžný také místní dialekt.",
-    "answers": [
-      "Sicilským dialektem",
-      "Francouzsky",
-      "Německy",
-      "Španělsky"
-    ],
-    "correct_answer": "Sicilským dialektem"
-  },
-  {
-    "title": "Jaký byl hlavní důvod, proč se mafie na Sicílii dlouho udržela u moci?",
-    "subheading": "Stát měl v některých oblastech jen omezenou autoritu.",
-    "answers": [
-      "Slabá státní správa a korupce",
-      "Silná armáda mafie",
-      "Podpora Vatikánu",
-      "Pomoc Spojených států"
-    ],
-    "correct_answer": "Slabá státní správa a korupce"
-  },
-  {
-    "title": "Jaký byl hlavní způsob řešení sporů mezi sicilskými mafiánskými rodinami před vznikem Commissione?",
-    "subheading": "Neexistoval ještě centrální orgán pro řešení konfliktů.",
-    "answers": [
-      "Vyjednávání nebo ozbrojené střety",
-      "Rozhodnutí soudu",
-      "Hlasování veřejnosti",
-      "Zásah armády"
-    ],
-    "correct_answer": "Vyjednávání nebo ozbrojené střety"
-  },
-  {
-    "title": "Jaký vliv měla emigrace sicilských mafiánů do USA na organizovaný zločin?",
-    "subheading": "Vedla ke vzniku jedné z nejsilnějších mafiánských struktur na světě.",
-    "answers": [
-      "Položila základy americké Cosa Nostry",
-      "Ukončila existenci sicilské mafie",
-      "Vedla ke vzniku FBI",
-      "Zastavila organizovaný zločin v USA"
-    ],
-    "correct_answer": "Položila základy americké Cosa Nostry"
-  },
-  {
-    "title": "Jak se jmenoval známý sicilský mafiánský boss z města Corleone na počátku 20. století?",
-    "subheading": "Patřil mezi nejvýznamnější představitele Cosa Nostry před druhou světovou válkou.",
-    "answers": ["Michele Navarra", "Salvatore Riina", "Bernardo Provenzano", "Luciano Liggio"],
-    "correct_answer": "Michele Navarra"
-  },
-  {
-    "title": "Ve kterém regionu Itálie se nachází město Corleone?",
-    "subheading": "Právě toto město se stalo symbolem sicilské mafie.",
-    "answers": ["Sicílie", "Kalábrie", "Kampánie", "Apulie"],
-    "correct_answer": "Sicílie"
-  },
-  {
-    "title": "Která událost výrazně oslabila moc fašistického režimu na Sicílii v roce 1943?",
-    "subheading": "Spojenecká invaze znamenala začátek osvobozování Itálie.",
-    "answers": [
-      "Operace Husky",
-      "Operace Torch",
-      "Operace Market Garden",
-      "Operace Avalanche"
-    ],
-    "correct_answer": "Operace Husky"
-  },
-  {
-    "title": "Kdo byl starostou Villalby po příchodu spojenců v roce 1943?",
-    "subheading": "Jmenování této osoby je dodnes spojováno s diskusemi o vztahu spojenců a mafie.",
-    "answers": [
-      "Don Calò Vizzini",
-      "Cesare Mori",
-      "Lucky Luciano",
-      "Vito Cascio Ferro"
-    ],
-    "correct_answer": "Don Calò Vizzini"
+    "title": "Jak se nazývala tajná spolupráce americké vlády s mafií během války?",
+    "subheading": "Měla chránit přístavy před sabotáží.",
+    "answers": ["Operation Underworld", "Operation Husky", "Operation Torch", "Operation Neptune"],
+    "correct_answer": "Operation Underworld"
   },
   {
     "title": "Jaký byl hlavní cíl Operation Underworld?",
-    "subheading": "Šlo o tajnou spolupráci americké vlády s organizovaným zločinem.",
-    "answers": [
-      "Zabezpečit americké přístavy před sabotážemi",
-      "Dobýt Sicílii",
-      "Zlikvidovat Cosa Nostru",
-      "Dopadnout Benita Mussoliniho"
-    ],
+    "subheading": "Šlo o spolupráci amerických úřadů s podsvětím.",
+    "answers": ["Zabezpečit americké přístavy před sabotážemi", "Dobýt Sicílii", "Zlikvidovat Cosa Nostru", "Dopadnout Mussoliniho"],
     "correct_answer": "Zabezpečit americké přístavy před sabotážemi"
   },
   {
-    "title": "Který americký přístav byl během druhé světové války nejdůležitější pro Operation Underworld?",
-    "subheading": "Objevovaly se obavy z německých sabotérů.",
-    "answers": ["New York", "Boston", "Philadelphia", "Baltimore"],
-    "correct_answer": "New York"
-  },
-  {
-    "title": "Jaký byl vztah Lucky Luciana k Donu Calò Vizzinimu podle některých historiků?",
-    "subheading": "Existují zmínky o jejich kontaktech během druhé světové války.",
-    "answers": [
-      "Měli kontakty přes sicilské mafiánské struktury",
-      "Nikdy se neznali",
-      "Byli nepřátelé",
-      "Byli bratři"
-    ],
-    "correct_answer": "Měli kontakty přes sicilské mafiánské struktury"
-  },
-  {
-    "title": "Jaký symbolický význam mělo město Corleone pro Cosa Nostru?",
-    "subheading": "Později se stalo domovem jedné z nejmocnějších mafiánských frakcí.",
-    "answers": [
-      "Kolébka významných mafiánských bossů",
-      "Sídlo italské vlády",
-      "Hlavní vojenská základna",
-      "Největší přístav na Sicílii"
-    ],
-    "correct_answer": "Kolébka významných mafiánských bossů"
-  },
-  {
-    "title": "Jaký byl hlavní zdroj autority mafiánského bosse na Sicílii?",
-    "subheading": "Jeho moc nebyla založena na oficiální státní funkci.",
-    "answers": [
-      "Respekt, vliv a síť kontaktů",
-      "Volby obyvatel",
-      "Jmenování vládou",
-      "Církevní úřad"
-    ],
-    "correct_answer": "Respekt, vliv a síť kontaktů"
-  },
-  {
-    "title": "Který italský král vládl během spojenecké invaze na Sicílii?",
-    "subheading": "Krátce po invazi nechal Mussoliniho odvolat z funkce.",
-    "answers": [
-      "Viktor Emanuel III.",
-      "Umberto II.",
-      "Karel Albert",
-      "Viktor Emanuel II."
-    ],
-    "correct_answer": "Viktor Emanuel III."
-  },
-  {
-    "title": "Jaký byl hlavní cíl Cesare Moriho při tažení proti mafii?",
-    "subheading": "Jeho metody byly na svou dobu mimořádně tvrdé.",
-    "answers": [
-      "Zničit vliv Cosa Nostry na Sicílii",
-      "Vybudovat novou mafii",
-      "Chránit mafiánské bossy",
-      "Legalizovat mafii"
-    ],
-    "correct_answer": "Zničit vliv Cosa Nostry na Sicílii"
-  },
-  {
-    "title": "Proč byla Omertà pro Cosa Nostru tak důležitá?",
-    "subheading": "Pomáhala organizaci přežít po mnoho desetiletí.",
-    "answers": [
-      "Bránila členům spolupracovat s úřady",
-      "Umožňovala volbu bosse",
-      "Řídila obchod s citrusy",
-      "Zaručovala dědictví majetku"
-    ],
-    "correct_answer": "Bránila členům spolupracovat s úřady"
-  },
-  {
-    "title": "Jaký druh organizace představovala tradiční sicilská Cosa Nostra?",
-    "subheading": "Její struktura byla založena na územních rodinách.",
-    "answers": [
-      "Síť samostatných mafiánských rodin",
-      "Centrálně řízená armáda",
-      "Politická strana",
-      "Obchodní společnost"
-    ],
-    "correct_answer": "Síť samostatných mafiánských rodin"
-  },
-  {
-    "title": "Jaký význam měla rodina v tradiční sicilské mafii?",
-    "subheading": "Šlo o základní prvek fungování celé organizace.",
-    "answers": [
-      "Byla základem loajality a moci",
-      "Neměla žádný význam",
-      "Sloužila pouze k podnikání",
-      "Řídila ji vláda"
-    ],
-    "correct_answer": "Byla základem loajality a moci"
-  },
-  {
-    "title": "Jak se označovalo území ovládané jednou mafiánskou rodinou?",
-    "subheading": "Každá rodina měla svou oblast vlivu.",
-    "answers": [
-      "Teritorium",
-      "Provincia",
-      "Cosca",
-      "Quartiere"
-    ],
-    "correct_answer": "Teritorium"
-  },
-  {
-    "title": "Které město bylo největším přístavem Sicílie během druhé světové války?",
-    "subheading": "Po jeho dobytí získali spojenci důležitou logistickou základnu.",
-    "answers": [
-      "Palermo",
-      "Trapani",
-      "Agrigento",
-      "Enna"
-    ],
-    "correct_answer": "Palermo"
-  },
-  {
-    "title": "Jaký byl hlavní způsob komunikace mezi sicilskými mafiánskými bossy před rozšířením telefonů?",
-    "subheading": "Diskrétnost byla pro organizaci zásadní.",
-    "answers": [
-      "Osobní poslové a důvěrníci",
-      "Rádio",
-      "Telegraf",
-      "Noviny"
-    ],
-    "correct_answer": "Osobní poslové a důvěrníci"
-  },
-  {
-    "title": "Jaký význam měla čest v tradiční sicilské mafii?",
-    "subheading": "Porušení tohoto principu bylo považováno za těžký zločin.",
-    "answers": [
-      "Byla základem postavení člena",
-      "Neměla žádný význam",
-      "Týkala se pouze bossů",
-      "Byla určena zákonem"
-    ],
-    "correct_answer": "Byla základem postavení člena"
-  },
-  {
-    "title": "Jaký byl jeden z důvodů, proč byla Sicílie vhodným prostředím pro vznik mafie?",
-    "subheading": "Historici poukazují na dlouhodobé problémy státní správy.",
-    "answers": [
-      "Slabá vymahatelnost práva",
-      "Silná průmyslová výroba",
-      "Vysoká urbanizace",
-      "Rozvinutý bankovní sektor"
-    ],
-    "correct_answer": "Slabá vymahatelnost práva"
-  },
-  {
-    "title": "Co bylo hlavním cílem tradiční sicilské Cosa Nostry v jejích počátcích?",
-    "subheading": "Její aktivity se výrazně lišily od pozdějšího mezinárodního organizovaného zločinu.",
-    "answers": [
-      "Kontrola území a vybírání výpalného",
-      "Pašování heroinu",
-      "Kybernetická kriminalita",
-      "Praní peněz přes banky"
-    ],
-    "correct_answer": "Kontrola území a vybírání výpalného"
+    "title": "Jaký vliv měla emigrace sicilských mafiánů do USA?",
+    "subheading": "Vedla ke vzniku silné mafiánské struktury v Americe.",
+    "answers": ["Položila základy americké Cosa Nostry", "Ukončila existenci sicilské mafie", "Vedla ke vzniku FBI", "Zastavila organizovaný zločin"],
+    "correct_answer": "Položila základy americké Cosa Nostry"
   },
   {
     "title": "Kdo byl Giuseppe Morello?",
-    "subheading": "Patřil mezi první významné sicilské mafiány působící v USA.",
+    "subheading": "Patřil mezi první významné sicilské mafiány v USA.",
     "answers": ["Mafiánský boss", "Italský generál", "Soudce", "Starosta Palerma"],
     "correct_answer": "Mafiánský boss"
   },
   {
-    "title": "Jakou přezdívku měl Giuseppe Morello?",
-    "subheading": "Přezdívku získal kvůli své deformované ruce.",
-    "answers": ["The Clutch Hand", "Scarface", "Joe Bananas", "The Bull"],
-    "correct_answer": "The Clutch Hand"
-  },
-  {
-    "title": "Kdo byl Ignazio Lupo?",
-    "subheading": "Společně s Giuseppem Morellem patřil mezi první bossy americké mafie.",
-    "answers": ["Mafiánský boss", "Policista", "Prokurátor", "Novinář"],
-    "correct_answer": "Mafiánský boss"
-  },
-  {
-    "title": "Jak se nazývala vyděračská organizace sicilských přistěhovalců působící v USA na přelomu století?",
-    "subheading": "Používala výhrůžné dopisy označené černou rukou.",
+    "title": "Jak se nazývala vyděračská organizace Black Hand?",
+    "subheading": "Používala výhrůžné dopisy s požadavkem na výkupné.",
     "answers": ["Black Hand", "Purple Gang", "The Commission", "Murder Inc."],
     "correct_answer": "Black Hand"
   },
   {
-    "title": "Co bylo typickým znakem organizace Black Hand?",
-    "subheading": "Šlo o způsob vydírání především italských přistěhovalců.",
-    "answers": [
-      "Výhružné dopisy s požadavkem na výkupné",
-      "Pašování alkoholu",
-      "Loupeže vlaků",
-      "Obchod s drogami"
-    ],
-    "correct_answer": "Výhružné dopisy s požadavkem na výkupné"
-  },
-  {
-    "title": "Které americké město bylo prvním významným centrem sicilské mafie v USA?",
-    "subheading": "Právě zde působila rodina Morello.",
-    "answers": ["New York", "Chicago", "Miami", "Detroit"],
-    "correct_answer": "New York"
-  },
-  {
-    "title": "Jaký zločin byl pro ranou sicilskou mafii nejtypičtější?",
-    "subheading": "Před obdobím prohibice tvořil hlavní zdroj příjmů.",
-    "answers": [
-      "Vydírání",
-      "Obchod s heroinem",
-      "Počítačová kriminalita",
-      "Padělání kreditních karet"
-    ],
-    "correct_answer": "Vydírání"
-  },
-  {
-    "title": "Kdo byl Vito Genovese?",
-    "subheading": "Do USA přišel jako dítě ze Sicílie a stal se jedním z nejmocnějších bossů.",
-    "answers": [
-      "Mafiánský boss",
-      "Agent FBI",
-      "Italský politik",
-      "Soudce"
-    ],
-    "correct_answer": "Mafiánský boss"
-  },
-  {
-    "title": "Ze kterého italského regionu pocházela většina prvních členů americké Cosa Nostry?",
-    "subheading": "Právě odtud připlouvaly tisíce emigrantů.",
-    "answers": ["Sicílie", "Toskánsko", "Benátsko", "Lombardie"],
-    "correct_answer": "Sicílie"
-  },
-  {
-    "title": "Jaký dopravní prostředek využívala většina sicilských emigrantů při cestě do USA?",
-    "subheading": "Cesta trvala často několik týdnů.",
-    "answers": ["Parník", "Letadlo", "Automobil", "Vlak"],
-    "correct_answer": "Parník"
-  },
-  {
-    "title": "Na který ostrov připlouvala většina italských emigrantů po příjezdu do New Yorku?",
-    "subheading": "Zde probíhala imigrační kontrola.",
-    "answers": ["Ellis Island", "Liberty Island", "Governors Island", "Long Island"],
-    "correct_answer": "Ellis Island"
-  },
-  {
-    "title": "Jaký byl hlavní důvod emigrace mafiánů ze Sicílie do USA?",
-    "subheading": "Mnozí utíkali před chudobou nebo policejním tlakem.",
-    "answers": [
-      "Lepší ekonomické podmínky",
-      "Studium",
-      "Turistika",
-      "Náboženské poutě"
-    ],
-    "correct_answer": "Lepší ekonomické podmínky"
-  },
-  {
-    "title": "Jak se nazýval tradiční obřad přijetí nového člena do Cosa Nostry?",
-    "subheading": "Součástí byla přísaha věrnosti organizaci.",
-    "answers": [
-      "Iniciační rituál",
-      "Křest ohněm",
-      "Ceremonie vendetty",
-      "Rada bossů"
-    ],
-    "correct_answer": "Iniciační rituál"
-  },
-  {
-    "title": "Co znamenalo porušení Omerty?",
-    "subheading": "Šlo o jeden z nejzávažnějších prohřešků člena mafie.",
-    "answers": [
-      "Spolupráci s policií",
-      "Neplacení výpalného",
-      "Odmítnutí vstupu do rodiny",
-      "Odchod do důchodu"
-    ],
-    "correct_answer": "Spolupráci s policií"
-  },
-  {
-    "title": "Jak se nazýval nejvyšší představitel jedné mafiánské rodiny?",
-    "subheading": "Rozhodoval o všech důležitých záležitostech rodiny.",
-    "answers": ["Capomafia", "Soldato", "Consigliere", "Capodecina"],
-    "correct_answer": "Capomafia"
-  },
-  {
-    "title": "Jakou funkci měl Consigliere v mafiánské rodině?",
-    "subheading": "Patřil mezi nejbližší spolupracovníky bosse.",
-    "answers": [
-      "Poradce bosse",
-      "Pokladník",
-      "Řidič bosse",
-      "Osobní strážce"
-    ],
-    "correct_answer": "Poradce bosse"
-  },
-  {
-    "title": "Jak se označoval běžný člen mafiánské rodiny?",
-    "subheading": "Plnil příkazy svých nadřízených.",
-    "answers": ["Soldato", "Boss", "Capomafia", "Consigliere"],
-    "correct_answer": "Soldato"
-  },
-  {
-    "title": "Jaká byla hlavní zásada tradiční Cosa Nostry při řešení sporů?",
-    "subheading": "Veřejné soudy byly považovány za nepřijatelné.",
-    "answers": [
-      "Řešit vše uvnitř organizace",
-      "Obrátit se na policii",
-      "Podat občanskou žalobu",
-      "Požádat vládu o pomoc"
-    ],
-    "correct_answer": "Řešit vše uvnitř organizace"
-  },
-  {
-    "title": "Který přístav byl nejčastějším místem odjezdu Sicilanů do USA?",
-    "subheading": "Patřil k největším přístavům jižní Itálie.",
-    "answers": ["Palermo", "Benátky", "Janov", "Ancona"],
-    "correct_answer": "Palermo"
-  },
-  {
-    "title": "Jaký byl hlavní cíl prvních sicilských mafiánských rodin po příchodu do USA?",
-    "subheading": "Nejdříve se zaměřovaly především na vlastní komunitu přistěhovalců.",
-    "answers": [
-      "Získat kontrolu nad místním vydíráním a ochranou",
-      "Obchodovat s drogami",
-      "Ovládnout kasina v Las Vegas",
-      "Pašovat zbraně do Evropy"
-    ],
-    "correct_answer": "Získat kontrolu nad místním vydíráním a ochranou"
-  },
-  {
     "title": "Kdo byl Salvatore Maranzano?",
-    "subheading": "Po Castellammarské válce se prohlásil za 'Capo di tutti capi'.",
+    "subheading": "Po Castellammarské válce se stal jedním z nejvlivnějších bossů USA.",
     "answers": ["Mafiánský boss", "Fašistický politik", "Soudce", "Policejní komisař"],
     "correct_answer": "Mafiánský boss"
   },
   {
-    "title": "Jak se nazývala válka mezi stoupenci Joeho Masserii a Salvatoreho Maranzana?",
-    "subheading": "Tento konflikt změnil podobu americké Cosa Nostry.",
+    "title": "Jak se nazývala válka mezi Joe Masseriou a Salvatore Maranzanem?",
+    "subheading": "Konflikt změnil strukturu americké mafie.",
     "answers": ["Castellammarská válka", "Válka pěti rodin", "Banánová válka", "Sicilská válka"],
     "correct_answer": "Castellammarská válka"
   },
   {
     "title": "Ve kterém roce skončila Castellammarská válka?",
-    "subheading": "Po jejím skončení vznikla moderní struktura americké mafie.",
+    "subheading": "Po konfliktu vznikla modernější struktura americké mafie.",
     "answers": ["1931", "1925", "1935", "1941"],
     "correct_answer": "1931"
   },
   {
     "title": "Kdo nechal zavraždit Joeho Masseriu?",
-    "subheading": "Šlo o jeden z nejzásadnějších momentů mafiánských dějin.",
+    "subheading": "Událost patří mezi nejznámější momenty dějin mafie.",
     "answers": ["Lucky Luciano", "Al Capone", "Frank Costello", "Joe Bonanno"],
     "correct_answer": "Lucky Luciano"
   },
@@ -931,7 +474,7 @@
     "correct_answer": "Capo di tutti capi"
   },
   {
-    "title": "Co znamená italský titul 'Capo di tutti capi'?",
+    "title": "Co znamená italský titul Capo di tutti capi?",
     "subheading": "Jednalo se o označení nejvyššího bosse.",
     "answers": ["Boss všech bossů", "Nejstarší člen", "Poradce rodiny", "Velitel vojáků"],
     "correct_answer": "Boss všech bossů"
@@ -945,12 +488,7 @@
   {
     "title": "Jaký byl hlavní účel vzniku The Commission?",
     "subheading": "Měla zabránit dalším rozsáhlým mafiánským válkám.",
-    "answers": [
-      "Řešit spory mezi rodinami",
-      "Vybírat výpalné",
-      "Řídit obchod s alkoholem",
-      "Spolupracovat s policií"
-    ],
+    "answers": ["Řešit spory mezi rodinami", "Vybírat výpalné", "Řídit obchod s alkoholem", "Spolupracovat s policií"],
     "correct_answer": "Řešit spory mezi rodinami"
   },
   {
@@ -972,416 +510,308 @@
     "correct_answer": "Joe the Boss"
   },
   {
-    "title": "Jaký konflikt ukončila smrt Salvatoreho Maranzana?",
-    "subheading": "Jeho smrt otevřela cestu nové organizaci mafie.",
-    "answers": [
-      "Castellammarskou válku",
-      "První mafiánskou válku na Sicílii",
-      "Banánovou válku",
-      "Válku pěti rodin"
-    ],
-    "correct_answer": "Castellammarskou válku"
-  },
-  {
     "title": "Jaký byl hlavní rozdíl mezi sicilskou a americkou Cosa Nostrou ve 30. letech?",
     "subheading": "Americká mafie začala fungovat více centralizovaně.",
-    "answers": [
-      "Americká měla společnou Komisi",
-      "Sicilská měla prezidenta",
-      "Americká neměla bossy",
-      "Sicilská byla řízena armádou"
-    ],
+    "answers": ["Americká měla společnou Komisi", "Sicilská měla prezidenta", "Americká neměla bossy", "Sicilská byla řízena armádou"],
     "correct_answer": "Americká měla společnou Komisi"
   },
   {
-    "title": "Která událost nejvíce přispěla ke vzniku moderní americké Cosa Nostry?",
-    "subheading": "Šlo o přelomový okamžik mafiánských dějin.",
-    "answers": [
-      "Konec Castellammarské války",
-      "Invaze na Sicílii",
-      "Konec prohibice",
-      "Operation Underworld"
-    ],
-    "correct_answer": "Konec Castellammarské války"
+    "title": "Kdy vznikla americká Cosa Nostra jako organizovaná struktura?",
+    "subheading": "Její moderní podoba se vytvořila po velkých konfliktech mezi mafiánskými frakcemi.",
+    "answers": ["Ve 30. letech 20. století", "V 19. století", "Po druhé světové válce", "V 70. letech"],
+    "correct_answer": "Ve 30. letech 20. století"
   },
   {
-    "title": "Jaký byl původ většiny účastníků Castellammarské války?",
-    "subheading": "Obě znepřátelené frakce tvořili převážně přistěhovalci ze stejného ostrova.",
-    "answers": ["Sicílie", "Kalábrie", "Neapol", "Řím"],
-    "correct_answer": "Sicílie"
+    "title": "Kdo byl Carlo Gambino?",
+    "subheading": "Patřil mezi nejvlivnější mafiánské bossy New Yorku ve 20. století.",
+    "answers": ["Mafiánský boss", "Italský prezident", "Policejní šéf", "Soudce"],
+    "correct_answer": "Mafiánský boss"
   },
   {
-    "title": "Jaký byl hlavní cíl Lucky Luciana po roce 1931?",
-    "subheading": "Chtěl modernizovat fungování americké mafie.",
-    "answers": [
-      "Ukončit zbytečné války mezi rodinami",
-      "Vrátit se na Sicílii",
-      "Zrušit mafiánské rodiny",
-      "Spolupracovat s FBI"
-    ],
-    "correct_answer": "Ukončit zbytečné války mezi rodinami"
+    "title": "Která mafiánská rodina nesla jméno po Carlu Gambinovi?",
+    "subheading": "Jedna z pěti hlavních rodin New Yorku.",
+    "answers": ["Gambino rodina", "Genovese rodina", "Bonanno rodina", "Lucchese rodina"],
+    "correct_answer": "Gambino rodina"
   },
   {
-    "title": "Jaký vliv měla prohibice na americkou Cosa Nostru?",
-    "subheading": "Ve 20. letech výrazně posílila její moc.",
-    "answers": [
-      "Přinesla mafii obrovské zisky",
-      "Zničila mafii",
-      "Donutila mafii odejít do Evropy",
-      "Vedla k rozpadu rodin"
-    ],
-    "correct_answer": "Přinesla mafii obrovské zisky"
+    "title": "Kolik hlavních mafiánských rodin ovládalo New York po vzniku Komise?",
+    "subheading": "Tyto rodiny tvořily základ americké Cosa Nostry.",
+    "answers": ["Pět", "Tři", "Sedm", "Deset"],
+    "correct_answer": "Pět"
   },
   {
-    "title": "Jaký alkoholický produkt pašovala americká mafie během prohibice nejčastěji?",
-    "subheading": "Šlo o hlavní zdroj jejích příjmů.",
-    "answers": ["Nelegální alkohol", "Víno z Francie", "Pivo z Německa", "Rum z Kuby"],
-    "correct_answer": "Nelegální alkohol"
+    "title": "Jak se nazývá pět hlavních mafiánských rodin New Yorku?",
+    "subheading": "Vznikly jako součást reorganizace americké mafie po roce 1931.",
+    "answers": ["Five Families", "Big Five", "New York Council", "The Five Kings"],
+    "correct_answer": "Five Families"
   },
   {
-    "title": "Která historická událost připravila půdu pro vznik americké Cosa Nostry?",
-    "subheading": "Do USA tehdy připluly statisíce Italů včetně mnoha Sicilanů.",
-    "answers": [
-      "Masová emigrace Italů na přelomu 19. a 20. století",
-      "První světová válka",
-      "Velká hospodářská krize",
-      "Operace Husky"
-    ],
-    "correct_answer": "Masová emigrace Italů na přelomu 19. a 20. století"
+    "title": "Kdo byl Meyer Lansky?",
+    "subheading": "Spolupracoval s některými mafiánskými bossy a měl vliv na finanční operace.",
+    "answers": ["Organizátor a finančník podsvětí", "Italský generál", "Soudce", "Agent FBI"],
+    "correct_answer": "Organizátor a finančník podsvětí"
   },
   {
-    "title": "Jak se nazývá nejvyšší orgán, který řešil spory mezi mafiánskými rodinami?",
-    "subheading": "Vznikl v USA podle sicilského vzoru.",
-    "answers": ["Komise", "Senát", "Konzilium", "Tribunál"],
-    "correct_answer": "Komise"
+    "title": "Jaký byl vztah mezi Meyerem Lanskyem a Lucky Lucianem?",
+    "subheading": "Společně se podíleli na rozvoji organizovaného zločinu v USA.",
+    "answers": ["Spolupracovali", "Byli nepřátelé", "Nikdy se nepotkali", "Byli příbuzní"],
+    "correct_answer": "Spolupracovali"
   },
   {
-    "title": "Které město je považováno za centrum sicilské mafie?",
-    "subheading": "Právě zde působilo mnoho známých bossů.",
-    "answers": ["Palermo", "Milán", "Turín", "Janov"],
-    "correct_answer": "Palermo"
+    "title": "Který mafiánský boss byl známý jako 'Dapper Don'?",
+    "subheading": "Byl jedním z posledních významných bossů rodiny Gambino.",
+    "answers": ["John Gotti", "Al Capone", "Bugsy Siegel", "Frank Costello"],
+    "correct_answer": "John Gotti"
   },
   {
-    "title": "Jak se nazývá mafiánský boss stojící v čele celé rodiny?",
-    "subheading": "Má nejvyšší rozhodovací pravomoc.",
-    "answers": ["Capo", "Soldato", "Consigliere", "Associato"],
-    "correct_answer": "Capo"
+    "title": "Které město bylo známé jako centrum amerického organizovaného zločinu během prohibice?",
+    "subheading": "Město proslavil například Al Capone.",
+    "answers": ["Chicago", "Boston", "Miami", "Seattle"],
+    "correct_answer": "Chicago"
   },
   {
-    "title": "Co znamená pojem 'Omertà'?",
-    "subheading": "Jedno ze základních pravidel mafie.",
-    "answers": ["Kodex mlčení", "Slavnost přijetí", "Finanční fond", "Mafiánská válka"],
-    "correct_answer": "Kodex mlčení"
+    "title": "Kdo byl Al Capone?",
+    "subheading": "Patřil mezi nejslavnější gangstery období prohibice.",
+    "answers": ["Gangsterský boss v Chicagu", "Sicilský král", "Americký prezident", "Policejní komisař"],
+    "correct_answer": "Gangsterský boss v Chicagu"
   },
   {
-    "title": "Jak se nazývá člen mafie, který ještě není plně přijat?",
-    "subheading": "Spolupracuje s rodinou, ale není oficiálním členem.",
-    "answers": ["Associato", "Caporegime", "Don", "Underboss"],
-    "correct_answer": "Associato"
+    "title": "Čím se Al Capone proslavil během prohibice?",
+    "subheading": "Jeho organizace vydělávala hlavně na nelegálním alkoholu.",
+    "answers": ["Pašováním alkoholu", "Výrobou automobilů", "Politikou", "Bankovnictvím"],
+    "correct_answer": "Pašováním alkoholu"
   },
   {
-    "title": "Jaký předmět bývá při iniciačním obřadu často zapálen?",
-    "subheading": "Nový člen jej drží v rukou během přísahy.",
-    "answers": ["Obrázek svatého", "Mince", "Růže", "Kříž"],
-    "correct_answer": "Obrázek svatého"
+    "title": "Který úřad nakonec usvědčil Al Caponeho?",
+    "subheading": "Nebyl odsouzen za vraždy ani pašování.",
+    "answers": ["Finanční úřady za daňové úniky", "FBI za špionáž", "Armáda", "CIA"],
+    "correct_answer": "Finanční úřady za daňové úniky"
   },
   {
-    "title": "Jak se nazývá zástupce mafiánského bosse?",
-    "subheading": "Řídí rodinu během bossovy nepřítomnosti.",
-    "answers": ["Underboss", "Soldato", "Caporegime", "Associato"],
-    "correct_answer": "Underboss"
+    "title": "Jak se nazývala spolupráce mafiánských rodin při velkých rozhodnutích?",
+    "subheading": "Měla zabránit konfliktům mezi jednotlivými skupinami.",
+    "answers": ["The Commission", "The Council", "The Union", "The Board"],
+    "correct_answer": "The Commission"
   },
   {
-    "title": "Jak se nazývá skupina vojáků vedená caporegimem?",
-    "subheading": "Tvoří základ organizace.",
-    "answers": ["Crew", "Brigáda", "Pluk", "Klika"],
-    "correct_answer": "Crew"
+    "title": "Kdo byl Bugsy Siegel?",
+    "subheading": "Podílel se na rozvoji hazardu v Las Vegas.",
+    "answers": ["Mafiánský spolupracovník", "Generál americké armády", "Soudce", "Novinář"],
+    "correct_answer": "Mafiánský spolupracovník"
   },
   {
-    "title": "Jaká činnost byla historicky hlavním zdrojem příjmů Cosa Nostry?",
-    "subheading": "Šlo o vybírání peněz za 'ochranu'.",
-    "answers": ["Výpalné", "Rybolov", "Turismus", "Pojišťovnictví"],
-    "correct_answer": "Výpalné"
+    "title": "Jaký legální průmysl později ovlivňovali někteří mafiáni v USA?",
+    "subheading": "Organizovaný zločin se snažil pronikat i do běžné ekonomiky.",
+    "answers": ["Odbory a stavebnictví", "Leteckou výrobu", "Vesmírný výzkum", "Výrobu počítačů"],
+    "correct_answer": "Odbory a stavebnictví"
   },
   {
-    "title": "Který soudce byl zabit při atentátu na dálnici u Capaci?",
-    "subheading": "Je symbolem boje proti mafii.",
-    "answers": ["Giovanni Falcone", "Paolo Borsellino", "Antonio Di Pietro", "Carlo Alberto Dalla Chiesa"],
+    "title": "Která organizace bojovala proti organizovanému zločinu v USA?",
+    "subheading": "Federální agentura získala velkou roli hlavně ve 20. století.",
+    "answers": ["FBI", "NASA", "CIA", "US Army"],
+    "correct_answer": "FBI"
+  },
+  {
+    "title": "Jaký byl jeden z hlavních problémů americké mafie ve druhé polovině 20. století?",
+    "subheading": "Vyšší dohled státu oslabil její vliv.",
+    "answers": ["Silnější policejní vyšetřování", "Nedostatek členů", "Zákaz italštiny", "Ztráta území Sicílie"],
+    "correct_answer": "Silnější policejní vyšetřování"
+  },
+  {
+    "title": "Kdy proběhl slavný Maxi proces proti Cosa Nostře?",
+    "subheading": "Šlo o jeden z největších soudních procesů proti mafii v historii Itálie.",
+    "answers": ["1986–1987", "1970–1971", "1995–1996", "2001–2002"],
+    "correct_answer": "1986–1987"
+  },
+  {
+    "title": "Kdo byl hlavním vyšetřujícím soudcem spojeným s bojem proti mafii v Maxi procesu?",
+    "subheading": "Později se stal symbolem boje proti Cosa Nostře.",
+    "answers": ["Giovanni Falcone", "Silvio Berlusconi", "Giulio Andreotti", "Sandro Pertini"],
     "correct_answer": "Giovanni Falcone"
   },
   {
-    "title": "Jak se jmenoval soudce zavražděný v Palermu krátce po Falconem?",
-    "subheading": "Zahynul při bombovém útoku v roce 1992.",
-    "answers": ["Paolo Borsellino", "Giulio Andreotti", "Tommaso Buscetta", "Bernardo Provenzano"],
-    "correct_answer": "Paolo Borsellino"
+    "title": "Který mafiánský klan se stal dominantní silou v Cosa Nostře v 80. letech?",
+    "subheading": "Jeho vzestup vedl k brutální mafiánské válce.",
+    "answers": ["Corleonesi", "Gambino", "Morello", "Castellammare"],
+    "correct_answer": "Corleonesi"
   },
   {
-    "title": "Jaký ostrov je domovem Cosa Nostry?",
-    "subheading": "Největší ostrov ve Středozemním moři.",
-    "answers": ["Sicílie", "Sardinie", "Korsika", "Malta"],
-    "correct_answer": "Sicílie"
+    "title": "Kdo byl Salvatore Riina?",
+    "subheading": "Patřil mezi nejmocnější a nejkrutější bossy sicilské mafie.",
+    "answers": ["Boss klanu Corleonesi", "Italský ministr", "Policejní ředitel", "Americký podnikatel"],
+    "correct_answer": "Boss klanu Corleonesi"
   },
   {
-    "title": "Jak se nazývá mafián, který se rozhodne spolupracovat s policií?",
-    "subheading": "Jeho výpovědi pomohly rozkrýt mnoho struktur mafie.",
-    "answers": ["Pentito", "Consigliere", "Soldato", "Capo"],
-    "correct_answer": "Pentito"
+    "title": "Ve kterém roce byl zatčen Salvatore Riina?",
+    "subheading": "Jeho zatčení znamenalo významný úspěch italských bezpečnostních složek.",
+    "answers": ["1993", "1983", "2003", "1973"],
+    "correct_answer": "1993"
   },
   {
-    "title": "Jak se nazývá poradce mafiánského bosse?",
-    "subheading": "Často řeší spory a poskytuje rady.",
-    "answers": ["Consigliere", "Underboss", "Associato", "Caporegime"],
-    "correct_answer": "Consigliere"
+    "title": "Jaký zákon umožnil v Itálii tvrdší boj proti mafii?",
+    "subheading": "Zavedl například přísnější tresty a zabavování majetku mafie.",
+    "answers": ["Rognoni-La Torre zákon", "Moriho zákon", "Římský zákon", "Palermský zákon"],
+    "correct_answer": "Rognoni-La Torre zákon"
   },
   {
-    "title": "Jaký je nejnižší oficiální stupeň plnoprávného člena Cosa Nostry?",
-    "subheading": "Vykonává příkazy nadřízených.",
-    "answers": ["Soldato", "Boss", "Don", "Consigliere"],
-    "correct_answer": "Soldato"
+    "title": "Kdo byl Pio La Torre?",
+    "subheading": "Italský politik prosazující tvrdší opatření proti mafii.",
+    "answers": ["Politik zavražděný mafií", "Mafiánský boss", "Soudce", "Generál"],
+    "correct_answer": "Politik zavražděný mafií"
   },
   {
-    "title": "Který boss vedl Cosa Nostru po zatčení Salvatoreho Riiny?",
-    "subheading": "Přezdívalo se mu 'Účetní'.",
-    "answers": ["Bernardo Provenzano", "Matteo Messina Denaro", "Michele Greco", "Tommaso Buscetta"],
-    "correct_answer": "Bernardo Provenzano"
+    "title": "Jaká organizace vznikla v Itálii pro boj proti mafii?",
+    "subheading": "Specializuje se na vyšetřování organizovaného zločinu.",
+    "answers": ["Direzione Investigativa Antimafia", "Interpol", "Carabinieri Rossi", "Guardia Civile"],
+    "correct_answer": "Direzione Investigativa Antimafia"
   },
   {
-    "title": "Jaký výraz označuje mafiánskou rodinu nebo klan?",
-    "subheading": "Základní organizační jednotka Cosa Nostry.",
-    "answers": ["Cosca", "Brigata", "Squadra", "Famiglia Reale"],
-    "correct_answer": "Cosca"
-  },
-  {
-    "title": "Co bylo hlavním cílem tzv. Maxi procesu v Palermu?",
-    "subheading": "Probíhal v 80. letech.",
-    "answers": ["Postavit stovky mafiánů před soud", "Legalizovat mafii", "Propustit vězně", "Vyšetřit korupci ve fotbale"],
-    "correct_answer": "Postavit stovky mafiánů před soud"
-  },
-  {
-    "title": "Jaká přezdívka byla spojována se Salvatorem Riinou?",
-    "subheading": "Odkazovala na jeho brutalitu.",
-    "answers": ["Bestie", "Profesor", "Bankéř", "Soudce"],
-    "correct_answer": "Bestie"
-  },
-  {
-    "title": "Jaký symbol nejčastěji představuje věrnost Cosa Nostře během přísahy?",
-    "subheading": "Nový člen přísahá, že organizaci nikdy nezradí.",
-    "answers": ["Spálený obrázek svatého", "Zlatý prsten", "Stříbrná mince", "Červená růže"],
-    "correct_answer": "Spálený obrázek svatého"
-  },
-  {
-    "title": "Která provincie na Sicílii byla dlouhodobě baštou klanu Corleonesi?",
-    "subheading": "Právě odsud pocházeli Riina i Provenzano.",
-    "answers": ["Palermo", "Corleone", "Catania", "Trapani"],
-    "correct_answer": "Corleone"
-  },
-  {
-    "title": "Jak se nazývá mafiánská válka mezi jednotlivými klany o moc?",
-    "subheading": "V historii Cosa Nostry jich proběhlo několik.",
-    "answers": ["Mafiánská válka", "Vendeta", "Operace", "Obléhání"],
-    "correct_answer": "Mafiánská válka"
-  },
-  {
-    "title": "Kdo byl prvním významným 'pentitem', jehož svědectví zásadně pomohlo italské justici?",
-    "subheading": "Jeho výpovědi vedly k Maxi procesu.",
-    "answers": ["Tommaso Buscetta", "Salvatore Riina", "Bernardo Provenzano", "Michele Greco"],
-    "correct_answer": "Tommaso Buscetta"
-  },
-  {
-    "title": "Jak se nazývá oblast, nad kterou má mafiánská rodina kontrolu?",
-    "subheading": "Každý klan měl své vymezené území.",
-    "answers": ["Mandamento", "Provincia", "Quartiere", "Zona Rossa"],
-    "correct_answer": "Mandamento"
-  },
-  {
-    "title": "Kdo vede několik mafiánských rodin v rámci jednoho mandamenta?",
-    "subheading": "Je nadřazen jednotlivým bossům rodin.",
-    "answers": ["Capo Mandamento", "Consigliere", "Underboss", "Soldato"],
-    "correct_answer": "Capo Mandamento"
-  },
-  {
-    "title": "Jak se nazývá přísné pravidlo zakazující spolupráci s policií?",
-    "subheading": "Je součástí mafiánského kodexu.",
-    "answers": ["Omertà", "Vendetta", "Silenzio", "Tradizione"],
-    "correct_answer": "Omertà"
-  },
-  {
-    "title": "Který boss byl známý přezdívkou 'U Tratturi'?",
-    "subheading": "Patřil mezi vůdce Corleonesi.",
-    "answers": ["Bernardo Provenzano", "Matteo Messina Denaro", "Michele Greco", "Stefano Bontade"],
-    "correct_answer": "Bernardo Provenzano"
-  },
-  {
-    "title": "Jak se nazývá krevní msta mezi mafiánskými rodinami?",
-    "subheading": "Často trvala mnoho let.",
-    "answers": ["Vendeta", "Omertà", "Commissione", "Caporegime"],
-    "correct_answer": "Vendeta"
-  },
-  {
-    "title": "Ve kterém roce byl zavražděn Giovanni Falcone?",
-    "subheading": "Šlo o jeden z nejznámějších atentátů v Itálii.",
-    "answers": ["1992", "1987", "1995", "1983"],
-    "correct_answer": "1992"
-  },
-  {
-    "title": "Jakým způsobem byl spáchán atentát na Giovanniho Falconeho?",
-    "subheading": "Exploze byla odpálena na dálnici.",
-    "answers": ["Bombou pod dálnicí", "Otrávením", "Odstřelovačem", "Autonehodou"],
-    "correct_answer": "Bombou pod dálnicí"
-  },
-  {
-    "title": "Který boss byl zatčen v roce 1993 po více než dvaceti letech na útěku?",
-    "subheading": "Byl považován za nejhledanějšího mafiána Itálie.",
-    "answers": ["Salvatore Riina", "Bernardo Provenzano", "Matteo Messina Denaro", "Michele Greco"],
-    "correct_answer": "Salvatore Riina"
-  },
-  {
-    "title": "Jak se nazývá nelegální vybírání peněz za údajnou ochranu podnikatelů?",
-    "subheading": "Typická činnost mafie.",
-    "answers": ["Pizzo", "Tangente", "Omertà", "Cosca"],
-    "correct_answer": "Pizzo"
-  },
-  {
-    "title": "Jaká organizace vznikla na Sicílii jako občanský odpor proti placení pizzo?",
-    "subheading": "Podporuje podnikatele odmítající výpalné.",
-    "answers": ["Addiopizzo", "Libertà", "Antimafia Uno", "No Mafia Sicilia"],
-    "correct_answer": "Addiopizzo"
-  },
-  {
-    "title": "Který boss byl přezdíván 'Šéf šéfů'?",
-    "subheading": "Vedl Cosa Nostru během její nejkrvavější éry.",
-    "answers": ["Salvatore Riina", "Tommaso Buscetta", "Stefano Bontade", "Bernardo Provenzano"],
-    "correct_answer": "Salvatore Riina"
-  },
-  {
-    "title": "Jak se nazývá člen mafie pověřený vedením jedné skupiny vojáků?",
-    "subheading": "Je podřízen bossovi rodiny.",
-    "answers": ["Caporegime", "Consigliere", "Associato", "Pentito"],
-    "correct_answer": "Caporegime"
-  },
-  {
-    "title": "Který mafián byl dopaden až v roce 2023 po téměř 30 letech na útěku?",
-    "subheading": "Patřil mezi poslední velké bossy Cosa Nostry.",
-    "answers": ["Matteo Messina Denaro", "Salvatore Riina", "Bernardo Provenzano", "Tommaso Buscetta"],
+    "title": "Který mafián byl posledním významným uprchlým bossem Cosa Nostry?",
+    "subheading": "Byl zatčen až v roce 2023 po desetiletích na útěku.",
+    "answers": ["Matteo Messina Denaro", "Bernardo Provenzano", "Totò Riina", "Michele Greco"],
     "correct_answer": "Matteo Messina Denaro"
   },
   {
-    "title": "Jaký legální sektor mafie často využívá k praní špinavých peněz?",
-    "subheading": "Jde například o výstavbu budov.",
-    "answers": ["Stavebnictví", "Školství", "Meteorologie", "Knihovnictví"],
-    "correct_answer": "Stavebnictví"
+    "title": "Jaký byl hlavní způsob financování moderní Cosa Nostry?",
+    "subheading": "Ve 20. století se její aktivity výrazně rozšířily.",
+    "answers": ["Vydírání, obchod s drogami a praní peněz", "Pouze zemědělství", "Legální podnikání", "Turistické služby"],
+    "correct_answer": "Vydírání, obchod s drogami a praní peněz"
   },
   {
-    "title": "Jaké zvíře bývá někdy symbolem sicilské mafie?",
-    "subheading": "Objevuje se v některých historických vyobrazeních.",
-    "answers": ["Chobotnice", "Lev", "Orel", "Vlk"],
-    "correct_answer": "Chobotnice"
+    "title": "Kdo byl Cesare Terranova?",
+    "subheading": "Italský soudce a politik, který bojoval proti Cosa Nostře.",
+    "answers": ["Soudce bojující proti mafii", "Mafiánský boss", "Americký gangster", "Vojenský velitel"],
+    "correct_answer": "Soudce bojující proti mafii"
   },
   {
-    "title": "Jaký byl hlavní cíl mafiánského výpalného?",
-    "subheading": "Podnikatelé platili pravidelně určitou částku.",
-    "answers": ["Získání trvalého příjmu", "Nákup zbraní pro armádu", "Financování škol", "Podpora obcí"],
-    "correct_answer": "Získání trvalého příjmu"
+    "title": "Co znamená pojem Antimafia?",
+    "subheading": "Označuje hnutí a instituce bojující proti organizovanému zločinu.",
+    "answers": ["Boj proti mafii", "Novou mafiánskou organizaci", "Mafiánský zákoník", "Politickou stranu"],
+    "correct_answer": "Boj proti mafii"
   },
   {
-    "title": "Jaký trest podle mafiánského kodexu obvykle čekal zrádce?",
-    "subheading": "Porušení Omertà bylo považováno za nejhorší provinění.",
-    "answers": ["Smrt", "Pokuta", "Vyhnanství", "Domácí vězení"],
-    "correct_answer": "Smrt"
+    "title": "Který italský generál byl zavražděn mafií v roce 1982?",
+    "subheading": "Jeho smrt vyvolala silnou reakci italského státu.",
+    "answers": ["Carlo Alberto Dalla Chiesa", "Giovanni Falcone", "Paolo Borsellino", "Cesare Mori"],
+    "correct_answer": "Carlo Alberto Dalla Chiesa"
   },
   {
-    "title": "Které město bylo dějištěm slavného Maxi procesu?",
-    "subheading": "Proces probíhal ve speciálně vybudované soudní síni.",
-    "answers": ["Palermo", "Řím", "Neapol", "Messina"],
-    "correct_answer": "Palermo"
+    "title": "Jaký zákon umožnil zabavování majetku mafie v Itálii?",
+    "subheading": "Měl oslabit ekonomickou moc organizovaného zločinu.",
+    "answers": ["Zákon Rognoni-La Torre", "Fašistický zákon", "Římský zákon", "Sicilský dekret"],
+    "correct_answer": "Zákon Rognoni-La Torre"
   },
   {
-    "title": "Jaký byl hlavní účel mafiánské Komise?",
-    "subheading": "Sdružovala nejvýznamnější bossy.",
-    "answers": ["Řešit spory a koordinovat činnost", "Vybírat daně", "Organizovat volby", "Vydávat zákony"],
-    "correct_answer": "Řešit spory a koordinovat činnost"
+    "title": "Kdo byl Michele Greco?",
+    "subheading": "Patřil mezi významné představitele sicilské mafie.",
+    "answers": ["Mafiánský boss", "Italský soudce", "Generál policie", "Politik"],
+    "correct_answer": "Mafiánský boss"
+  },
+  {
+    "title": "Jak se nazývala mafiánská válka v Palermu v 80. letech?",
+    "subheading": "Corleonesi během ní získali dominantní postavení.",
+    "answers": ["Druhá mafiánská válka", "Castellammarská válka", "Sicilská revoluce", "Válka pěti rodin"],
+    "correct_answer": "Druhá mafiánská válka"
+  },
+  {
+    "title": "Co bylo hlavním cílem Corleonesi během mafiánských válek?",
+    "subheading": "Usilovali o ovládnutí celé sicilské Cosa Nostry.",
+    "answers": ["Získat úplnou moc nad mafií", "Zničit mafii", "Spolupracovat s policií", "Opustit Sicílii"],
+    "correct_answer": "Získat úplnou moc nad mafií"
+  },
+  {
+    "title": "Jaký druh trestné činnosti výrazně posílil moc mafie ve druhé polovině 20. století?",
+    "subheading": "Přinesl organizovanému zločinu obrovské zisky.",
+    "answers": ["Obchod s drogami", "Výroba automobilů", "Turismus", "Zemědělství"],
+    "correct_answer": "Obchod s drogami"
+  },
+  {
+    "title": "Kdo byl Tommaso Buscetta?",
+    "subheading": "Jeho svědectví pomohlo italské justici pochopit strukturu mafie.",
+    "answers": ["Pentito a bývalý mafián", "Soudce", "Policista", "Politik"],
+    "correct_answer": "Pentito a bývalý mafián"
+  },
+  {
+    "title": "Jak se nazývá italská policie známá bojem proti organizovanému zločinu?",
+    "subheading": "Má významnou roli při vyšetřování mafie.",
+    "answers": ["Carabinieri", "Guardia Reale", "Polizia Storica", "Vigili Rossi"],
+    "correct_answer": "Carabinieri"
   },
   {
     "title": "Jak se nazývá osoba, která zprostředkovává kontakty mezi dvěma mafiánskými rodinami?",
-    "subheading": "Často předává důležité zprávy.",
+    "subheading": "V mafiánských strukturách byla komunikace často založena na osobní důvěře.",
     "answers": ["Posel", "Pentito", "Soldato", "Capo"],
     "correct_answer": "Posel"
   },
   {
     "title": "Jaký způsob komunikace používal Bernardo Provenzano, aby se vyhnul odposlechům?",
-    "subheading": "Posílal krátké ručně psané vzkazy.",
+    "subheading": "Tento způsob komunikace využíval během dlouhého skrývání před policií.",
     "answers": ["Pizzini", "Telegramy", "Šifrované e-maily", "Rádio"],
     "correct_answer": "Pizzini"
   },
   {
-    "title": "Jak se nazývaly krátké papírové lístky používané Bernardem Provenzanem ke komunikaci?",
-    "subheading": "Pomáhaly mu řídit organizaci v utajení.",
-    "answers": ["Pizzini", "Mandamenti", "Cosche", "Pizzo"],
-    "correct_answer": "Pizzini"
-  },
-  {
     "title": "Který mafiánský boss byl znám jako 'Papež' díky svému vlivu v Komisi?",
-    "subheading": "Vedl jednu z nejmocnějších rodin v Palermu.",
+    "subheading": "Tato přezdívka souvisela s jeho postavením uvnitř organizace.",
     "answers": ["Michele Greco", "Salvatore Riina", "Stefano Bontade", "Bernardo Provenzano"],
     "correct_answer": "Michele Greco"
   },
   {
     "title": "Který boss byl hlavním rivalem Corleonesi během druhé mafiánské války?",
-    "subheading": "Patřil mezi nejvlivnější představitele Palerma.",
+    "subheading": "Konflikt změnil rozložení moci mezi sicilskými mafiánskými skupinami.",
     "answers": ["Stefano Bontade", "Tommaso Buscetta", "Leoluca Bagarella", "Matteo Messina Denaro"],
     "correct_answer": "Stefano Bontade"
   },
   {
     "title": "Ve kterém roce začal slavný Maxi proces proti Cosa Nostře?",
-    "subheading": "Šlo o největší mafiánský proces své doby.",
+    "subheading": "Proces patřil mezi nejvýznamnější soudní události spojené s bojem proti mafii.",
     "answers": ["1986", "1982", "1990", "1992"],
     "correct_answer": "1986"
   },
   {
     "title": "Kolik obžalovaných přibližně stanulo před soudem během Maxi procesu?",
-    "subheading": "Šlo o bezprecedentní počet.",
+    "subheading": "Šlo o mimořádně rozsáhlý soudní případ.",
     "answers": ["Přes 450", "Přes 100", "Přes 50", "Přes 1000"],
     "correct_answer": "Přes 450"
   },
   {
     "title": "Jak se nazývala speciálně postavená soudní síň pro Maxi proces?",
-    "subheading": "Nacházela se v Palermu.",
+    "subheading": "Byla vytvořena pro zvládnutí rozsáhlého soudního řízení.",
     "answers": ["Aula Bunker", "Tribunale Uno", "Sala Giustizia", "Palazzo Nero"],
     "correct_answer": "Aula Bunker"
   },
   {
     "title": "Jaké povolání měl Giovanni Falcone?",
-    "subheading": "Celý život bojoval proti organizovanému zločinu.",
+    "subheading": "Patřil mezi nejznámější osobnosti italské justice.",
     "answers": ["Soudce", "Advokát", "Policista", "Starosta"],
     "correct_answer": "Soudce"
   },
   {
     "title": "Jaké povolání měl Paolo Borsellino?",
-    "subheading": "Úzce spolupracoval s Falconem.",
+    "subheading": "Jeho jméno je spojeno s bojem proti organizovanému zločinu.",
     "answers": ["Soudce", "Prokurátor", "Policista", "Novinář"],
     "correct_answer": "Soudce"
   },
   {
     "title": "Jak se jmenovala speciální skupina soudců bojujících proti mafii?",
-    "subheading": "Vznikla v Palermu v 80. letech.",
+    "subheading": "Vznikla jako součást rozsáhlejšího vyšetřování mafiánských struktur.",
     "answers": ["Antimafiánský pool", "Komise spravedlnosti", "Speciální tribunál", "Falcone Team"],
     "correct_answer": "Antimafiánský pool"
   },
   {
     "title": "Jaká přezdívka byla spojována s Matteem Messinou Denarem?",
-    "subheading": "Odkazovala na jeho bezohlednost.",
+    "subheading": "Patřil mezi poslední významné představitele sicilské mafie.",
     "answers": ["Diabolik", "Profesor", "Bankéř", "Il Dottore"],
     "correct_answer": "Diabolik"
   },
   {
     "title": "Ve kterém roce byl dopaden Bernardo Provenzano?",
-    "subheading": "Na útěku strávil více než čtyři desetiletí.",
+    "subheading": "Jeho zatčení ukončilo jednu z nejdelších policejních pátracích akcí v Itálii.",
     "answers": ["2006", "1998", "2010", "2002"],
     "correct_answer": "2006"
   },
   {
     "title": "Kolik let se Bernardo Provenzano úspěšně skrýval před policií?",
-    "subheading": "Patřil mezi nejdéle hledané zločince.",
+    "subheading": "Patřil mezi nejdéle hledané osoby spojené s Cosa Nostrou.",
     "answers": ["Více než 40 let", "10 let", "20 let", "Přes 60 let"],
     "correct_answer": "Více než 40 let"
   },
@@ -1393,260 +823,740 @@
   },
   {
     "title": "Která složka italských ozbrojených sil dlouhodobě bojuje proti mafii?",
-    "subheading": "Jde o vojensky organizovanou policii.",
+    "subheading": "Tato instituce má v Itálii dlouhou historii.",
     "answers": ["Carabinieri", "Guardia Costiera", "Aeronautica Militare", "Marina Militare"],
     "correct_answer": "Carabinieri"
   },
   {
     "title": "Jaký je tradiční význam slova 'Cosa Nostra'?",
-    "subheading": "Doslovný překlad z italštiny.",
+    "subheading": "Výraz pochází z italštiny.",
     "answers": ["Naše věc", "Naše rodina", "Naše země", "Naše pravidla"],
     "correct_answer": "Naše věc"
   },
   {
     "title": "Který stát kromě Itálie měl historicky silnou přítomnost Cosa Nostry?",
-    "subheading": "Působily zde známé mafiánské rodiny.",
+    "subheading": "Organizace se postupně rozšířila mimo Evropu.",
     "answers": ["Spojené státy americké", "Kanada", "Francie", "Španělsko"],
     "correct_answer": "Spojené státy americké"
   },
   {
     "title": "Jaký nelegální obchod se stal pro mafii velmi výnosným od druhé poloviny 20. století?",
-    "subheading": "Jednalo se o mezinárodní organizovaný zločin.",
+    "subheading": "Šlo o jeden z hlavních problémů mezinárodního organizovaného zločinu.",
     "answers": ["Obchod s drogami", "Lov velryb", "Prodej automobilů", "Textilní výroba"],
     "correct_answer": "Obchod s drogami"
   },
   {
-    "title": "Jaký legální podnik mafie často využívala jako zástěrku?",
-    "subheading": "Sloužil k praní peněz.",
-    "answers": ["Stavební firmy", "Knihovny", "Muzea", "Pošty"],
-    "correct_answer": "Stavební firmy"
-  },
-  {
-    "title": "Jaké zvíře se často používá jako metafora pro organizovaný zločin díky mnoha 'chapadlům'?",
-    "subheading": "Objevuje se v médiích i literatuře.",
-    "answers": ["Chobotnice", "Tygr", "Orel", "Liška"],
-    "correct_answer": "Chobotnice"
-  },
-  {
-    "title": "Jak se nazývá osoba, která mafii poskytuje informace, ale není jejím členem?",
-    "subheading": "Může jít o zkorumpovaného úředníka či podnikatele.",
-    "answers": ["Informátor", "Soldato", "Caporegime", "Pentito"],
-    "correct_answer": "Informátor"
-  },
-  {
     "title": "Jaký cíl měly bombové útoky Cosa Nostry v roce 1993?",
-    "subheading": "Měly donutit stát ke změně přístupu.",
+    "subheading": "Útoky měly politické i společenské dopady.",
     "answers": ["Zastrašit stát", "Získat nové členy", "Ovládnout armádu", "Vyvolat válku s Francií"],
     "correct_answer": "Zastrašit stát"
   },
   {
     "title": "Který italský region je historickou kolébkou Cosa Nostry?",
-    "subheading": "Odtud se organizace rozšířila do světa.",
+    "subheading": "Tento region sehrál důležitou roli v historii mafie.",
     "answers": ["Sicílie", "Lombardie", "Toskánsko", "Benátsko"],
     "correct_answer": "Sicílie"
   },
   {
     "title": "Jaký význam měl titul 'Don' v mafiánském prostředí?",
-    "subheading": "Šlo o projev úcty.",
+    "subheading": "Používal se jako forma oslovení.",
     "answers": ["Oslovení váženého bosse", "Řadový člen", "Policista", "Soudce"],
     "correct_answer": "Oslovení váženého bosse"
   },
   {
     "title": "Kdo zpravidla rozhodoval o přijetí nového člena do rodiny?",
-    "subheading": "Bez jeho souhlasu nebylo členství možné.",
+    "subheading": "Členství v organizaci podléhalo určitým pravidlům.",
     "answers": ["Boss rodiny", "Každý Soldato", "Policie", "Místní starosta"],
     "correct_answer": "Boss rodiny"
   },
   {
     "title": "Jaký byl hlavní účel mafiánské přísahy?",
-    "subheading": "Nový člen se zavazoval organizaci.",
+    "subheading": "Součástí přijetí byly různé tradiční prvky.",
     "answers": ["Věrnost až do smrti", "Placení členských příspěvků", "Mlčenlivost jen pět let", "Vojenskou službu"],
     "correct_answer": "Věrnost až do smrti"
   },
   {
-    "title": "Jaké pravidlo platilo pro většinu členů Cosa Nostry při komunikaci s policií?",
-    "subheading": "Jeho porušení bylo považováno za zradu.",
-    "answers": ["Nikdy nespolupracovat", "Vypovídat pouze u soudu", "Mluvit jen s advokátem", "Přiznat pouze drobné činy"],
-    "correct_answer": "Nikdy nespolupracovat"
-  },
-  {
     "title": "Jaká byla hlavní výhoda používání 'pizzini'?",
-    "subheading": "Bossové se vyhýbali moderním technologiím.",
+    "subheading": "Tento způsob komunikace používali někteří bossové v utajení.",
     "answers": ["Snížení rizika odposlechů", "Rychlejší doručení", "Levnější poštovné", "Lepší čitelnost"],
     "correct_answer": "Snížení rizika odposlechů"
   },
   {
     "title": "Jaký druh trestné činnosti bývá spojován s praním špinavých peněz?",
-    "subheading": "Nelegální zisky se snaží vypadat legálně.",
+    "subheading": "Jde o proces spojovaný s ukrýváním původu financí.",
     "answers": ["Legalizace výnosů z trestné činnosti", "Loupež bank", "Daňová kontrola", "Padělání obrazů"],
     "correct_answer": "Legalizace výnosů z trestné činnosti"
   },
   {
     "title": "Jaký byl vztah mezi Falconem a Borsellinem?",
-    "subheading": "Oba se stali symbolem boje proti mafii.",
+    "subheading": "Oba působili v oblasti italské justice.",
     "answers": ["Byli blízcí spolupracovníci", "Byli političtí soupeři", "Nikdy se nepotkali", "Byli bratři"],
     "correct_answer": "Byli blízcí spolupracovníci"
   },
   {
     "title": "Jaká událost výrazně oslabila vedení Cosa Nostry v roce 1993?",
-    "subheading": "Šlo o jednu z největších policejních akcí.",
+    "subheading": "Šlo o důležitý moment v boji proti mafii.",
     "answers": ["Zatčení Salvatoreho Riiny", "Smrt Giovanniho Falconeho", "Vznik Maxi procesu", "Útěk Tommasa Buscetty"],
     "correct_answer": "Zatčení Salvatoreho Riiny"
   },
   {
     "title": "Co bylo jedním z hlavních důvodů úspěchu Maxi procesu?",
-    "subheading": "Poprvé bylo možné detailně popsat strukturu organizace.",
+    "subheading": "Vyšetřovatelé získali nové informace o fungování organizace.",
     "answers": ["Svědectví Tommasa Buscetty", "Přiznání Salvatoreho Riiny", "Podpora americké armády", "Přiznání všech obžalovaných"],
-    "correct_answer": "Svědectví Tommassa Buscetty"
-  },
-  {
-    "title": "Který soudce společně s Giovannim Falconem připravoval Maxi proces?",
-    "subheading": "Patřil mezi nejvýznamnější bojovníky proti mafii.",
-    "answers": ["Paolo Borsellino", "Antonio Di Pietro", "Carlo Alberto Dalla Chiesa", "Piero Grasso"],
-    "correct_answer": "Paolo Borsellino"
+    "correct_answer": "Svědectví Tommasa Buscetty"
   },
   {
     "title": "Jak se nazývá člen Cosa Nostry, který je oficiálně přijat do organizace?",
-    "subheading": "Musí projít iniciačním obřadem.",
+    "subheading": "Používá se tradiční italské označení.",
     "answers": ["Uomo d'onore", "Associato", "Pentito", "Caporegime"],
     "correct_answer": "Uomo d'onore"
   },
   {
-    "title": "Jaký doslovný význam má italský výraz 'Uomo d'onore'?",
-    "subheading": "Tak jsou označováni plnoprávní členové mafie.",
-    "answers": ["Muž cti", "Věrný voják", "Správce rodiny", "Starší rady"],
-    "correct_answer": "Muž cti"
-  },
-  {
     "title": "Jak se nazývá skupina mafiánských rodin působících na stejném území?",
-    "subheading": "Společně tvoří vyšší organizační celek.",
+    "subheading": "Jde o organizační uspořádání uvnitř mafie.",
     "answers": ["Mandamento", "Cosca", "Pizzo", "Omertà"],
     "correct_answer": "Mandamento"
   },
   {
     "title": "Jaká byla hlavní specializace klanu Corleonesi během 80. let?",
-    "subheading": "Proslul svou brutalitou.",
+    "subheading": "Tato skupina výrazně ovlivnila vývoj sicilské mafie.",
     "answers": ["Násilné převzetí moci", "Bankovní podvody", "Pašování umění", "Hazardní hry"],
     "correct_answer": "Násilné převzetí moci"
   },
   {
     "title": "Který boss byl dlouho považován za nástupce Bernarda Provenzana?",
-    "subheading": "Po desetiletí unikal policii.",
+    "subheading": "Patřil mezi poslední významné představitele Cosa Nostry.",
     "answers": ["Matteo Messina Denaro", "Leoluca Bagarella", "Michele Greco", "Pippo Calò"],
     "correct_answer": "Matteo Messina Denaro"
   },
   {
-    "title": "Jaké povolání často využívala mafie jako zástěrku pro své aktivity?",
-    "subheading": "Šlo o běžný legální byznys.",
-    "answers": ["Stavební podnikání", "Meteorologie", "Lékařství", "Vydavatelství"],
-    "correct_answer": "Stavební podnikání"
-  },
-  {
     "title": "Jaký je význam slova 'Caporegime'?",
-    "subheading": "Jde o jednu z funkcí v hierarchii mafie.",
+    "subheading": "Tento pojem označuje jednu z funkcí v mafiánské hierarchii.",
     "answers": ["Velitel skupiny vojáků", "Poradce bosse", "Nový člen", "Pokladník"],
     "correct_answer": "Velitel skupiny vojáků"
   },
   {
-    "title": "Která italská instituce vede většinu vyšetřování proti mafii?",
-    "subheading": "Spolupracuje s policií i soudy.",
+    "title": "Která italská instituce vede vyšetřování proti mafii?",
+    "subheading": "Specializuje se na boj proti organizovanému zločinu.",
     "answers": ["Direzione Investigativa Antimafia", "Interpol", "Europol", "NATO"],
     "correct_answer": "Direzione Investigativa Antimafia"
   },
   {
     "title": "Jaká zkratka se používá pro Direzione Investigativa Antimafia?",
-    "subheading": "Specializuje se na boj s organizovaným zločinem.",
+    "subheading": "Italská instituce zaměřená na vyšetřování určitého typu kriminality.",
     "answers": ["DIA", "DIGOS", "ROS", "DDA"],
     "correct_answer": "DIA"
   },
   {
     "title": "Jaký byl jeden z hlavních zdrojů moci Cosa Nostry na Sicílii?",
-    "subheading": "Umožňoval jí ovlivňovat místní obyvatele.",
+    "subheading": "Organizace dokázala po dlouhou dobu ovlivňovat společenské vztahy.",
     "answers": ["Strach a zastrašování", "Vojenská síla státu", "Podpora OSN", "Zahraniční investice"],
     "correct_answer": "Strach a zastrašování"
   },
   {
     "title": "Jak se nazývá proces legalizace výnosů z trestné činnosti?",
-    "subheading": "Mafie jej využívá po celém světě.",
+    "subheading": "Jde o způsob, jak skrýt původ nelegálně získaných peněz.",
     "answers": ["Praní špinavých peněz", "Daňová optimalizace", "Privatizace", "Fúze společností"],
     "correct_answer": "Praní špinavých peněz"
   },
   {
     "title": "Jaké pravidlo platilo při přijímání nových členů Cosa Nostry?",
-    "subheading": "Museli být považováni za důvěryhodné.",
+    "subheading": "Členství bylo spojeno s důvěrou a vztahy uvnitř organizace.",
     "answers": ["Museli získat doporučení", "Museli být právníci", "Museli být politici", "Museli mít vysokoškolské vzdělání"],
     "correct_answer": "Museli získat doporučení"
   },
   {
     "title": "Jaký symbol bývá spojován s mafiánskou přísahou?",
-    "subheading": "Používá se při iniciačním obřadu.",
+    "subheading": "Objevoval se během tradičních přijímacích obřadů.",
     "answers": ["Obrázek svatého", "Rodinný erb", "Stříbrná mince", "Dýka"],
     "correct_answer": "Obrázek svatého"
   },
   {
     "title": "Jaký trest často čekal člena mafie podezřelého ze zrady?",
-    "subheading": "Rozhodnutí činilo vedení rodiny.",
+    "subheading": "Vnitřní pravidla organizace mohla být velmi tvrdá.",
     "answers": ["Poprava", "Pokuta", "Vyloučení bez trestu", "Domácí vězení"],
     "correct_answer": "Poprava"
   },
   {
-    "title": "Jaký byl hlavní cíl pravidla Omertà?",
-    "subheading": "Chrání organizaci před úřady.",
-    "answers": ["Zabránit spolupráci s policií", "Rozdělit zisky", "Volit nové bossy", "Řídit obchod s drogami"],
-    "correct_answer": "Zabránit spolupráci s policií"
-  },
-  {
     "title": "Jaké město bylo centrem slavného atentátu ve Via D'Amelio?",
-    "subheading": "Při útoku zemřel Paolo Borsellino.",
+    "subheading": "Událost se odehrála v roce 1992.",
     "answers": ["Palermo", "Řím", "Neapol", "Janov"],
     "correct_answer": "Palermo"
   },
   {
     "title": "Jakým způsobem byl zavražděn Paolo Borsellino?",
-    "subheading": "Útok si vyžádal i životy jeho ochranky.",
+    "subheading": "Atentát patřil mezi významné události boje proti mafii.",
     "answers": ["Autobombou", "Odstřelovačem", "Otravou", "Výbuchem vlaku"],
     "correct_answer": "Autobombou"
   },
   {
     "title": "Jaká činnost byla pro Cosa Nostru dlouhodobě typická kromě výpalného?",
-    "subheading": "Šlo o velmi výnosný mezinárodní obchod.",
+    "subheading": "Jednalo se o oblast, která přinesla vysoké zisky.",
     "answers": ["Pašování drog", "Výroba automobilů", "Těžba uhlí", "Vývoz vína"],
     "correct_answer": "Pašování drog"
   },
   {
     "title": "Jak se nazývá člen mafie, který vykonává příkazy nadřízených?",
-    "subheading": "Jde o základní hodnost v organizaci.",
+    "subheading": "Jde o jednu z úrovní mafiánské hierarchie.",
     "answers": ["Soldato", "Boss", "Consigliere", "Underboss"],
     "correct_answer": "Soldato"
   },
   {
     "title": "Jaká vlastnost byla u člena Cosa Nostry považována za nejdůležitější?",
-    "subheading": "Bez ní nebylo možné získat důvěru rodiny.",
+    "subheading": "Byla spojována se vztahy uvnitř organizace.",
     "answers": ["Loajalita", "Bohatství", "Vzdělání", "Popularita"],
     "correct_answer": "Loajalita"
   },
   {
     "title": "Jaký význam mělo slovo 'Famiglia' v prostředí Cosa Nostry?",
-    "subheading": "Neoznačovalo pouze pokrevní příbuzné.",
+    "subheading": "Pojem měl v organizaci specifický význam.",
     "answers": ["Mafiánskou rodinu", "Celou Sicílii", "Policejní jednotku", "Obchodní společnost"],
     "correct_answer": "Mafiánskou rodinu"
   },
   {
     "title": "Jaký byl hlavní důvod používání prostředníků při komunikaci mezi bossy?",
-    "subheading": "Snižovalo to riziko odhalení.",
+    "subheading": "Tento způsob komunikace byl běžný v uzavřených strukturách.",
     "answers": ["Utajení identity", "Rychlejší komunikace", "Nižší náklady", "Snazší překlad"],
     "correct_answer": "Utajení identity"
   },
   {
     "title": "Která vlastnost pomohla Bernardu Provenzanovi skrývat se desítky let?",
-    "subheading": "Vyhýbal se moderním technologiím.",
+    "subheading": "Jeho způsob života byl velmi nenápadný.",
     "answers": ["Velká opatrnost", "Politická imunita", "Život v zahraničí", "Falešná identita policisty"],
     "correct_answer": "Velká opatrnost"
   },
   {
     "title": "Jaký byl dlouhodobý cíl Cosa Nostry vůči státním institucím?",
-    "subheading": "Snažila se z nich získat výhodu.",
+    "subheading": "Organizace se snažila získávat vliv mimo vlastní struktury.",
     "answers": ["Ovlivňovat jejich rozhodování", "Zrušit parlament", "Převzít armádu", "Založit novou politickou stranu"],
     "correct_answer": "Ovlivňovat jejich rozhodování"
+  },
+  {
+    "title": "Kdy přibližně vznikla sicilská mafie jako společenský fenomén?",
+    "subheading": "Její počátky jsou spojovány s obdobím změn na Sicílii.",
+    "answers": ["V 19. století", "Ve středověku", "Po druhé světové válce", "V 21. století"],
+    "correct_answer": "V 19. století"
+  },
+  {
+    "title": "Jaký název měla protimafiánská operace vedená Cesarem Morim ve 20. letech?",
+    "subheading": "Probíhala během období fašistické Itálie.",
+    "answers": ["Prefekt železná ruka", "Operace Sicilia", "Černý štít", "Akce Palermo"],
+    "correct_answer": "Prefekt železná ruka"
+  },
+  {
+    "title": "Jaký úřad zastával Cesare Mori během tažení proti mafii?",
+    "subheading": "Působil jako vysoký představitel státní správy.",
+    "answers": ["Prefekt", "Ministr", "Generál armády", "Starosta"],
+    "correct_answer": "Prefekt"
+  },
+  {
+    "title": "Která událost vedla k výraznému omezení moci mafie během fašistického období?",
+    "subheading": "Stát tehdy použil velmi tvrdé metody.",
+    "answers": ["Tažení Cesare Moriho", "Vznik Komise", "Konec prohibice", "Operace Underworld"],
+    "correct_answer": "Tažení Cesare Moriho"
+  },
+  {
+    "title": "Jak se nazývá tradiční sicilský způsob označení mafiánského klanu?",
+    "subheading": "Používá se pro menší organizační jednotky.",
+    "answers": ["Cosca", "Squadra", "Brigata", "Reparto"],
+    "correct_answer": "Cosca"
+  },
+  {
+    "title": "Které město bylo historicky významným centrem sicilského obchodu s citrusy?",
+    "subheading": "Hospodářství oblasti mělo vliv i na vznik některých mocenských struktur.",
+    "answers": ["Palermo", "Florencie", "Benátky", "Turín"],
+    "correct_answer": "Palermo"
+  },
+  {
+    "title": "Jaký význam měl pro mafii pojem 'čest'?",
+    "subheading": "Šlo o jeden z tradičních prvků její kultury.",
+    "answers": ["Společenský status a pověst", "Státní vyznamenání", "Náboženský titul", "Vojenská hodnost"],
+    "correct_answer": "Společenský status a pověst"
+  },
+  {
+    "title": "Který americký mafián byl známý přezdívkou Lucky?",
+    "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu.",
+    "answers": ["Charles Luciano", "Al Capone", "Frank Nitti", "Bugsy Siegel"],
+    "correct_answer": "Charles Luciano"
+  },
+  {
+    "title": "Jaký vliv měla Velká hospodářská krize na organizovaný zločin v USA?",
+    "subheading": "Ekonomická situace změnila fungování mnoha skupin.",
+    "answers": ["Posílila některé nelegální aktivity", "Úplně zničila mafii", "Způsobila návrat bossů na Sicílii", "Zrušila mafiánské rodiny"],
+    "correct_answer": "Posílila některé nelegální aktivity"
+  },
+  {
+    "title": "Který zákon vedl ke vzniku éry pašování alkoholu v USA?",
+    "subheading": "Platný byl během 20. let 20. století.",
+    "answers": ["Volsteadův zákon", "Marshallův plán", "Patriot Act", "Shermanův zákon"],
+    "correct_answer": "Volsteadův zákon"
+  },
+  {
+    "title": "Které období je známé jako zlatá éra amerických gangsterů?",
+    "subheading": "Souviselo s rozsáhlým nelegálním obchodem.",
+    "answers": ["20. léta 20. století", "60. léta", "90. léta", "Období po roce 2010"],
+    "correct_answer": "20. léta 20. století"
+  },
+  {
+    "title": "Jaký byl význam vzniku Komise v americké mafii?",
+    "subheading": "Změnila způsob rozhodování mezi jednotlivými skupinami.",
+    "answers": ["Koordinace mezi rodinami", "Zrušení všech rodin", "Spolupráce s policií", "Řízení politických stran"],
+    "correct_answer": "Koordinace mezi rodinami"
+  },
+  {
+    "title": "Který americký mafián byl znám jako šéf Chicaga během prohibice?",
+    "subheading": "Patřil mezi nejznámější gangstery své doby.",
+    "answers": ["Al Capone", "Meyer Lansky", "Joe Bonanno", "Carlo Gambino"],
+    "correct_answer": "Al Capone"
+  },
+  {
+    "title": "Jaký druh podnikání byl často využíván k zakrytí nelegálních aktivit mafie?",
+    "subheading": "Šlo o činnosti běžně působící na trhu.",
+    "answers": ["Restaurace a bary", "Výroba zbraní pro stát", "Výzkumné laboratoře", "Školy"],
+    "correct_answer": "Restaurace a bary"
+  },
+  {
+    "title": "Jak se nazývá spolupracovník mafie, který není oficiálním členem?",
+    "subheading": "Nemá stejné postavení jako přijatý člen.",
+    "answers": ["Associato", "Boss", "Capo Mandamento", "Consigliere"],
+    "correct_answer": "Associato"
+  },
+  {
+    "title": "Která země byla důležitým místem působení americké Cosa Nostry mimo USA?",
+    "subheading": "Organizace měla kontakty i mimo americký kontinent.",
+    "answers": ["Kanada", "Japonsko", "Brazílie", "Austrálie"],
+    "correct_answer": "Kanada"
+  },
+  {
+    "title": "Jaký typ vztahů pomáhal mafii získávat politický vliv?",
+    "subheading": "Šlo o propojení neformálních a veřejných struktur.",
+    "answers": ["Korupční kontakty", "Vojenské aliance", "Mezinárodní smlouvy", "Sportovní soutěže"],
+    "correct_answer": "Korupční kontakty"
+  },
+  {
+    "title": "Jaký byl hlavní problém při boji proti mafii v minulosti?",
+    "subheading": "Úřady často narážely na společenské překážky.",
+    "answers": ["Nedostatek spolupráce svědků", "Příliš silná armáda mafie", "Nedostatek technologií", "Zákaz vyšetřování"],
+    "correct_answer": "Nedostatek spolupráce svědků"
+  },
+  {
+    "title": "Jak se nazývala dohoda mezi mafiánskými skupinami o rozdělení vlivu?",
+    "subheading": "Pomáhala udržovat vztahy mezi různými skupinami.",
+    "answers": ["Mafiánská dohoda", "Mandát", "Traktát", "Statut"],
+    "correct_answer": "Mafiánská dohoda"
+  },
+  {
+    "title": "Který ostrov byl hlavním místem původu sicilských mafiánů odcházejících do USA?",
+    "subheading": "Jednalo se o oblast jižní Itálie.",
+    "answers": ["Sicílie", "Sardinie", "Korsika", "Krétě"],
+    "correct_answer": "Sicílie"
+  },
+  {
+    "title": "Jaký dopad měla druhá světová válka na mocenské poměry na Sicílii?",
+    "subheading": "Po válce došlo k významným politickým změnám.",
+    "answers": ["Změnila rozložení vlivu na ostrově", "Zcela odstranila mafii", "Zastavila veškerý obchod", "Uzavřela ostrov před světem"],
+    "correct_answer": "Změnila rozložení vlivu na ostrově"
+  },
+  {
+    "title": "Který americký mafián spolupracoval s Lucky Lucianem při budování národní struktury mafie?",
+    "subheading": "Patřil mezi významné postavy amerického podsvětí.",
+    "answers": ["Meyer Lansky", "J. Edgar Hoover", "Eliot Ness", "Frank Sinatra"],
+    "correct_answer": "Meyer Lansky"
+  },
+  {
+    "title": "Jaký byl hlavní důvod vzniku amerických mafiánských rodin?",
+    "subheading": "Souviselo to s prostředím italských přistěhovalců.",
+    "answers": ["Organizace kriminálních aktivit v komunitách", "Vytvoření politických stran", "Ochrana hranic USA", "Podpora italské vlády"],
+    "correct_answer": "Organizace kriminálních aktivit v komunitách"
+  },
+  {
+    "title": "Která federální agentura v USA se později výrazně zapojila do boje proti mafii?",
+    "subheading": "Je jednou z hlavních vyšetřovacích institucí USA.",
+    "answers": ["FBI", "CIA", "NASA", "NSA"],
+    "correct_answer": "FBI"
+  },
+  {
+    "title": "Kdo byl J. Edgar Hoover?",
+    "subheading": "Působil v jedné z nejvýznamnějších amerických institucí.",
+    "answers": ["Ředitel FBI", "Mafiánský boss", "Italský politik", "Soudce"],
+    "correct_answer": "Ředitel FBI"
+  },
+  {
+    "title": "Jaký význam měla rodinná struktura v americké mafii?",
+    "subheading": "Organizace byla rozdělena do několika úrovní.",
+    "answers": ["Udržovala hierarchii a vztahy mezi členy", "Nahrazovala státní správu", "Sloužila pouze k podnikání", "Zajišťovala vojenskou obranu"],
+    "correct_answer": "Udržovala hierarchii a vztahy mezi členy"
+  },
+  {
+    "title": "Který americký mafián byl jedním ze zakladatelů Las Vegas jako centra hazardu?",
+    "subheading": "Byl spojen s rozvojem kasinového průmyslu.",
+    "answers": ["Bugsy Siegel", "Al Capone", "Joe Masseria", "Salvatore Maranzano"],
+    "correct_answer": "Bugsy Siegel"
+  },
+  {
+    "title": "Jaký význam měl pro mafii hazard?",
+    "subheading": "Patřil mezi oblasti, kde organizovaný zločin získával vliv.",
+    "answers": ["Zdroj příjmů a investic", "Způsob náboru policistů", "Náboženská činnost", "Politická kampaň"],
+    "correct_answer": "Zdroj příjmů a investic"
+  },
+  {
+    "title": "Jaký typ lidí mafie často využívala k získávání informací?",
+    "subheading": "Důležité byly kontakty mimo samotnou organizaci.",
+    "answers": ["Informátory a kontakty", "Vojenské jednotky", "Novináře jako členy", "Diplomaty"],
+    "correct_answer": "Informátory a kontakty"
+  },
+  {
+    "title": "Která italská oblast je známá organizací 'Ndrangheta?",
+    "subheading": "Jde o jinou italskou zločineckou organizaci než Cosa Nostra.",
+    "answers": ["Kalábrie", "Sicílie", "Toskánsko", "Lazio"],
+    "correct_answer": "Kalábrie"
+  },
+  {
+    "title": "Jaký byl vztah mezi Cosa Nostrou a politikou v některých obdobích?",
+    "subheading": "Historici zkoumali jejich vzájemné kontakty.",
+    "answers": ["Docházelo k pokusům o ovlivňování politiky", "Politici byli vždy členy mafie", "Mafie politiku úplně ignorovala", "Existovala společná vláda"],
+    "correct_answer": "Docházelo k pokusům o ovlivňování politiky"
+  },
+  {
+    "title": "Který dokument pomohl odhalit strukturu sicilské mafie během vyšetřování?",
+    "subheading": "Vyšetřovatelé využívali různé zdroje informací.",
+    "answers": ["Výpovědi spolupracujících svědků", "Oficiální mafiánská kniha", "Vládní seznam členů", "Novinové články"],
+    "correct_answer": "Výpovědi spolupracujících svědků"
+  },
+  {
+    "title": "Jaký byl hlavní rozdíl mezi tradiční mafií a běžnou zločineckou skupinou?",
+    "subheading": "Mafie měla vlastní pravidla a strukturu.",
+    "answers": ["Silná organizační hierarchie", "Absence vedení", "Krátkodobá existence", "Veřejná činnost"],
+    "correct_answer": "Silná organizační hierarchie"
+  },
+  {
+    "title": "Kdy vznikla první známá podoba sicilské mafie?",
+    "subheading": "Její počátky sahají do 19. století.",
+    "answers": ["19. století", "16. století", "20. století", "18. století"],
+    "correct_answer": "19. století"
+  },
+  {
+    "title": "Ve kterém italském městě působil klan Corleonesi?",
+    "subheading": "Tento klan patřil mezi nejvlivnější skupiny.",
+    "answers": ["Corleone", "Benátky", "Florencie", "Bologna"],
+    "correct_answer": "Corleone"
+  },
+  {
+    "title": "Jaký vztah měla Cosa Nostra k politice?",
+    "subheading": "Organizace se snažila získat vliv mimo podsvětí.",
+    "answers": ["Snažila se ovlivňovat politiky", "Nikdy se politikou nezabývala", "Řídila vládu Itálie", "Zakládala univerzity"],
+    "correct_answer": "Snažila se ovlivňovat politiky"
+  },
+  {
+    "title": "Který americký mafián pomohl vytvořit moderní strukturu Cosa Nostry v USA?",
+    "subheading": "Patřil mezi nejvlivnější bossy 20. století.",
+    "answers": ["Lucky Luciano", "Al Capone", "John Gotti", "Bugsy Siegel"],
+    "correct_answer": "Lucky Luciano"
+  },
+  {
+    "title": "Jaké město bylo hlavním centrem americké mafie ve 20. století?",
+    "subheading": "Působilo zde několik významných rodin.",
+    "answers": ["New York", "Chicago", "Los Angeles", "Boston"],
+    "correct_answer": "New York"
+  },
+  {
+    "title": "Která mafie působila především v Kalábrii?",
+    "subheading": "Jde o jednu z největších italských zločineckých organizací.",
+    "answers": ["'Ndrangheta", "Camorra", "Sacra Corona Unita", "Cosa Nostra"],
+    "correct_answer": "'Ndrangheta"
+  },
+  {
+    "title": "Která italská zločinecká organizace pochází z Neapole?",
+    "subheading": "Má dlouhou historii v oblasti Kampánie.",
+    "answers": ["Camorra", "Cosa Nostra", "'Ndrangheta", "Cosa Nuova"],
+    "correct_answer": "Camorra"
+  },
+  {
+    "title": "Jak se nazývá spolupracující svědek z prostředí mafie?",
+    "subheading": "Jeho výpovědi mohou pomoci vyšetřovatelům.",
+    "answers": ["Pentito", "Don", "Soldato", "Caporegime"],
+    "correct_answer": "Pentito"
+  },
+  {
+    "title": "Který film významně ovlivnil obraz mafie v populární kultuře?",
+    "subheading": "Patří mezi nejslavnější filmové série historie.",
+    "answers": ["Kmotr", "Scarface", "Goodfellas", "Casino"],
+    "correct_answer": "Kmotr"
+  },
+  {
+    "title": "Kdo napsal knihu Kmotr?",
+    "subheading": "Román se stal předlohou slavného filmu.",
+    "answers": ["Mario Puzo", "Umberto Eco", "Dante Alighieri", "Italo Calvino"],
+    "correct_answer": "Mario Puzo"
+  },
+  {
+    "title": "Jaký byl hlavní rozdíl mezi mafií a běžným gangem?",
+    "subheading": "Mafie měla složitější organizační strukturu.",
+    "answers": ["Hierarchie a dlouhodobý vliv", "Menší počet členů", "Pouze pouliční činnost", "Absence pravidel"],
+    "correct_answer": "Hierarchie a dlouhodobý vliv"
+  },
+  {
+    "title": "Jaký termín označuje boj italského státu proti mafii?",
+    "subheading": "Zahrnuje policii, soudy i další instituce.",
+    "answers": ["Antimafia", "Risorgimento", "Futurismo", "Carbonari"],
+    "correct_answer": "Antimafia"
+  },
+  {
+    "title": "Který italský premiér byl dlouhodobě spojován s debatami o vztazích politiky a mafie?",
+    "subheading": "Jeho jméno se objevovalo v kontroverzních vyšetřováních.",
+    "answers": ["Giulio Andreotti", "Sandro Pertini", "Alcide De Gasperi", "Enrico Letta"],
+    "correct_answer": "Giulio Andreotti"
+  },
+  {
+    "title": "Jak se nazývá územní jednotka používaná sicilskou mafií?",
+    "subheading": "Určuje oblast vlivu jednotlivých skupin.",
+    "answers": ["Mandamento", "Comune", "Regione", "Distretto"],
+    "correct_answer": "Mandamento"
+  },
+  {
+    "title": "Jaký byl jeden z hlavních problémů mafie po zesílení boje státu?",
+    "subheading": "Vyšetřování výrazně omezilo její fungování.",
+    "answers": ["Ztráta vlivu a zatýkání členů", "Úplné získání moci", "Rozšíření státních pravomocí", "Vznik vlastní armády"],
+    "correct_answer": "Ztráta vlivu a zatýkání členů"
+  },
+  {
+    "title": "Který italský zákon umožnil účinnější boj proti mafii zabavováním majetku?",
+    "subheading": "Stát získal nový nástroj proti organizovanému zločinu.",
+    "answers": ["Rognoni-La Torreho zákon", "Zákon dvanácti tabulí", "Benátský zákon", "Římský statut"],
+    "correct_answer": "Rognoni-La Torreho zákon"
+  },
+  {
+    "title": "Kdo byl Pio La Torre?",
+    "subheading": "Jeho jméno je spojeno s bojem proti mafii.",
+    "answers": ["Italský politik bojující proti mafii", "Mafiánský boss", "Soudce v Maxi procesu", "Americký gangster"],
+    "correct_answer": "Italský politik bojující proti mafii"
+  },
+  {
+    "title": "Jak se nazývá zabavení majetku pocházejícího z trestné činnosti?",
+    "subheading": "Stát jej používá proti organizovanému zločinu.",
+    "answers": ["Konfiskace", "Privatizace", "Naturalizace", "Amnestie"],
+    "correct_answer": "Konfiskace"
+  },
+  {
+    "title": "Který italský soudce se podílel na vyšetřování mafie v 80. letech?",
+    "subheading": "Patřil mezi významné představitele protimafiánského boje.",
+    "answers": ["Giovanni Falcone", "Cesare Beccaria", "Enrico Fermi", "Marco Polo"],
+    "correct_answer": "Giovanni Falcone"
+  },
+  {
+    "title": "Jaký název měla první velká mafiánská válka v New Yorku?",
+    "subheading": "Probíhala mezi dvěma sicilskými frakcemi.",
+    "answers": ["Castellammarská válka", "Banánová válka", "Sicilská krize", "Newyorský konflikt"],
+    "correct_answer": "Castellammarská válka"
+  },
+  {
+    "title": "Kdo byl známý jako zakladatel organizace Murder, Inc.?",
+    "subheading": "Skupina byla spojována s nájemnými vraždami.",
+    "answers": ["Louis Buchalter", "Lucky Luciano", "Al Capone", "Meyer Lansky"],
+    "correct_answer": "Louis Buchalter"
+  },
+  {
+    "title": "Kdo byl blízkým spolupracovníkem Lucky Luciana?",
+    "subheading": "Patřil mezi významné postavy amerického podsvětí.",
+    "answers": ["Meyer Lansky", "Giovanni Falcone", "Carlo Alberto Dalla Chiesa", "Pio La Torre"],
+    "correct_answer": "Meyer Lansky"
+  },
+  {
+    "title": "Jaká organizace vznikla po spojení italských a židovských gangsterů v USA?",
+    "subheading": "Sdružovala různé skupiny organizovaného zločinu.",
+    "answers": ["National Crime Syndicate", "Federal Crime Union", "American Mafia Council", "New York League"],
+    "correct_answer": "National Crime Syndicate"
+  },
+  {
+    "title": "Který americký mafián ovládal Chicago během prohibice?",
+    "subheading": "Patřil mezi nejslavnější gangstery historie.",
+    "answers": ["Al Capone", "John Gotti", "Carlo Gambino", "Joe Bonanno"],
+    "correct_answer": "Al Capone"
+  },
+  {
+    "title": "Jaká činnost nejvíce proslavila Al Caponeho?",
+    "subheading": "Rozšířila jeho vliv během prohibice.",
+    "answers": ["Pašování alkoholu", "Výroba automobilů", "Bankovnictví", "Politická kariéra"],
+    "correct_answer": "Pašování alkoholu"
+  },
+  {
+    "title": "Který mafiánský boss vedl Gambino rodinu?",
+    "subheading": "Patřila mezi nejsilnější newyorské rodiny.",
+    "answers": ["Carlo Gambino", "Joe Masseria", "Salvatore Maranzano", "Tommaso Buscetta"],
+    "correct_answer": "Carlo Gambino"
+  },
+  {
+    "title": "Kolik hlavních mafiánských rodin tradičně působilo v New Yorku?",
+    "subheading": "Tvořily základ americké Cosa Nostry.",
+    "answers": ["Pět", "Tři", "Sedm", "Deset"],
+    "correct_answer": "Pět"
+  },
+  {
+    "title": "Jak se nazývá pět hlavních mafiánských rodin New Yorku?",
+    "subheading": "Patří mezi nejznámější struktury americké mafie.",
+    "answers": ["Five Families", "Big Five", "New York Council", "The Syndicate"],
+    "correct_answer": "Five Families"
+  },
+  {
+    "title": "Která mafiánská rodina nesla jméno Gambino?",
+    "subheading": "Jedna z nejvlivnějších rodin USA.",
+    "answers": ["Gambino rodina", "Bonanno rodina", "Genovese rodina", "Luciano rodina"],
+    "correct_answer": "Gambino rodina"
+  },
+  {
+    "title": "Jaký titul používali někteří američtí mafiáni pro svého vůdce?",
+    "subheading": "Vyjadřoval respekt k nejvyššímu představiteli.",
+    "answers": ["Boss", "Senátor", "Generál", "Prezident"],
+    "correct_answer": "Boss"
+  },
+  {
+    "title": "Která federální agentura USA bojovala proti mafii?",
+    "subheading": "Je jedním z hlavních vyšetřovacích orgánů.",
+    "answers": ["FBI", "NASA", "CIAA", "NSA Army"],
+    "correct_answer": "FBI"
+  },
+  {
+    "title": "Který americký zákon pomohl stíhat organizovaný zločin?",
+    "subheading": "Umožnil postihnout rozsáhlé zločinecké struktury.",
+    "answers": ["RICO Act", "Patriot Act", "Sherman Act", "Freedom Act"],
+    "correct_answer": "RICO Act"
+  },
+  {
+    "title": "Co znamená zkratka RICO?",
+    "subheading": "Používá se v boji proti organizovanému zločinu.",
+    "answers": ["Racketeer Influenced and Corrupt Organizations Act", "Rapid Investigation Crime Office", "Regional Italian Crime Operation", "Royal Investigation Control Order"],
+    "correct_answer": "Racketeer Influenced and Corrupt Organizations Act"
+  },
+  {
+    "title": "Který mafián byl znám jako 'Teflonový Don'?",
+    "subheading": "Dlouho unikal odsouzení u soudu.",
+    "answers": ["John Gotti", "Al Capone", "Joe Masseria", "Lucky Luciano"],
+    "correct_answer": "John Gotti"
+  },
+  {
+    "title": "Jaký byl význam tzv. Omertà v americké mafii?",
+    "subheading": "Pravidlo mělo chránit organizaci.",
+    "answers": ["Mlčenlivost vůči úřadům", "Volba nového prezidenta", "Rozdělení území", "Obchodní smlouva"],
+    "correct_answer": "Mlčenlivost vůči úřadům"
+  },
+  {
+    "title": "Kdo byl Meyer Lansky?",
+    "subheading": "Patřil mezi významné postavy amerického podsvětí.",
+    "answers": ["Finanční poradce mafie", "Soudce", "Policista", "Politik"],
+    "correct_answer": "Finanční poradce mafie"
+  },
+  {
+    "title": "Jaký přezdívku získal John Gotti?",
+    "subheading": "Patřil mezi nejznámější bossy New Yorku.",
+    "answers": ["Teflonový Don", "Boss z Chicaga", "Král Sicílie", "Velký Capo"],
+    "correct_answer": "Teflonový Don"
+  },
+  {
+    "title": "Který mafiánský boss vedl rodinu Bonanno?",
+    "subheading": "Jeho rodina patřila mezi pět hlavních v New Yorku.",
+    "answers": ["Joe Bonanno", "Carlo Gambino", "Vito Genovese", "Paul Castellano"],
+    "correct_answer": "Joe Bonanno"
+  },
+  {
+    "title": "Jak se nazývá dohoda mezi zločineckými skupinami o rozdělení území?",
+    "subheading": "Pomáhala omezovat konflikty mezi skupinami.",
+    "answers": ["Dohoda o území", "Legalizace", "Amnestie", "Imunita"],
+    "correct_answer": "Dohoda o území"
+  },
+  {
+    "title": "Který americký prezident zahájil výraznější boj proti organizovanému zločinu ve 20. letech?",
+    "subheading": "Federální úřady začaly více zasahovat proti gangsterům.",
+    "answers": ["Herbert Hoover", "Franklin Roosevelt", "John Kennedy", "Ronald Reagan"],
+    "correct_answer": "Herbert Hoover"
+  },
+  {
+    "title": "Jaký obchod byl během prohibice hlavním zdrojem příjmů gangsterů?",
+    "subheading": "Zákaz alkoholu vytvořil rozsáhlý černý trh.",
+    "answers": ["Nelegální prodej alkoholu", "Prodej automobilů", "Výroba léků", "Obchod s textilem"],
+    "correct_answer": "Nelegální prodej alkoholu"
+  },
+  {
+    "title": "Který mafiánský boss byl zavražděn během setkání v restauraci v roce 1931?",
+    "subheading": "Jeho smrt změnila uspořádání mafie v USA.",
+    "answers": ["Joe Masseria", "Carlo Gambino", "Joe Bonanno", "John Gotti"],
+    "correct_answer": "Joe Masseria"
+  },
+  {
+    "title": "Jaký význam měl vznik The Commission v americké mafii?",
+    "subheading": "Změnila způsob řízení jednotlivých rodin.",
+    "answers": ["Koordinace mezi mafiánskými rodinami", "Zrušení všech rodin", "Spolupráce s policií", "Vznik politické strany"],
+    "correct_answer": "Koordinace mezi mafiánskými rodinami"
+  },
+  {
+    "title": "Který americký mafián byl spojován s kasiny v Las Vegas?",
+    "subheading": "Mafie měla vliv na rozvoj některých podniků ve městě.",
+    "answers": ["Bugsy Siegel", "Giovanni Falcone", "Tommaso Buscetta", "Bernardo Provenzano"],
+    "correct_answer": "Bugsy Siegel"
+  },
+  {
+    "title": "Jak se nazývá proces, při kterém se nelegální peníze převádějí do legální ekonomiky?",
+    "subheading": "Často využívá různé firmy a investice.",
+    "answers": ["Praní peněz", "Inflace", "Privatizace", "Reforma"],
+    "correct_answer": "Praní peněz"
+  },
+  {
+    "title": "Kdo byl Vito Genovese?",
+    "subheading": "Patřil mezi významné představitele americké mafie.",
+    "answers": ["Mafiánský boss", "Soudce", "Politik", "Novinář"],
+    "correct_answer": "Mafiánský boss"
+  },
+  {
+    "title": "Jak se nazývala mafiánská rodina vedená Vitem Genovesem?",
+    "subheading": "Patřila mezi nejvlivnější skupiny v New Yorku.",
+    "answers": ["Genovese rodina", "Gambino rodina", "Bonanno rodina", "Lucchese rodina"],
+    "correct_answer": "Genovese rodina"
+  },
+  {
+    "title": "Který zákon ukončil období americké prohibice?",
+    "subheading": "Změnil podmínky fungování organizovaného zločinu.",
+    "answers": ["21. dodatek ústavy USA", "RICO Act", "Sherman Act", "Patriot Act"],
+    "correct_answer": "21. dodatek ústavy USA"
+  },
+  {
+    "title": "Ve kterém roce skončila americká prohibice?",
+    "subheading": "Po tomto období se změnila činnost mnoha gangů.",
+    "answers": ["1933", "1920", "1945", "1918"],
+    "correct_answer": "1933"
+  },
+  {
+    "title": "Který mafiánský boss byl známý jako 'Dapper Don'?",
+    "subheading": "Proslul výrazným veřejným vystupováním.",
+    "answers": ["John Gotti", "Al Capone", "Lucky Luciano", "Joe Masseria"],
+    "correct_answer": "John Gotti"
+  },
+  {
+    "title": "Jak se nazývá spolupráce mezi státními institucemi při boji proti mafii?",
+    "subheading": "Zahrnuje policii, soudy i vyšetřovatele.",
+    "answers": ["Antimafiánský boj", "Privatizace", "Diplomacie", "Federalizace"],
+    "correct_answer": "Antimafiánský boj"
+  },
+  {
+    "title": "Které město bylo spojováno s působením Al Caponeho?",
+    "subheading": "Ve 20. letech zde ovládal rozsáhlou síť aktivit.",
+    "answers": ["Chicago", "New York", "Miami", "Boston"],
+    "correct_answer": "Chicago"
+  },
+  {
+    "title": "Jak se nazývá osoba stojící v čele mafiánské rodiny?",
+    "subheading": "Má nejvyšší rozhodovací pravomoc.",
+    "answers": ["Boss", "Soldato", "Associato", "Picciotto"],
+    "correct_answer": "Boss"
+  },
+  {
+    "title": "Který mafián byl jedním ze zakladatelů Las Vegas Strip?",
+    "subheading": "Jeho jméno je spojováno s rozvojem kasin.",
+    "answers": ["Bugsy Siegel", "Meyer Lansky", "Joe Bonanno", "Sammy Gravano"],
+    "correct_answer": "Bugsy Siegel"
+  },
+  {
+    "title": "Jak se nazývá bývalý člen mafie, který svědčí proti organizaci?",
+    "subheading": "Jeho výpovědi mohou pomoci vyšetřování.",
+    "answers": ["Pentito", "Caporegime", "Consigliere", "Underboss"],
+    "correct_answer": "Pentito"
   }
 ]
