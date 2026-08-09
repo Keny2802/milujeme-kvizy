@@ -6,6 +6,10 @@ type MappedBackgroundVariantsType = GenericMappingType<BackgroundVariantsType>;
 
 type ProgressBarType = AllHTMLAttributes<HTMLDivElement> & {
     value: number;
+    inCorrectAnswersCount: number;
+    correctAnswer: string | React.ReactNode;
+    selectedAnswer: string | React.ReactNode;
+    BACKGROUND_VARIANT?: BackgroundVariantsType;
     quiz: any[];
     backgroundVariant?: BackgroundVariantsType;
     className?: string;

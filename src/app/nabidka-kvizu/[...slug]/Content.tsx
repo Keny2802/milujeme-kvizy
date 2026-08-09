@@ -9,7 +9,6 @@ import {
 } from "react";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
 import { usePathname, useRouter } from "next/navigation";
-// icon komponenta
 
 import type { DefaultType } from "@/types/DefaultType";
 import type { LayoutVariantsType } from "@/types/Flex/FlexTypes";
@@ -33,16 +32,7 @@ import Wrapper from "@/components/Wrapper";
 import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
 import QuizControllers from "@/components/QuizControllers";
-import ScoreContextProvider from "@/app/context/ScoreContext";
-/*
-- Timer
-- Features lišta
-- Icon komponenta
-- Border komponenta
-- Uložení do congrats page správných a špatných odpovědí
-- Uložení aktuální otázky do localstorage
-- Úpravy ze seznamu
-*/
+import Icon from "@/components/Icon/Icon";
 
 const Content: FC<DefaultType> = ({ ...attrs }) => {
     const currentPathName = usePathname();
@@ -58,34 +48,17 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const [correctAnswersCount, setCorrectAnswersCount] = useState<number>(0);
     const [inCorrectAnswersCount, setInCorrectAnswersCount] = useState<number>(0);
     const [storedQuiz, setStoredQuiz] = useState<any>();
+    const LS_KEY = "stored_quiz_question";
 
-    // useEffect(() => {
-    //     // localStorage.setItem("stored_quiz_question", JSON.stringify(currentQuiz[currentIndex].title));
+    useEffect(() => {
+        const storedNewQuizQuestion = JSON.parse(JSON.stringify(localStorage.getItem(LS_KEY)));
 
-    //     const setStoredNewQuiz = () => {
-    //         // if (storedNewQuiz) {}
-    //         // if (!localStorage.getItem("stored_quiz_question")) {
-    //             // localStorage.setItem("stored_quiz_question", JSON.stringify(currentQuiz[currentIndex]));
-    //         // };
-    //         localStorage.setItem("stored_quiz_question", JSON.stringify(currentQuiz[currentIndex].title));
-    //     };
+        if (storedNewQuizQuestion) setStoredQuiz(storedNewQuizQuestion);
+    }, [currentIndex]);
 
-    //     const getStoredNewQuiz = () => {
-    //         localStorage.getItem("stored_quiz_question");
-    //     };
-
-    //     const newCurrentStoredQuiz = JSON.parse(JSON.stringify(localStorage.getItem("stored_quiz_question")));
-    //     // const newCurrentStoredQuiz = localStorage.getItem("stored_quiz_question");
-    //     setStoredQuiz(newCurrentStoredQuiz);
-
-    //     window.addEventListener("beforeunload", getStoredNewQuiz);
-    //     window.addEventListener("load", setStoredNewQuiz);
-
-    //     return () => {
-    //         window.removeEventListener("beforeunload", getStoredNewQuiz);
-    //         window.removeEventListener("load", setStoredNewQuiz);
-    //     };
-    // }, [currentIndex]);
+    useEffect(() => {
+        localStorage.setItem(LS_KEY, JSON.stringify(currentQuiz[currentIndex]));
+    }, [currentIndex]);
 
     const currentPage = QuizesCardArray.find((page) => {
         return page.href === currentPathName;
@@ -97,12 +70,6 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const currentQuiz = italianCosaNostraPage ? quizItalianCosaNostra : americanMafiaPage ? quizAmericanMafia : worldWarPage ? quizWorldWar : quizWorldWar;
     
     const mixedCurrentQuiz = useMemo(() => {
-        // if (!isShuffled) {
-        //     // setToShuffled(true);
-        //     return;
-        // };
-        // else return Shuffled(currentQuiz);
-
         if (!isShuffled) return;
 
         return Shuffled(currentQuiz);
@@ -112,16 +79,7 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
 
     const mixedQuizAnswers = useMemo(() => {
         return Shuffled(quizAnswers);
-    }, [currentIndex, isShuffled]); 
-    // chyba renderuje se to když vypnu shuffle tak sice nezmění answers cta ale jejich pozice ano, vede k nežádanému re-renderu
-    // po vypnutí shuffle feature by se mělo vrátit na předchozí current index kvízové otázky
-    // Přidat icon komponentu, vyčistit kód, zrefaktorovat a rozřadit do komponent
-    // Spočítat můj celý code base
-    // MD file pro issues a nápady
-    /*
-    - Zrefaktorovat main a other codebase
-    - Rozdělit kód do komponent
-    */
+    }, [currentIndex, isShuffled]);
 
     const correctAnswer = currentQuiz[currentIndex].correct_answer;
 
@@ -140,8 +98,6 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
         };
 
         setCurrentIndex((prev: number) => prev === currentQuiz.length - 1 ? 0 : prev + 1);
-        // setScore((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev - 1);
-        // setScore((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev);
         setCorrectAnswersCount((prev: number) => selectedAnswer === correctAnswer ? prev + 1 : prev);
         setInCorrectAnswersCount((prev: number) => selectedAnswer !== correctAnswer ? prev + 1 : prev);
         setSelectedAnswer("");
@@ -165,87 +121,86 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                     currentPage={currentPage}
                     className="p-xs md:p-0 rounded-3xl"
                     />
-                    <ScoreContextProvider>
-                        <Wrapper className="mt-sm md:mt-md lg:mt-lg w-full md:min-w-[calc(var(--spacing-3xl)*6)] md:max-w-[calc(var(--spacing-3xl)*10)]">
+                    <Wrapper className="mt-sm md:mt-md lg:mt-lg w-full md:min-w-[calc(var(--spacing-3xl)*6)] md:max-w-[calc(var(--spacing-3xl)*10)]">
+                        <Flex
+                        layoutVariant="mobileOnly"
+                        gapVariant="sm"
+                        className="p-sm md:p-0">
                             <Flex
-                            layoutVariant="mobileOnly"
-                            gapVariant="sm"
-                            className="p-sm md:p-0">
+                            layoutVariant="desktopOnly"
+                            verticalVariant="itemsCenter"
+                            className="w-full">
+                                <Text
+                                textVariant="card"
+                                className="whitespace-nowrap">{currentIndex} / {currentQuiz.length}</Text>
+                                <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
                                 <Flex
                                 layoutVariant="desktopOnly"
                                 verticalVariant="itemsCenter"
-                                className="w-full">
-                                    <Text
-                                    textVariant="card"
-                                    className="whitespace-nowrap">{currentIndex} / {currentQuiz.length}</Text>
-                                    <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
-                                    <Flex
-                                    layoutVariant="desktopOnly"
-                                    verticalVariant="itemsCenter"
-                                    gapVariant="sm">
-                                        <CheckCircleIcon className="w-8 h-8 text-green-500" />
-                                        <Text>{correctAnswersCount}</Text>
-                                    </Flex>
-                                    <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
-                                    <Flex
-                                    layoutVariant="desktopOnly"
-                                    verticalVariant="itemsCenter"
-                                    gapVariant="sm">
-                                        <XCircleIcon className="w-8 h-8 text-red-500" />
-                                        <Text>{inCorrectAnswersCount}</Text>
-                                    </Flex>
+                                gapVariant="sm">
+                                    <Icon backgroundVariant="green500"> <CheckCircleIcon /> </Icon>
+                                    <Text>{correctAnswersCount}</Text>
                                 </Flex>
-                                <ProgressBar
-                                value={correctAnswersCount}
-                                quiz={currentQuiz}
-                                />
-                                <Text
-                                textVariant="card"
-                                className="uppercase">
-                                    {/* { currentQuiz[currentIndex].title } */}
-                                    {/* { isShuffled === true && mixedCurrentQuiz[currentIndex].title }
-                                    { isShuffled === false && currentQuiz[currentIndex].title } */}
-                                    { isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex]?.title }
-                                    { !isShuffled && currentQuiz[currentIndex]?.title }
-                                    {/* {storedQuiz} */}
-                                </Text>
-                                {/* <Text>{ currentQuiz[currentIndex]?.subheading }</Text> */}
-                                <Text>
-                                    { isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex]?.subheading }
-                                    { !isShuffled && currentQuiz[currentIndex]?.subheading }
-                                </Text>
-                                <QuizCtas
-                                // mixedQuizAnswers={mixedQuizAnswers}
-                                mixedQuizAnswers={
-                                    isShuffled && mixedCurrentQuiz &&mixedCurrentQuiz[currentIndex].answers ||
-                                    !isShuffled && mixedQuizAnswers
-                                }
-                                selectedAnswer={selectedAnswer}
-                                setSelectedAnswer={setSelectedAnswer}
-                                />
+                                <Wrapper className="w-0.5 h-6 bg-gray-300 rounded-full" />
+                                <Flex
+                                layoutVariant="desktopOnly"
+                                verticalVariant="itemsCenter"
+                                gapVariant="sm">
+                                    <Icon backgroundVariant="red500"> <XCircleIcon /> </Icon>
+                                    <Text>{inCorrectAnswersCount}</Text>
+                                </Flex>
                             </Flex>
-                            <Flex
-                            layoutVariant="mobileOnly"
-                            gapVariant="mini">
-                                <QuizFeatureList
-                                setScore={setScore}
-                                isCorrectAnswerVisible={isCorrectAnswerVisible}
-                                setCorrectAnswerVisible={setCorrectAnswerVisible}
-                                correctAnswer={correctAnswer}
-                                isShuffled={isShuffled}
-                                setToShuffled={setToShuffled}
-                                layoutVariant={layoutVariant}
-                                setLayoutVariant={setLayoutVariant}
-                                />
-                                <QuizControllers
-                                currentIndex={currentIndex}
-                                selectedAnswer={selectedAnswer}
-                                PreviousQuizAnswer={PreviousQuizAnswer}
-                                NextQuizAnswer={NextQuizAnswer}
-                                />
-                            </Flex>
-                        </Wrapper>
-                    </ScoreContextProvider>
+                            <ProgressBar
+                            value={correctAnswersCount}
+                            inCorrectAnswersCount={inCorrectAnswersCount}
+                            correctAnswer={correctAnswer}
+                            selectedAnswer={selectedAnswer}
+                            { ...(
+                                correctAnswersCount === +1 && { BACKGROUND_VARIANT: "green" }
+                                || inCorrectAnswersCount === +1 && { BACKGROUND_VARIANT: "red" }
+                            ) }
+                            quiz={currentQuiz}
+                            />
+                            <Text
+                            textVariant="card"
+                            className="uppercase">
+                                { isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex]?.title }
+                                { !isShuffled && currentQuiz[currentIndex]?.title }
+                            </Text>
+                            <Text>
+                                { isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex]?.subheading }
+                                { !isShuffled && currentQuiz[currentIndex]?.subheading }
+                            </Text>
+                            <QuizCtas
+                            mixedQuizAnswers={
+                                isShuffled && mixedCurrentQuiz &&mixedCurrentQuiz[currentIndex].answers ||
+                                !isShuffled && mixedQuizAnswers
+                            }
+                            selectedAnswer={selectedAnswer}
+                            setSelectedAnswer={setSelectedAnswer}
+                            />
+                        </Flex>
+                        <Flex
+                        layoutVariant="mobileOnly"
+                        gapVariant="mini">
+                            <QuizFeatureList
+                            setScore={setScore}
+                            isCorrectAnswerVisible={isCorrectAnswerVisible}
+                            setCorrectAnswerVisible={setCorrectAnswerVisible}
+                            correctAnswer={correctAnswer}
+                            isShuffled={isShuffled}
+                            setToShuffled={setToShuffled}
+                            layoutVariant={layoutVariant}
+                            setLayoutVariant={setLayoutVariant}
+                            />
+                            <QuizControllers
+                            currentIndex={currentIndex}
+                            selectedAnswer={selectedAnswer}
+                            PreviousQuizAnswer={PreviousQuizAnswer}
+                            NextQuizAnswer={NextQuizAnswer}
+                            />
+                        </Flex>
+                    </Wrapper>
                 </Flex>
             </Section>
             <Quizes className="md:mt-[calc(var(--spacing-xl)*1.25)]" />

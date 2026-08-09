@@ -51,17 +51,13 @@ const Contact:FC<DefaultType> = ({
                 <Wrapper className="mt-lg md:mt-xl lg:mt-2xl">
                     <List>
                         <Flex
-                        // horizontalVariant="justifyBetween"
                         gapVariant="lg">
                             {contactArray.map((item, idx) => {
                                 const { key, heading, href, title } = item;
                                 
                                 return (
                                     <Fragment key={idx}>
-                                        <Flex
-                                        layoutVariant="desktopOnly"
-                                        // verticalVariant="itemsCenter"
-                                        >
+                                        <Flex layoutVariant="desktopOnly">
                                             { key === "tel" && <PhoneIcon className="w-12 h-12 text-violet" /> }
                                             { key === "email" && <EnvelopeIcon className="w-12 h-12 text-violet" /> }
                                             { key === "ico" && <DocumentIcon className="w-12 h-12 text-violet" /> }

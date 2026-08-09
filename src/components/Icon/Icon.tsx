@@ -10,7 +10,7 @@ import type {
 
 const Icon:FC<IconType> = ({
     backgroundVariant = "blackOne",
-    sizeVariant = "md",
+    sizeVariant = "lg",
     children,
     ...attrs
 }) => {
@@ -19,6 +19,8 @@ const Icon:FC<IconType> = ({
         white: "text-white",
         black: "text-black",
         blackOne: "text-black-1",
+        green500: "text-green-500",
+        red500: "text-red-500",
     };
 
     const sizeVariants:MappedSizeVariantsType = {

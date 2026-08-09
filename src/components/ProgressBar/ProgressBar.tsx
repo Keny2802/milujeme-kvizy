@@ -14,7 +14,11 @@ import Wrapper from "../Wrapper";
 
 const ProgressBar:FC<ProgressBarType> = ({
     value,
+    inCorrectAnswersCount,
+    correctAnswer,
+    selectedAnswer,
     backgroundVariant = "gray",
+    BACKGROUND_VARIANT = "green",
     quiz,
     className = "",
     progressBarClassName = "",
@@ -58,8 +62,26 @@ const ProgressBar:FC<ProgressBarType> = ({
                     animate={{ width: `${Math.max(MIN_PROGRESS_VALUE, Math.min(MAX_PROGRESS_VALUE, value))}%` }}
                     className={clsx(
                         `w-full h-full`,
-                        value <= 50 && BACKGROUND_VARIANTS["violet"],
-                        value >= 50 && BACKGROUND_VARIANTS["green"],
+                        // value <= 50 && BACKGROUND_VARIANTS["violet"],
+                        // value >= 50 && BACKGROUND_VARIANTS["green"],
+
+                        // inCorrectAnswersCount && BACKGROUND_VARIANTS["red"],
+                        // value === value++ && BACKGROUND_VARIANTS["green"],
+                        // value-- && BACKGROUND_VARIANTS["red"],
+                        
+                        // correctAnswer && BACKGROUND_VARIANTS["green"],
+                        
+                        // correctAnswer && BACKGROUND_VARIANTS[BACKGROUND_VARIANT],
+
+                        BACKGROUND_VARIANTS[BACKGROUND_VARIANT],
+
+                        // selectedAnswer !== correctAnswer && BACKGROUND_VARIANTS["red"],
+                        // value === value-- && BACKGROUND_VARIANTS["red"],
+                        // correctAnswer && BACKGROUND_VARIANTS["green"],
+                        // !correctAnswer && BACKGROUND_VARIANTS["red"],
+
+                        // correctAnswer && BACKGROUND_VARIANTS["red"],
+                        // selectedAnswer !== correctAnswer && BACKGROUND_VARIANTS["red"],
                         progressBarClassName,
                     )}
                     transition={SPRING} />

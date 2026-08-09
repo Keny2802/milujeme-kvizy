@@ -2,17 +2,14 @@
 
 import { type FC, Fragment } from "react";
 import { useRouter } from "next/navigation";
-import { LinkProps } from "react-router-dom";
 import clsx from "clsx";
 
 import type { DefaultType } from "@/types/DefaultType";
-// import ScoreContext, { useScoreContext } from "@/components/ScoreContext";
 import Section from "@/components/Section";
 import Flex from "@/components/Flex";
 import Photo from "@/components/Photo";
 import Text from "@/components/Text";
 import Cta from "@/components/Cta";
-import ScoreContextProvider, { useScore } from "../context/ScoreContext";
 
 const ctaArray = [
     { href: "/#nabidka-kvizu", title: "Přejít na všechny kvízy", },
@@ -22,9 +19,7 @@ const ctaArray = [
 const Page:FC<DefaultType> = ({
     ...attrs
 }) => {
-    // const { currentScore } = useScoreContext();
     const router = useRouter();
-    // const { score } = useScore();
     
     return (
         <Fragment>

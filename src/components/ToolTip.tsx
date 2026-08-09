@@ -56,6 +56,7 @@ const ToolTip:FC<ToolTipType> = ({
                 id="toolTip">
                     <Flex
                     // layoutVariant="mobileOnly"
+                    layoutVariant="desktopOnly"
                     verticalVariant="itemsCenter"
                     gapVariant={gapVariant}>
                         <Icon backgroundVariant="violet"><InformationCircleIcon /></Icon>

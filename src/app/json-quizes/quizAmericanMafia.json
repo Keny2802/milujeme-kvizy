@@ -78,654 +78,654 @@
     "correct_answer": "Mafiánský finančník"
   },
   {
-  "title": "Které město bylo spojeno s Bugsy Siegelem a vznikem kasinového průmyslu?",
-  "subheading": "Ve 20. století se stalo symbolem hazardu a zábavního průmyslu.",
-  "answers": ["Las Vegas", "New York", "Chicago", "Detroit"],
-  "correct_answer": "Las Vegas"
-},
-{
-  "title": "Kdo byl Bugsy Siegel?",
-  "subheading": "Jeho jméno se objevuje v historii amerického organizovaného zločinu.",
-  "answers": ["Benjamin Siegel", "Frank Costello", "Joe Bonanno", "Albert Anastasia"],
-  "correct_answer": "Benjamin Siegel"
-},
-{
-  "title": "Jak se nazývala známá mafiánská organizace v Chicagu?",
-  "subheading": "Tato skupina patřila mezi nejznámější zločinecké organizace ve Spojených státech.",
-  "answers": ["Chicago Outfit", "Five Families", "Cosa Nostra Commission", "Black Hand"],
-  "correct_answer": "Chicago Outfit"
-},
-{
-  "title": "Kdo byl hlavním protivníkem Al Capona během války gangů v Chicagu?",
-  "subheading": "Jeho konflikt s Caponem patřil mezi známé události éry prohibice.",
-  "answers": ["Bugs Moran", "Lucky Luciano", "John Gotti", "Carlo Gambino"],
-  "correct_answer": "Bugs Moran"
-},
-{
-  "title": "Za jaký trestný čin byl Al Capone nakonec odsouzen?",
-  "subheading": "Jeho odsouzení se týkalo oblasti, kterou federální úřady dokázaly právně prokázat.",
-  "answers": ["Daňové úniky", "Vraždu", "Pašování alkoholu", "Vydírání"],
-  "correct_answer": "Daňové úniky"
-},
-{
-  "title": "Kdo byl Paul Castellano?",
-  "subheading": "Jeho působení bylo spojeno s jednou z významných etap rodiny Gambino.",
-  "answers": ["Mafiánský boss", "FBI agent", "Soudce", "Novinář"],
-  "correct_answer": "Mafiánský boss"
-},
-{
-  "title": "Jak se nazývala italsko-americká mafie?",
-  "subheading": "Tento pojem označuje specifickou formu organizovaného zločinu.",
-  "answers": ["Cosa Nostra", "Yakuza", "Triády", "Bratva"],
-  "correct_answer": "Cosa Nostra"
-},
-{
-  "title": "Který federální úřad vedl dlouhodobý boj proti americké mafii?",
-  "subheading": "Tato instituce se zaměřovala na vyšetřování závažné kriminality.",
-  "answers": ["FBI", "CIA", "NSA", "ATF"],
-  "correct_answer": "FBI"
-},
-{
-  "title": "Kdo byl Salvatore Maranzano?",
-  "subheading": "Patřil mezi významné postavy amerického podsvětí první poloviny 20. století.",
-  "answers": ["Salvatore Maranzano", "Frank Costello", "Albert Anastasia", "Tony Accardo"],
-  "correct_answer": "Salvatore Maranzano"
-},
-{
-  "title": "Co byla Castellammarská válka?",
-  "subheading": "Tato událost ovlivnila budoucí uspořádání mafiánských struktur v New Yorku.",
-  "answers": ["Válka mafiánských skupin o moc", "Válka mezi USA a Itálií", "Policejní operace proti mafii", "Soudní proces s mafiány"],
-  "correct_answer": "Válka mafiánských skupin o moc"
-},
-{
-  "title": "Kdo nechal v roce 1931 zavraždit Salvatore Maranzana?",
-  "subheading": "Jeho smrt znamenala zásadní změnu ve vedení amerického podsvětí.",
-  "answers": ["Lucky Luciano", "Al Capone", "John Gotti", "Carlo Gambino"],
-  "correct_answer": "Lucky Luciano"
-},
+    "title": "Které město bylo spojeno s Bugsy Siegelem a vznikem kasinového průmyslu?",
+    "subheading": "Ve 20. století se stalo symbolem hazardu a zábavního průmyslu.",
+    "answers": ["Las Vegas", "New York", "Chicago", "Detroit"],
+    "correct_answer": "Las Vegas"
+  },
   {
-  "title": "Jak se nazýval masakr z roku 1929, při kterém byli zavražděni členové gangu Bugse Morana?",
-  "subheading": "Tato událost patří mezi nejznámější kapitoly historie organizovaného zločinu v USA.",
-  "answers": ["Masakr na den svatého Valentýna", "Chicagská válka gangů", "Masakr v Little Italy", "Operace Cosa Nostra"],
-  "correct_answer": "Masakr na den svatého Valentýna"
-},
-{
-  "title": "Kdo byl Frank Costello?",
-  "subheading": "Patřil mezi významné postavy amerického podsvětí první poloviny 20. století.",
-  "answers": ["Mafiánský boss rodiny Luciano", "Federální agent FBI", "Soudce Nejvyššího soudu", "Vojenský velitel"],
-  "correct_answer": "Mafiánský boss rodiny Luciano"
-},
-{
-  "title": "Která mafiánská rodina byla dříve známá jako rodina Luciano?",
-  "subheading": "Název této organizace se během historie několikrát změnil.",
-  "answers": ["Genovese", "Gambino", "Bonanno", "Colombo"],
-  "correct_answer": "Genovese"
-},
-{
-  "title": "Kdo byl Albert Anastasia?",
-  "subheading": "Jeho jméno je spojováno s významnými událostmi americké mafie.",
-  "answers": ["Boss rodiny Gambino", "Zakladatel FBI", "Soudce z New Yorku", "Prezident kasina"],
-  "correct_answer": "Boss rodiny Gambino"
-},
-{
-  "title": "Jaká organizace byla spojována s Albertem Anastasiou?",
-  "subheading": "Tato skupina se stala jednou z nejznámějších v historii amerického podsvětí.",
-  "answers": ["Murder, Inc.", "FBI", "CIA", "Black Hand"],
-  "correct_answer": "Murder, Inc."
-},
-{
-  "title": "Co znamená pojem 'omertà'?",
-  "subheading": "Tento výraz označuje jedno z tradičních pravidel spojených s mafiánskou kulturou.",
-  "answers": ["Zákon mlčenlivosti", "Mafiánská hierarchie", "Válečný plán", "Systém praní peněz"],
-  "correct_answer": "Zákon mlčenlivosti"
-},
-{
-  "title": "Jak se nazývá nejnižší oficiální hodnost člena mafie?",
-  "subheading": "Tato pozice se nachází na základní úrovni v mafiánské hierarchii.",
-  "answers": ["Voják (Soldato)", "Boss", "Consigliere", "Underboss"],
-  "correct_answer": "Voják (Soldato)"
-},
+    "title": "Kdo byl Bugsy Siegel?",
+    "subheading": "Jeho jméno se objevuje v historii amerického organizovaného zločinu.",
+    "answers": ["Benjamin Siegel", "Frank Costello", "Joe Bonanno", "Albert Anastasia"],
+    "correct_answer": "Benjamin Siegel"
+  },
   {
-  "title": "Kdo byl consigliere v mafiánské hierarchii?",
-  "subheading": "Tato role měla v rámci organizace specifické postavení.",
-  "answers": ["Poradce mafiánského šéfa", "Nový člen rodiny", "Velitel policie", "Vůdce konkurenčního gangu"],
-  "correct_answer": "Poradce mafiánského šéfa"
-},
-{
-  "title": "Jak se nazýval zástupce mafiánského bosse?",
-  "subheading": "Jednalo se o jednu z nejvýše postavených funkcí uvnitř rodiny.",
-  "answers": ["Underboss", "Soldato", "Associate", "Caporegime"],
-  "correct_answer": "Underboss"
-},
-{
-  "title": "Co znamená pojem 'caporegime' v mafii?",
-  "subheading": "Tento pojem označuje určitou velitelskou pozici v rámci struktury.",
-  "answers": ["Kapitán mafiánské posádky", "Hlavní boss", "Policejní vyšetřovatel", "Finanční poradce vlády"],
-  "correct_answer": "Kapitán mafiánské posádky"
-},
-{
-  "title": "Který mafián byl známý přezdívkou 'The Teflon Don'?",
-  "subheading": "Tato přezdívka se stala známou během soudních procesů v 80. a 90. letech.",
-  "answers": ["John Gotti", "Al Capone", "Lucky Luciano", "Sammy Gravano"],
-  "correct_answer": "John Gotti"
-},
-{
-  "title": "Kdo byl Sammy 'The Bull' Gravano?",
-  "subheading": "Jeho jméno je spojováno s jedním z významných mafiánských procesů.",
-  "answers": ["Underboss rodiny Gambino", "Agent FBI", "Politik New Yorku", "Soudce"],
-  "correct_answer": "Underboss rodiny Gambino"
-},
-{
-  "title": "V kterém roce byl John Gotti odsouzen na doživotí?",
-  "subheading": "Jednalo se o významný okamžik v historii rodiny Gambino.",
-  "answers": ["1992", "1980", "1975", "2001"],
-  "correct_answer": "1992"
-},
-{
-  "title": "Jak se nazýval zákon USA používaný proti organizovanému zločinu?",
-  "subheading": "Tento právní nástroj umožnil federálním úřadům zasahovat proti rozsáhlým zločineckým strukturám.",
-  "answers": ["RICO Act", "Patriot Act", "Sherman Act", "Volstead Act"],
-  "correct_answer": "RICO Act"
-},
-{
-  "title": "V jakém roce byl přijat zákon RICO?",
-  "subheading": "Vznikl v období, kdy se měnil přístup amerických úřadů k organizovanému zločinu.",
-  "answers": ["1970", "1933", "1955", "1985"],
-  "correct_answer": "1970"
-},
-{
-  "title": "Který mafián byl známý jako 'Joe Bananas'?",
-  "subheading": "Tato přezdívka patřila jedné z významných postav newyorské mafie.",
-  "answers": ["Joseph Bonanno", "Joe Masseria", "Joe Colombo", "Tony Montana"],
-  "correct_answer": "Joseph Bonanno"
-},
-{
-  "title": "Která mafiánská rodina byla zapojena do tzv. Pizza Connection případu?",
-  "subheading": "Případ patřil mezi největší mezinárodní vyšetřování spojená s mafiánskými sítěmi.",
-  "answers": ["Bonanno", "Gambino", "Colombo", "Lucchese"],
-  "correct_answer": "Bonanno"
-},
-{
-  "title": "Kdo byl J. Edgar Hoover?",
-  "subheading": "Jeho jméno je spojeno s historií amerických federálních institucí.",
-  "answers": ["Ředitel FBI", "Mafiánský boss", "Prezident USA", "Soudce"],
-  "correct_answer": "Ředitel FBI"
-},
-{
-  "title": "Který americký prezident zahájil výraznější federální boj proti organizovanému zločinu?",
-  "subheading": "Jeho vláda přinesla větší pozornost problematice organizovaného zločinu.",
-  "answers": ["John F. Kennedy", "Franklin D. Roosevelt", "Richard Nixon", "Ronald Reagan"],
-  "correct_answer": "John F. Kennedy"
-},
+    "title": "Jak se nazývala známá mafiánská organizace v Chicagu?",
+    "subheading": "Tato skupina patřila mezi nejznámější zločinecké organizace ve Spojených státech.",
+    "answers": ["Chicago Outfit", "Five Families", "Cosa Nostra Commission", "Black Hand"],
+    "correct_answer": "Chicago Outfit"
+  },
   {
-  "title": "Kdo byl Robert F. Kennedy?",
-  "subheading": "Jeho působení bylo spojeno s významnými událostmi americké politiky 60. let.",
-  "answers": ["Ministr spravedlnosti USA", "Mafiánský boss", "Šéf FBI", "Generál americké armády"],
-  "correct_answer": "Ministr spravedlnosti USA"
-},
-{
-  "title": "Který mafiánský boss byl známý svou nízkou viditelností a tajným stylem vedení?",
-  "subheading": "Jeho způsob řízení organizace se výrazně lišil od veřejně známějších mafiánů.",
-  "answers": ["Vito Genovese", "John Gotti", "Al Capone", "Bugsy Siegel"],
-  "correct_answer": "Vito Genovese"
-},
-{
-  "title": "Kdo byl Angelo Bruno?",
-  "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu ve východní části USA.",
-  "answers": ["Šéf mafie ve Filadelfii", "Ředitel FBI", "Starosta Chicaga", "Soudce"],
-  "correct_answer": "Šéf mafie ve Filadelfii"
-},
-{
-  "title": "Které město bylo známé jako centrum mafie mimo New York a Chicago?",
-  "subheading": "Město se během 20. století stalo symbolem zábavy a hazardu.",
-  "answers": ["Las Vegas", "Boston", "Seattle", "Dallas"],
-  "correct_answer": "Las Vegas"
-},
-{
-  "title": "Kdo financoval vznik kasina Flamingo v Las Vegas?",
-  "subheading": "Vznik tohoto podniku patřil mezi známé události historie amerického hazardu.",
-  "answers": ["Bugsy Siegel", "Al Capone", "John Gotti", "Carlo Gambino"],
-  "correct_answer": "Bugsy Siegel"
-},
-{
-  "title": "Jak se nazývala známá oblast kasin a hotelů v Las Vegas?",
-  "subheading": "Tato lokalita se stala jedním z nejznámějších míst spojených s hazardem.",
-  "answers": ["Las Vegas Strip", "Casino skandály", "Murder Inc.", "The Commission"],
-  "correct_answer": "Las Vegas Strip"
-},
-{
-  "title": "Která mafie ovlivňovala velkou část hazardu v Las Vegas v polovině 20. století?",
-  "subheading": "Organizovaný zločin měl v určité době vliv na různé oblasti podnikání.",
-  "answers": ["Americká Cosa Nostra", "Yakuza", "Triády", "Kolumbijské kartely"],
-  "correct_answer": "Americká Cosa Nostra"
-},
-{
-  "title": "Co znamenal pojem 'made man' v americké mafii?",
-  "subheading": "Tento výraz označoval specifické postavení uvnitř mafiánské struktury.",
-  "answers": ["Oficiálně přijatý člen mafie", "Policista v utajení", "Mafiánský nepřítel", "Člověk bez kontaktů"],
-  "correct_answer": "Oficiálně přijatý člen mafie"
-},
-{
-  "title": "Jak se nazýval obřad přijetí nového člena do mafie?",
-  "subheading": "Jednalo se o neveřejný proces spojený s přijetím do organizace.",
-  "answers": ["Made ceremony", "Induction", "The Commission", "The Code"],
-  "correct_answer": "Induction"
-},
-{
-  "title": "Kdo byl Carlo Gambino?",
-  "subheading": "Jeho jméno patří mezi nejznámější postavy historie newyorské mafie.",
-  "answers": ["Šéf rodiny Gambino", "Šéf FBI", "Politik New Yorku", "Soudce"],
-  "correct_answer": "Šéf rodiny Gambino"
-},
-{
-  "title": "V kterém roce zemřel Carlo Gambino?",
-  "subheading": "Jeho smrt ukončila jednu významnou éru v historii rodiny Gambino.",
-  "answers": ["1976", "1985", "1965", "1992"],
-  "correct_answer": "1976"
-},
-{
-  "title": "Kdo byl Tony Accardo?",
-  "subheading": "Jeho kariéra byla spojena s jednou z nejznámějších mafiánských skupin v Chicagu.",
-  "answers": ["Mafiánský boss Chicaga", "Agent FBI", "Starosta Las Vegas", "Gangster z New Yorku"],
-  "correct_answer": "Mafiánský boss Chicaga"
-},
+    "title": "Kdo byl hlavním protivníkem Al Capona během války gangů v Chicagu?",
+    "subheading": "Jeho konflikt s Caponem patřil mezi známé události éry prohibice.",
+    "answers": ["Bugs Moran", "Lucky Luciano", "John Gotti", "Carlo Gambino"],
+    "correct_answer": "Bugs Moran"
+  },
   {
-  "title": "Kdo převzal vedení Chicago Outfit po Al Caponovi?",
-  "subheading": "Po změně vedení organizace pokračovala její činnost pod novými představiteli.",
-  "answers": ["Frank Nitti", "John Gotti", "Lucky Luciano", "Meyer Lansky"],
-  "correct_answer": "Frank Nitti"
-},
-{
-  "title": "Jaký druh podnikání byl tradičně významným zdrojem příjmů mafie?",
-  "subheading": "Organizovaný zločin využíval různé způsoby získávání peněz.",
-  "answers": ["Vydírání a hazard", "Výroba automobilů", "Bankovnictví státu", "Vojenský průmysl"],
-  "correct_answer": "Vydírání a hazard"
-},
-{
-  "title": "Co znamená pojem 'racketeering'?",
-  "subheading": "Tento pojem se často objevuje v souvislosti s případy organizovaného zločinu.",
-  "answers": ["Systematické vydírání a nelegální podnikání", "Legální obchod", "Politická kampaň", "Bankovní půjčka"],
-  "correct_answer": "Systematické vydírání a nelegální podnikání"
-},
-{
-  "title": "Který mafián se stal hlavní postavou filmu Kmotr jako inspirace pro postavu Vita Corleoneho?",
-  "subheading": "Postava vznikla kombinací prvků z více skutečných osobností podsvětí.",
-  "answers": ["Více mafiánských bossů včetně Vita Genovese", "Jedině Al Caponem", "Pouze Johnem Gottim", "Jedině Lucky Lucianem"],
-  "correct_answer": "Více mafiánských bossů včetně Vita Genovese"
-},
-{
-  "title": "Kdo napsal knihu Kmotr?",
-  "subheading": "Tento román se stal jedním z nejznámějších děl o mafiánském prostředí.",
-  "answers": ["Mario Puzo", "Francis Ford Coppola", "Martin Scorsese", "Joe Bonanno"],
-  "correct_answer": "Mario Puzo"
-},
-{
-  "title": "Kdo režíroval film Kmotr z roku 1972?",
-  "subheading": "Snímek patří mezi nejvlivnější filmy v historii kinematografie.",
-  "answers": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Steven Spielberg"],
-  "correct_answer": "Francis Ford Coppola"
-},
-{
-  "title": "Kdo byl John Gotti?",
-  "subheading": "Jeho jméno patří mezi nejznámější postavy amerického podsvětí konce 20. století.",
-  "answers": ["Boss rodiny Gambino", "Agent FBI", "Šéf rodiny Bonanno", "Politik New Yorku"],
-  "correct_answer": "Boss rodiny Gambino"
-},
-{
-  "title": "Jakou přezdívku získal John Gotti díky svému stylu oblékání a veřejnému vystupování?",
-  "subheading": "Jeho vystupování přitahovalo značnou pozornost médií.",
-  "answers": ["Dapper Don", "Lucky Don", "The Ghost", "Big Boss"],
-  "correct_answer": "Dapper Don"
-},
-{
-  "title": "Kdo byl hlavním svědkem proti Johnu Gottimu v procesu v roce 1992?",
-  "subheading": "Proces patřil mezi nejvýznamnější soudní případy spojené s mafií.",
-  "answers": ["Sammy Gravano", "Frank Costello", "Meyer Lansky", "Carlo Gambino"],
-  "correct_answer": "Sammy Gravano"
-},
-{
-  "title": "Jakou přezdívku měl Sammy Gravano?",
-  "subheading": "Jeho přezdívka se stala známou v souvislosti s jeho působením v rodině Gambino.",
-  "answers": ["Sammy The Bull", "The Snake", "Big Tuna", "Crazy Joe"],
-  "correct_answer": "Sammy The Bull"
-},
-{
-  "title": "Která mafiánská rodina byla vedena Paulem Castellanem před Johnem Gottim?",
-  "subheading": "Tato rodina patřila mezi nejvýznamnější organizace v New Yorku.",
-  "answers": ["Gambino", "Genovese", "Bonanno", "Lucchese"],
-  "correct_answer": "Gambino"
-},
+    "title": "Za jaký trestný čin byl Al Capone nakonec odsouzen?",
+    "subheading": "Jeho odsouzení se týkalo oblasti, kterou federální úřady dokázaly právně prokázat.",
+    "answers": ["Daňové úniky", "Vraždu", "Pašování alkoholu", "Vydírání"],
+    "correct_answer": "Daňové úniky"
+  },
   {
-  "title": "Kde byl zavražděn Paul Castellano v roce 1985?",
-  "subheading": "Jeho smrt patří mezi významné události historie newyorské mafie.",
-  "answers": ["Manhattan", "Chicago", "Las Vegas", "Miami"],
-  "correct_answer": "Manhattan"
-},
-{
-  "title": "Kdo byl Vincent 'The Chin' Gigante?",
-  "subheading": "Patřil mezi nejvýznamnější postavy amerického organizovaného zločinu.",
-  "answers": ["Boss rodiny Genovese", "Boss rodiny Gambino", "Agent FBI", "Politik"],
-  "correct_answer": "Boss rodiny Genovese"
-},
-{
-  "title": "Jakou taktiku používal Vincent Gigante, aby unikl stíhání?",
-  "subheading": "Jeho chování před úřady vyvolalo mnoho debat během vyšetřování.",
-  "answers": ["Předstíral duševní nemoc", "Opustil USA", "Stal se svědkem FBI", "Vzdal se mafie"],
-  "correct_answer": "Předstíral duševní nemoc"
-},
-{
-  "title": "Co byla Pizza Connection?",
-  "subheading": "Tento případ patřil mezi významná mezinárodní vyšetřování organizovaného zločinu.",
-  "answers": ["Síť pašování drog využívající pizzerie", "Legální řetězec restaurací", "Mafiánská restaurace v New Yorku", "Policejní operace"],
-  "correct_answer": "Síť pašování drog využívající pizzerie"
-},
-{
-  "title": "Která mafiánská rodina byla výrazně spojena s případem Pizza Connection?",
-  "subheading": "Vyšetřování se týkalo aktivit amerických mafiánských struktur v 80. letech.",
-  "answers": ["Bonanno", "Gambino", "Colombo", "Genovese"],
-  "correct_answer": "Bonanno"
-},
-{
-  "title": "Jak se nazýval rozsáhlý proces proti vedení americké mafie v 80. letech?",
-  "subheading": "Tento případ měl významný dopad na fungování mafiánských rodin v USA.",
-  "answers": ["Mafia Commission Trial", "Operation Thunder", "Operation Family", "Black Hand"],
-  "correct_answer": "Mafia Commission Trial"
-},
-{
-  "title": "Co byl Mafia Commission Trial?",
-  "subheading": "Jednalo se o jeden z nejsledovanějších soudních případů spojených s mafií.",
-  "answers": ["Proces proti šéfům pěti rodin", "Válka mafiánských gangů", "Tajná dohoda mafie", "Operace CIA"],
-  "correct_answer": "Proces proti šéfům pěti rodin"
-},
-{
-  "title": "Který zákon umožnil federálním vyšetřovatelům zasáhnout proti celé mafiánské organizaci?",
-  "subheading": "Tento právní nástroj změnil způsob stíhání organizovaného zločinu.",
-  "answers": ["RICO Act", "Volstead Act", "Clayton Act", "Espionage Act"],
-  "correct_answer": "RICO Act"
-},
-{
-  "title": "Co znamená zkratka RICO?",
-  "subheading": "Zkratka označuje americký právní předpis zaměřený na určité typy kriminality.",
-  "answers": ["Racketeer Influenced and Corrupt Organizations Act", "Regional Investigation Crime Office", "Rapid Intelligence Control Organization", "Federal Crime Regulation Act"],
-  "correct_answer": "Racketeer Influenced and Corrupt Organizations Act"
-},
-{
-  "title": "Která mafie měla historicky silný vliv v New Jersey?",
-  "subheading": "Tento region byl v minulosti spojen s působením několika zločineckých skupin.",
-  "answers": ["DeCavalcante", "Bonanno", "Chicago Outfit", "Detroit Partnership"],
-  "correct_answer": "DeCavalcante"
-},
-{
-  "title": "Kdo byl blízkým spolupracovníkem Meyer Lanskyho v oblasti hazardu?",
-  "subheading": "Jejich aktivity byly spojovány s rozvojem hazardního průmyslu ve Spojených státech.",
-  "answers": ["Bugsy Siegel", "John Gotti", "Joe Colombo", "Paul Castellano"],
-  "correct_answer": "Bugsy Siegel"
-},
+    "title": "Kdo byl Paul Castellano?",
+    "subheading": "Jeho působení bylo spojeno s jednou z významných etap rodiny Gambino.",
+    "answers": ["Mafiánský boss", "FBI agent", "Soudce", "Novinář"],
+    "correct_answer": "Mafiánský boss"
+  },
   {
-  "title": "Která událost v roce 1957 odhalila existenci velkého setkání mafiánských bossů?",
-  "subheading": "Tato událost výrazně ovlivnila pohled úřadů na fungování organizovaného zločinu v USA.",
-  "answers": ["Apalachinské setkání", "Castellammarská válka", "Valentýnský masakr", "Pizza Connection"],
-  "correct_answer": "Apalachinské setkání"
-},
-{
-  "title": "Který mafián byl známý jako 'Joe Bananas'?",
-  "subheading": "Jeho přezdívka patřila mezi nejznámější označení spojená s newyorskou mafií.",
-  "answers": ["Joseph Bonanno", "Joseph Masseria", "Joe Colombo", "Tony Salerno"],
-  "correct_answer": "Joseph Bonanno"
-},
-{
-  "title": "Co znamenal pojem 'Five Families'?",
-  "subheading": "Tento pojem označuje specifické uspořádání mafiánských struktur v New Yorku.",
-  "answers": ["Pět nejmocnějších mafiánských rodin New Yorku", "Pět rodin italských přistěhovalců", "Pět policejních jednotek", "Pět kasinových společností"],
-  "correct_answer": "Pět nejmocnějších mafiánských rodin New Yorku"
-},
-{
-  "title": "Kdo byl Anthony 'Tony Ducks' Corallo?",
-  "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu druhé poloviny 20. století.",
-  "answers": ["Boss rodiny Lucchese", "Boss rodiny Gambino", "Agent FBI", "Politik New Yorku"],
-  "correct_answer": "Boss rodiny Lucchese"
-},
-{
-  "title": "Proč získal Anthony Corallo přezdívku 'Tony Ducks'?",
-  "subheading": "Jeho přezdívka vznikla díky určité vlastnosti spojované s jeho mafiánskou kariérou.",
-  "answers": ["Protože často unikal zatčení", "Protože vlastnil farmu s kachnami", "Protože pracoval jako farmář", "Protože měl vlastní restauraci"],
-  "correct_answer": "Protože často unikal zatčení"
-},
-{
-  "title": "Kdo byl Philip 'Rusty' Rastelli?",
-  "subheading": "Jeho působení bylo spojeno s jednou z tradičních mafiánských rodin New Yorku.",
-  "answers": ["Boss rodiny Bonanno", "Boss rodiny Colombo", "Agent FBI", "Kasínový podnikatel"],
-  "correct_answer": "Boss rodiny Bonanno"
-},
-{
-  "title": "Který mafián byl známý přezdívkou 'Crazy Joe'?",
-  "subheading": "Jeho jméno je spojováno s bouřlivým obdobím jedné z newyorských mafiánských rodin.",
-  "answers": ["Joe Gallo", "Joe Bonanno", "Joe Masseria", "Joe Colombo"],
-  "correct_answer": "Joe Gallo"
-},
-{
-  "title": "Kdo byl Joe Colombo?",
-  "subheading": "Patřil mezi významné představitele amerického podsvětí ve druhé polovině 20. století.",
-  "answers": ["Boss rodiny Colombo", "Boss Chicago Outfit", "Šéf FBI", "Soudce"],
-  "correct_answer": "Boss rodiny Colombo"
-},
-{
-  "title": "Co byla První válka Colombo rodiny?",
-  "subheading": "Tento konflikt ovlivnil další vývoj jedné z mafiánských organizací v New Yorku.",
-  "answers": ["Mafiánská válka o kontrolu rodiny", "Válka mezi USA a Itálií", "Policejní operace", "Politický konflikt"],
-  "correct_answer": "Mafiánská válka o kontrolu rodiny"
-},
-{
-  "title": "Který mafián byl známý jako 'Big Tuna'?",
-  "subheading": "Jeho kariéra byla spojena s jednou z nejznámějších mafiánských skupin v Chicagu.",
-  "answers": ["Tony Accardo", "Al Capone", "Frank Nitti", "Sam Giancana"],
-  "correct_answer": "Tony Accardo"
-},
-{
-  "title": "Kdo byl Sam Giancana?",
-  "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu v období studené války.",
-  "answers": ["Šéf Chicago Outfit", "Boss Gambino", "Agent FBI", "Politik"],
-  "correct_answer": "Šéf Chicago Outfit"
-},
-{
-  "title": "Co znamená pojem 'protection racket'?",
-  "subheading": "Tento výraz označuje jednu z metod získávání peněz používaných organizovaným zločinem.",
-  "answers": ["Vybírání peněz za údajnou ochranu", "Ochrana svědků", "Policejní ochranný program", "Bezpečnostní služba"],
-  "correct_answer": "Vybírání peněz za údajnou ochranu"
-},
+    "title": "Jak se nazývala italsko-americká mafie?",
+    "subheading": "Tento pojem označuje specifickou formu organizovaného zločinu.",
+    "answers": ["Cosa Nostra", "Yakuza", "Triády", "Bratva"],
+    "correct_answer": "Cosa Nostra"
+  },
   {
-  "title": "Jak se nazývala dohoda mezi americkou vládou a mafií během 2. světové války?",
-  "subheading": "Tato spolupráce vznikla v období, kdy Spojené státy řešily bezpečnostní otázky spojené s válkou.",
-  "answers": ["Operation Underworld", "Operation Mafia", "Operation Harbor", "Operation Cosa"],
-  "correct_answer": "Operation Underworld"
-},
-{
-  "title": "Kde měl Lucky Luciano největší vliv před deportací?",
-  "subheading": "Před svým vyhoštěním patřil mezi významné postavy amerického podsvětí.",
-  "answers": ["New York", "Los Angeles", "Miami", "Detroit"],
-  "correct_answer": "New York"
-},
-{
-  "title": "Kam byl Lucky Luciano deportován po propuštění z vězení?",
-  "subheading": "Po skončení svého působení ve Spojených státech pokračoval jeho život v jiné zemi.",
-  "answers": ["Itálie", "Kanada", "Kuba", "Mexiko"],
-  "correct_answer": "Itálie"
-},
-{
-  "title": "Která země byla významným místem pro americkou mafii kvůli hazardu v 50. letech?",
-  "subheading": "Tato země se stala jedním z míst, kde se setkávaly zájmy mafie a kasinového průmyslu.",
-  "answers": ["Kuba", "Kanada", "Brazílie", "Francie"],
-  "correct_answer": "Kuba"
-},
-{
-  "title": "Kdo byl Fulgencio Batista?",
-  "subheading": "Jeho vláda ovlivnila politickou situaci na Kubě před významnou historickou změnou.",
-  "answers": ["Kubánský vůdce", "Americký mafián", "Ředitel FBI", "Soudce"],
-  "correct_answer": "Kubánský vůdce"
-},
-{
-  "title": "Jak ovlivnila kubánská revoluce mafii?",
-  "subheading": "Politická změna na Kubě měla dopad na zahraniční investice a podnikatelské aktivity.",
-  "answers": ["Mafie přišla o část vlivu a kasin", "Mafie získala větší moc", "Mafie ovládla vládu", "Mafie přesunula sídlo do Evropy"],
-  "correct_answer": "Mafie přišla o část vlivu a kasin"
-},
-{
-  "title": "Který mafián byl známý kontakty s politiky a vysokou společností?",
-  "subheading": "Jeho styl vedení se lišil od mnoha jiných mafiánských bossů své doby.",
-  "answers": ["Frank Costello", "Joe Gallo", "Sammy Gravano", "Roy DeMeo"],
-  "correct_answer": "Frank Costello"
-},
-{
-  "title": "Co byla DeMeo Crew?",
-  "subheading": "Tato skupina působila v rámci jedné z významných amerických mafiánských struktur.",
-  "answers": ["Skupina vykonavatelů Gambino rodiny", "Policejní jednotka", "Politická organizace", "Kasínová společnost"],
-  "correct_answer": "Skupina vykonavatelů Gambino rodiny"
-},
-{
-  "title": "Jaký význam měl rok 1985 pro americkou mafii?",
-  "subheading": "Tento rok patřil mezi důležité momenty ve vztahu mezi úřady a mafiánskými organizacemi.",
-  "answers": ["Mafia Commission Trial", "Zrušení prohibice", "Vznik mafie", "Konec Cosa Nostry"],
-  "correct_answer": "Mafia Commission Trial"
-},
+    "title": "Který federální úřad vedl dlouhodobý boj proti americké mafii?",
+    "subheading": "Tato instituce se zaměřovala na vyšetřování závažné kriminality.",
+    "answers": ["FBI", "CIA", "NSA", "ATF"],
+    "correct_answer": "FBI"
+  },
   {
-  "title": "Který mafián byl známý přezdívkou 'The Snake'?",
-  "subheading": "Tato přezdívka patřila jedné z významných postav amerického organizovaného zločinu.",
-  "answers": ["Frank Costello", "Vincent Gigante", "Sammy Gravano", "Joe Colombo"],
-  "correct_answer": "Vincent Gigante"
-},
-{
-  "title": "Co byla tzv. 'Banana War' v mafii?",
-  "subheading": "Tento konflikt ovlivnil vývoj jedné z tradičních mafiánských rodin v New Yorku.",
-  "answers": ["Boj o moc uvnitř rodiny Bonanno", "Válka o pašování banánů", "Konflikt s kolumbijskými kartely", "Policejní operace"],
-  "correct_answer": "Boj o moc uvnitř rodiny Bonanno"
-},
-{
-  "title": "Kdo byl Joseph Masseria?",
-  "subheading": "Patřil mezi významné mafiánské postavy období před vznikem moderního systému rodin.",
-  "answers": ["Boss zavražděný během Castellammarské války", "Ředitel FBI", "Šéf Chicago Outfit", "Soudce"],
-  "correct_answer": "Boss zavražděný během Castellammarské války"
-},
-{
-  "title": "Kdo byl Arnold Rothstein?",
-  "subheading": "Jeho působení bylo spojeno s ranou érou organizovaného zločinu v New Yorku.",
-  "answers": ["Gangster a organizátor hazardu", "Agent FBI", "Prezident kasina", "Soudce"],
-  "correct_answer": "Gangster a organizátor hazardu"
-},
-{
-  "title": "S jakou událostí byl spojován Arnold Rothstein?",
-  "subheading": "Tato událost patří mezi známé sportovní skandály americké historie.",
-  "answers": ["Skandál Black Sox", "Masakr na den svatého Valentýna", "Pizza Connection", "Mafia Commission Trial"],
-  "correct_answer": "Skandál Black Sox"
-},
-{
-  "title": "Jak se nazývala síť nelegálních sázkových kanceláří ovládaných mafií?",
-  "subheading": "Hazardní aktivity tvořily významnou část příjmů organizovaného zločinu.",
-  "answers": ["Bookmaking", "Banking", "Smuggling Act", "Casino Law"],
-  "correct_answer": "Bookmaking"
-},
-{
-  "title": "Co znamená pojem 'associate' v mafiánské hierarchii?",
-  "subheading": "Tento pojem označuje určité postavení člověka napojeného na mafiánskou organizaci.",
-  "answers": ["Spolupracovník mafie bez oficiálního členství", "Nejvyšší boss", "Policejní agent", "Soudce"],
-  "correct_answer": "Spolupracovník mafie bez oficiálního členství"
-},
+    "title": "Kdo byl Salvatore Maranzano?",
+    "subheading": "Patřil mezi významné postavy amerického podsvětí první poloviny 20. století.",
+    "answers": ["Salvatore Maranzano", "Frank Costello", "Albert Anastasia", "Tony Accardo"],
+    "correct_answer": "Salvatore Maranzano"
+  },
   {
-  "title": "Jak se nazývala tajná přísaha při vstupu do Cosa Nostry?",
-  "subheading": "Tento rituál byl spojen s přijetím nového člena do mafiánské organizace.",
-  "answers": ["Made ceremony", "The Commission", "Omertà", "RICO"],
-  "correct_answer": "Made ceremony"
-},
-{
-  "title": "Která mafiánská rodina byla spojována s Meyerem Lanskym?",
-  "subheading": "Jeho činnost zasahovala do více oblastí amerického organizovaného zločinu.",
-  "answers": ["Nebylo omezeno na jednu rodinu", "Pouze Gambino", "Pouze Bonanno", "Pouze Colombo"],
-  "correct_answer": "Nebylo omezeno na jednu rodinu"
-},
-{
-  "title": "Která agentura vyšetřovala daňové úniky Al Capona?",
-  "subheading": "Tento případ ukázal, že mafiánské osobnosti mohly být stíhány i jinými způsoby než za násilné zločiny.",
-  "answers": ["Internal Revenue Service (IRS)", "CIA", "NASA", "Ministerstvo obrany"],
-  "correct_answer": "Internal Revenue Service (IRS)"
-},
-{
-  "title": "Kde zemřel Lucky Luciano v roce 1962?",
-  "subheading": "Jeho život skončil mimo Spojené státy, kde získal největší vliv.",
-  "answers": ["Neapol", "New York", "Chicago", "Las Vegas"],
-  "correct_answer": "Neapol"
-},
+    "title": "Co byla Castellammarská válka?",
+    "subheading": "Tato událost ovlivnila budoucí uspořádání mafiánských struktur v New Yorku.",
+    "answers": ["Válka mafiánských skupin o moc", "Válka mezi USA a Itálií", "Policejní operace proti mafii", "Soudní proces s mafiány"],
+    "correct_answer": "Válka mafiánských skupin o moc"
+  },
   {
-  "title": "Které odvětví ovládala mafie prostřednictvím odborů?",
-  "subheading": "Organizovaný zločin měl v minulosti vliv na některé ekonomické oblasti v USA.",
-  "answers": ["Stavebnictví a přístavní práce", "Vesmírný průmysl", "Výzkum medicíny", "Výrobu letadel"],
-  "correct_answer": "Stavebnictví a přístavní práce"
-},
-{
-  "title": "Co se stalo s Jimmym Hoffou v roce 1975?",
-  "subheading": "Jeho případ zůstává jednou z nejznámějších záhad spojených s americkými odbory.",
-  "answers": ["Zmizel a nebyl nikdy nalezen", "Byl prezidentem USA", "Odešel do Itálie", "Stal se agentem FBI"],
-  "correct_answer": "Zmizel a nebyl nikdy nalezen"
-},
-{
-  "title": "Kdo byl John 'Sonny' Franzese?",
-  "subheading": "Patřil mezi dlouholeté představitele jedné z tradičních mafiánských rodin New Yorku.",
-  "answers": ["Underboss rodiny Colombo", "Šéf FBI", "Boss Chicago Outfit", "Politik New Yorku"],
-  "correct_answer": "Underboss rodiny Colombo"
-},
-{
-  "title": "Kdo byl Carmine Galante?",
-  "subheading": "Jeho působení bylo spojeno s významným obdobím jedné z newyorských mafiánských rodin.",
-  "answers": ["Boss rodiny Bonanno", "Boss rodiny Gambino", "Agent FBI", "Kasínový podnikatel"],
-  "correct_answer": "Boss rodiny Bonanno"
-},
+    "title": "Kdo nechal v roce 1931 zavraždit Salvatore Maranzana?",
+    "subheading": "Jeho smrt znamenala zásadní změnu ve vedení amerického podsvětí.",
+    "answers": ["Lucky Luciano", "Al Capone", "John Gotti", "Carlo Gambino"],
+    "correct_answer": "Lucky Luciano"
+  },
   {
-  "title": "Jak zemřel Carmine Galante v roce 1979?",
-  "subheading": "Jeho smrt patřila mezi události, které ovlivnily vztahy mezi mafiánskými skupinami.",
-  "answers": ["Byl zastřelen v restauraci", "Zemřel ve vězení", "Zemřel při autonehodě", "Byl popraven státem"],
-  "correct_answer": "Byl zastřelen v restauraci"
-},
-{
-  "title": "Kdo byl Anthony 'Fat Tony' Salerno?",
-  "subheading": "Patřil mezi významné představitele amerického organizovaného zločinu ve druhé polovině 20. století.",
-  "answers": ["Boss rodiny Genovese", "Boss rodiny Bonanno", "Ředitel FBI", "Starosta New Yorku"],
-  "correct_answer": "Boss rodiny Genovese"
-},
-{
-  "title": "Proč byl Joey Massino významný pro FBI?",
-  "subheading": "Jeho rozhodnutí mělo výrazný dopad na vyšetřování tradičních mafiánských struktur.",
-  "answers": ["Stal se spolupracujícím svědkem", "Založil FBI", "Ovládl Las Vegas", "Ukončil prohibici"],
-  "correct_answer": "Stal se spolupracujícím svědkem"
-},
-{
-  "title": "Co byla tzv. 'French Connection'?",
-  "subheading": "Tento případ patřil mezi známé mezinárodní aktivity organizovaného zločinu.",
-  "answers": ["Síť pašování drog mezi Evropou a USA", "Mafiánská restaurace", "Policejní jednotka", "Politická dohoda"],
-  "correct_answer": "Síť pašování drog mezi Evropou a USA"
-},
-{
-  "title": "Co znamenal pojem 'Five Families' v New Yorku?",
-  "subheading": "Tento pojem označuje významnou strukturu amerického organizovaného zločinu.",
-  "answers": ["Pět hlavních mafiánských rodin", "Pět policejních oddělení", "Pět kasin", "Pět politických stran"],
-  "correct_answer": "Pět hlavních mafiánských rodin"
-},
+    "title": "Jak se nazýval masakr z roku 1929, při kterém byli zavražděni členové gangu Bugse Morana?",
+    "subheading": "Tato událost patří mezi nejznámější kapitoly historie organizovaného zločinu v USA.",
+    "answers": ["Masakr na den svatého Valentýna", "Chicagská válka gangů", "Masakr v Little Italy", "Operace Cosa Nostra"],
+    "correct_answer": "Masakr na den svatého Valentýna"
+  },
   {
-  "title": "Jaký typ důkazů často používala FBI proti mafii v 70. a 80. letech?",
-  "subheading": "Vyšetřovatelé využívali nové metody, které umožnily získávat informace přímo uvnitř organizací.",
-  "answers": ["Odposlechy a tajné nahrávky", "Vojenské útoky", "Satelitní snímky", "Prezidentské dekrety"],
-  "correct_answer": "Odposlechy a tajné nahrávky"
-},
-{
-  "title": "Kdo byl William 'Willie the Rat' Cammisano?",
-  "subheading": "Jeho jméno bylo spojeno s jednou z méně známých kapitol amerického organizovaného zločinu.",
-  "answers": ["Mafiánský spolupracovník", "Ředitel FBI", "Senátor", "Soudce"],
-  "correct_answer": "Mafiánský spolupracovník"
-},
-{
-  "title": "Jak se nazývala spolupráce mafiánů s legálními podniky za účelem praní peněz?",
-  "subheading": "Organizovaný zločin často hledal způsoby, jak skrýt původ nelegálně získaných prostředků.",
-  "answers": ["Praní peněz", "Legalizace státu", "Privatizace", "Finanční reforma"],
-  "correct_answer": "Praní peněz"
-},
-{
+    "title": "Kdo byl Frank Costello?",
+    "subheading": "Patřil mezi významné postavy amerického podsvětí první poloviny 20. století.",
+    "answers": ["Mafiánský boss rodiny Luciano", "Federální agent FBI", "Soudce Nejvyššího soudu", "Vojenský velitel"],
+    "correct_answer": "Mafiánský boss rodiny Luciano"
+  },
+  {
+    "title": "Která mafiánská rodina byla dříve známá jako rodina Luciano?",
+    "subheading": "Název této organizace se během historie několikrát změnil.",
+    "answers": ["Genovese", "Gambino", "Bonanno", "Colombo"],
+    "correct_answer": "Genovese"
+  },
+  {
+    "title": "Kdo byl Albert Anastasia?",
+    "subheading": "Jeho jméno je spojováno s významnými událostmi americké mafie.",
+    "answers": ["Boss rodiny Gambino", "Zakladatel FBI", "Soudce z New Yorku", "Prezident kasina"],
+    "correct_answer": "Boss rodiny Gambino"
+  },
+  {
+    "title": "Jaká organizace byla spojována s Albertem Anastasiou?",
+    "subheading": "Tato skupina se stala jednou z nejznámějších v historii amerického podsvětí.",
+    "answers": ["Murder, Inc.", "FBI", "CIA", "Black Hand"],
+    "correct_answer": "Murder, Inc."
+  },
+  {
+    "title": "Co znamená pojem 'omertà'?",
+    "subheading": "Tento výraz označuje jedno z tradičních pravidel spojených s mafiánskou kulturou.",
+    "answers": ["Zákon mlčenlivosti", "Mafiánská hierarchie", "Válečný plán", "Systém praní peněz"],
+    "correct_answer": "Zákon mlčenlivosti"
+  },
+  {
+    "title": "Jak se nazývá nejnižší oficiální hodnost člena mafie?",
+    "subheading": "Tato pozice se nachází na základní úrovni v mafiánské hierarchii.",
+    "answers": ["Voják (Soldato)", "Boss", "Consigliere", "Underboss"],
+    "correct_answer": "Voják (Soldato)"
+  },
+  {
+    "title": "Kdo byl consigliere v mafiánské hierarchii?",
+    "subheading": "Tato role měla v rámci organizace specifické postavení.",
+    "answers": ["Poradce mafiánského šéfa", "Nový člen rodiny", "Velitel policie", "Vůdce konkurenčního gangu"],
+    "correct_answer": "Poradce mafiánského šéfa"
+  },
+  {
+    "title": "Jak se nazýval zástupce mafiánského bosse?",
+    "subheading": "Jednalo se o jednu z nejvýše postavených funkcí uvnitř rodiny.",
+    "answers": ["Underboss", "Soldato", "Associate", "Caporegime"],
+    "correct_answer": "Underboss"
+  },
+  {
+    "title": "Co znamená pojem 'caporegime' v mafii?",
+    "subheading": "Tento pojem označuje určitou velitelskou pozici v rámci struktury.",
+    "answers": ["Kapitán mafiánské posádky", "Hlavní boss", "Policejní vyšetřovatel", "Finanční poradce vlády"],
+    "correct_answer": "Kapitán mafiánské posádky"
+  },
+  {
+    "title": "Který mafián byl známý přezdívkou 'The Teflon Don'?",
+    "subheading": "Tato přezdívka se stala známou během soudních procesů v 80. a 90. letech.",
+    "answers": ["John Gotti", "Al Capone", "Lucky Luciano", "Sammy Gravano"],
+    "correct_answer": "John Gotti"
+  },
+  {
+    "title": "Kdo byl Sammy 'The Bull' Gravano?",
+    "subheading": "Jeho jméno je spojováno s jedním z významných mafiánských procesů.",
+    "answers": ["Underboss rodiny Gambino", "Agent FBI", "Politik New Yorku", "Soudce"],
+    "correct_answer": "Underboss rodiny Gambino"
+  },
+  {
+    "title": "V kterém roce byl John Gotti odsouzen na doživotí?",
+    "subheading": "Jednalo se o významný okamžik v historii rodiny Gambino.",
+    "answers": ["1992", "1980", "1975", "2001"],
+    "correct_answer": "1992"
+  },
+  {
+    "title": "Jak se nazýval zákon USA používaný proti organizovanému zločinu?",
+    "subheading": "Tento právní nástroj umožnil federálním úřadům zasahovat proti rozsáhlým zločineckým strukturám.",
+    "answers": ["RICO Act", "Patriot Act", "Sherman Act", "Volstead Act"],
+    "correct_answer": "RICO Act"
+  },
+  {
+    "title": "V jakém roce byl přijat zákon RICO?",
+    "subheading": "Vznikl v období, kdy se měnil přístup amerických úřadů k organizovanému zločinu.",
+    "answers": ["1970", "1933", "1955", "1985"],
+    "correct_answer": "1970"
+  },
+  {
+    "title": "Který mafián byl známý jako 'Joe Bananas'?",
+    "subheading": "Tato přezdívka patřila jedné z významných postav newyorské mafie.",
+    "answers": ["Joseph Bonanno", "Joe Masseria", "Joe Colombo", "Tony Montana"],
+    "correct_answer": "Joseph Bonanno"
+  },
+  {
+    "title": "Která mafiánská rodina byla zapojena do tzv. Pizza Connection případu?",
+    "subheading": "Případ patřil mezi největší mezinárodní vyšetřování spojená s mafiánskými sítěmi.",
+    "answers": ["Bonanno", "Gambino", "Colombo", "Lucchese"],
+    "correct_answer": "Bonanno"
+  },
+  {
+    "title": "Kdo byl J. Edgar Hoover?",
+    "subheading": "Jeho jméno je spojeno s historií amerických federálních institucí.",
+    "answers": ["Ředitel FBI", "Mafiánský boss", "Prezident USA", "Soudce"],
+    "correct_answer": "Ředitel FBI"
+  },
+  {
+    "title": "Který americký prezident zahájil výraznější federální boj proti organizovanému zločinu?",
+    "subheading": "Jeho vláda přinesla větší pozornost problematice organizovaného zločinu.",
+    "answers": ["John F. Kennedy", "Franklin D. Roosevelt", "Richard Nixon", "Ronald Reagan"],
+    "correct_answer": "John F. Kennedy"
+  },
+  {
+    "title": "Kdo byl Robert F. Kennedy?",
+    "subheading": "Jeho působení bylo spojeno s významnými událostmi americké politiky 60. let.",
+    "answers": ["Ministr spravedlnosti USA", "Mafiánský boss", "Šéf FBI", "Generál americké armády"],
+    "correct_answer": "Ministr spravedlnosti USA"
+  },
+  {
+    "title": "Který mafiánský boss byl známý svou nízkou viditelností a tajným stylem vedení?",
+    "subheading": "Jeho způsob řízení organizace se výrazně lišil od veřejně známějších mafiánů.",
+    "answers": ["Vito Genovese", "John Gotti", "Al Capone", "Bugsy Siegel"],
+    "correct_answer": "Vito Genovese"
+  },
+  {
+    "title": "Kdo byl Angelo Bruno?",
+    "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu ve východní části USA.",
+    "answers": ["Šéf mafie ve Filadelfii", "Ředitel FBI", "Starosta Chicaga", "Soudce"],
+    "correct_answer": "Šéf mafie ve Filadelfii"
+  },
+  {
+    "title": "Které město bylo známé jako centrum mafie mimo New York a Chicago?",
+    "subheading": "Město se během 20. století stalo symbolem zábavy a hazardu.",
+    "answers": ["Las Vegas", "Boston", "Seattle", "Dallas"],
+    "correct_answer": "Las Vegas"
+  },
+  {
+    "title": "Kdo financoval vznik kasina Flamingo v Las Vegas?",
+    "subheading": "Vznik tohoto podniku patřil mezi známé události historie amerického hazardu.",
+    "answers": ["Bugsy Siegel", "Al Capone", "John Gotti", "Carlo Gambino"],
+    "correct_answer": "Bugsy Siegel"
+  },
+  {
+    "title": "Jak se nazývala známá oblast kasin a hotelů v Las Vegas?",
+    "subheading": "Tato lokalita se stala jedním z nejznámějších míst spojených s hazardem.",
+    "answers": ["Las Vegas Strip", "Casino skandály", "Murder Inc.", "The Commission"],
+    "correct_answer": "Las Vegas Strip"
+  },
+  {
+    "title": "Která mafie ovlivňovala velkou část hazardu v Las Vegas v polovině 20. století?",
+    "subheading": "Organizovaný zločin měl v určité době vliv na různé oblasti podnikání.",
+    "answers": ["Americká Cosa Nostra", "Yakuza", "Triády", "Kolumbijské kartely"],
+    "correct_answer": "Americká Cosa Nostra"
+  },
+  {
+    "title": "Co znamenal pojem 'made man' v americké mafii?",
+    "subheading": "Tento výraz označoval specifické postavení uvnitř mafiánské struktury.",
+    "answers": ["Oficiálně přijatý člen mafie", "Policista v utajení", "Mafiánský nepřítel", "Člověk bez kontaktů"],
+    "correct_answer": "Oficiálně přijatý člen mafie"
+  },
+  {
+    "title": "Jak se nazýval obřad přijetí nového člena do mafie?",
+    "subheading": "Jednalo se o neveřejný proces spojený s přijetím do organizace.",
+    "answers": ["Made ceremony", "Induction", "The Commission", "The Code"],
+    "correct_answer": "Induction"
+  },
+  {
+    "title": "Kdo byl Carlo Gambino?",
+    "subheading": "Jeho jméno patří mezi nejznámější postavy historie newyorské mafie.",
+    "answers": ["Šéf rodiny Gambino", "Šéf FBI", "Politik New Yorku", "Soudce"],
+    "correct_answer": "Šéf rodiny Gambino"
+  },
+  {
+    "title": "V kterém roce zemřel Carlo Gambino?",
+    "subheading": "Jeho smrt ukončila jednu významnou éru v historii rodiny Gambino.",
+    "answers": ["1976", "1985", "1965", "1992"],
+    "correct_answer": "1976"
+  },
+  {
+    "title": "Kdo byl Tony Accardo?",
+    "subheading": "Jeho kariéra byla spojena s jednou z nejznámějších mafiánských skupin v Chicagu.",
+    "answers": ["Mafiánský boss Chicaga", "Agent FBI", "Starosta Las Vegas", "Gangster z New Yorku"],
+    "correct_answer": "Mafiánský boss Chicaga"
+  },
+  {
+    "title": "Kdo převzal vedení Chicago Outfit po Al Caponovi?",
+    "subheading": "Po změně vedení organizace pokračovala její činnost pod novými představiteli.",
+    "answers": ["Frank Nitti", "John Gotti", "Lucky Luciano", "Meyer Lansky"],
+    "correct_answer": "Frank Nitti"
+  },
+  {
+    "title": "Jaký druh podnikání byl tradičně významným zdrojem příjmů mafie?",
+    "subheading": "Organizovaný zločin využíval různé způsoby získávání peněz.",
+    "answers": ["Vydírání a hazard", "Výroba automobilů", "Bankovnictví státu", "Vojenský průmysl"],
+    "correct_answer": "Vydírání a hazard"
+  },
+  {
+    "title": "Co znamená pojem 'racketeering'?",
+    "subheading": "Tento pojem se často objevuje v souvislosti s případy organizovaného zločinu.",
+    "answers": ["Systematické vydírání a nelegální podnikání", "Legální obchod", "Politická kampaň", "Bankovní půjčka"],
+    "correct_answer": "Systematické vydírání a nelegální podnikání"
+  },
+  {
+    "title": "Který mafián se stal hlavní postavou filmu Kmotr jako inspirace pro postavu Vita Corleoneho?",
+    "subheading": "Postava vznikla kombinací prvků z více skutečných osobností podsvětí.",
+    "answers": ["Více mafiánských bossů včetně Vita Genovese", "Jedině Al Caponem", "Pouze Johnem Gottim", "Jedině Lucky Lucianem"],
+    "correct_answer": "Více mafiánských bossů včetně Vita Genovese"
+  },
+  {
+    "title": "Kdo napsal knihu Kmotr?",
+    "subheading": "Tento román se stal jedním z nejznámějších děl o mafiánském prostředí.",
+    "answers": ["Mario Puzo", "Francis Ford Coppola", "Martin Scorsese", "Joe Bonanno"],
+    "correct_answer": "Mario Puzo"
+  },
+  {
+    "title": "Kdo režíroval film Kmotr z roku 1972?",
+    "subheading": "Snímek patří mezi nejvlivnější filmy v historii kinematografie.",
+    "answers": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Steven Spielberg"],
+    "correct_answer": "Francis Ford Coppola"
+  },
+  {
+    "title": "Kdo byl John Gotti?",
+    "subheading": "Jeho jméno patří mezi nejznámější postavy amerického podsvětí konce 20. století.",
+    "answers": ["Boss rodiny Gambino", "Agent FBI", "Šéf rodiny Bonanno", "Politik New Yorku"],
+    "correct_answer": "Boss rodiny Gambino"
+  },
+  {
+    "title": "Jakou přezdívku získal John Gotti díky svému stylu oblékání a veřejnému vystupování?",
+    "subheading": "Jeho vystupování přitahovalo značnou pozornost médií.",
+    "answers": ["Dapper Don", "Lucky Don", "The Ghost", "Big Boss"],
+    "correct_answer": "Dapper Don"
+  },
+  {
+    "title": "Kdo byl hlavním svědkem proti Johnu Gottimu v procesu v roce 1992?",
+    "subheading": "Proces patřil mezi nejvýznamnější soudní případy spojené s mafií.",
+    "answers": ["Sammy Gravano", "Frank Costello", "Meyer Lansky", "Carlo Gambino"],
+    "correct_answer": "Sammy Gravano"
+  },
+  {
+    "title": "Jakou přezdívku měl Sammy Gravano?",
+    "subheading": "Jeho přezdívka se stala známou v souvislosti s jeho působením v rodině Gambino.",
+    "answers": ["Sammy The Bull", "The Snake", "Big Tuna", "Crazy Joe"],
+    "correct_answer": "Sammy The Bull"
+  },
+  {
+    "title": "Která mafiánská rodina byla vedena Paulem Castellanem před Johnem Gottim?",
+    "subheading": "Tato rodina patřila mezi nejvýznamnější organizace v New Yorku.",
+    "answers": ["Gambino", "Genovese", "Bonanno", "Lucchese"],
+    "correct_answer": "Gambino"
+  },
+  {
+    "title": "Kde byl zavražděn Paul Castellano v roce 1985?",
+    "subheading": "Jeho smrt patří mezi významné události historie newyorské mafie.",
+    "answers": ["Manhattan", "Chicago", "Las Vegas", "Miami"],
+    "correct_answer": "Manhattan"
+  },
+  {
+    "title": "Kdo byl Vincent 'The Chin' Gigante?",
+    "subheading": "Patřil mezi nejvýznamnější postavy amerického organizovaného zločinu.",
+    "answers": ["Boss rodiny Genovese", "Boss rodiny Gambino", "Agent FBI", "Politik"],
+    "correct_answer": "Boss rodiny Genovese"
+  },
+  {
+    "title": "Jakou taktiku používal Vincent Gigante, aby unikl stíhání?",
+    "subheading": "Jeho chování před úřady vyvolalo mnoho debat během vyšetřování.",
+    "answers": ["Předstíral duševní nemoc", "Opustil USA", "Stal se svědkem FBI", "Vzdal se mafie"],
+    "correct_answer": "Předstíral duševní nemoc"
+  },
+  {
+    "title": "Co byla Pizza Connection?",
+    "subheading": "Tento případ patřil mezi významná mezinárodní vyšetřování organizovaného zločinu.",
+    "answers": ["Síť pašování drog využívající pizzerie", "Legální řetězec restaurací", "Mafiánská restaurace v New Yorku", "Policejní operace"],
+    "correct_answer": "Síť pašování drog využívající pizzerie"
+  },
+  {
+    "title": "Která mafiánská rodina byla výrazně spojena s případem Pizza Connection?",
+    "subheading": "Vyšetřování se týkalo aktivit amerických mafiánských struktur v 80. letech.",
+    "answers": ["Bonanno", "Gambino", "Colombo", "Genovese"],
+    "correct_answer": "Bonanno"
+  },
+  {
+    "title": "Jak se nazýval rozsáhlý proces proti vedení americké mafie v 80. letech?",
+    "subheading": "Tento případ měl významný dopad na fungování mafiánských rodin v USA.",
+    "answers": ["Mafia Commission Trial", "Operation Thunder", "Operation Family", "Black Hand"],
+    "correct_answer": "Mafia Commission Trial"
+  },
+  {
+    "title": "Co byl Mafia Commission Trial?",
+    "subheading": "Jednalo se o jeden z nejsledovanějších soudních případů spojených s mafií.",
+    "answers": ["Proces proti šéfům pěti rodin", "Válka mafiánských gangů", "Tajná dohoda mafie", "Operace CIA"],
+    "correct_answer": "Proces proti šéfům pěti rodin"
+  },
+  {
+    "title": "Který zákon umožnil federálním vyšetřovatelům zasáhnout proti celé mafiánské organizaci?",
+    "subheading": "Tento právní nástroj změnil způsob stíhání organizovaného zločinu.",
+    "answers": ["RICO Act", "Volstead Act", "Clayton Act", "Espionage Act"],
+    "correct_answer": "RICO Act"
+  },
+  {
+    "title": "Co znamená zkratka RICO?",
+    "subheading": "Zkratka označuje americký právní předpis zaměřený na určité typy kriminality.",
+    "answers": ["Racketeer Influenced and Corrupt Organizations Act", "Regional Investigation Crime Office", "Rapid Intelligence Control Organization", "Federal Crime Regulation Act"],
+    "correct_answer": "Racketeer Influenced and Corrupt Organizations Act"
+  },
+  {
+    "title": "Která mafie měla historicky silný vliv v New Jersey?",
+    "subheading": "Tento region byl v minulosti spojen s působením několika zločineckých skupin.",
+    "answers": ["DeCavalcante", "Bonanno", "Chicago Outfit", "Detroit Partnership"],
+    "correct_answer": "DeCavalcante"
+  },
+  {
+    "title": "Kdo byl blízkým spolupracovníkem Meyer Lanskyho v oblasti hazardu?",
+    "subheading": "Jejich aktivity byly spojovány s rozvojem hazardního průmyslu ve Spojených státech.",
+    "answers": ["Bugsy Siegel", "John Gotti", "Joe Colombo", "Paul Castellano"],
+    "correct_answer": "Bugsy Siegel"
+  },
+  {
+    "title": "Která událost v roce 1957 odhalila existenci velkého setkání mafiánských bossů?",
+    "subheading": "Tato událost výrazně ovlivnila pohled úřadů na fungování organizovaného zločinu v USA.",
+    "answers": ["Apalachinské setkání", "Castellammarská válka", "Valentýnský masakr", "Pizza Connection"],
+    "correct_answer": "Apalachinské setkání"
+  },
+  {
+    "title": "Který mafián byl známý jako 'Joe Bananas'?",
+    "subheading": "Jeho přezdívka patřila mezi nejznámější označení spojená s newyorskou mafií.",
+    "answers": ["Joseph Bonanno", "Joseph Masseria", "Joe Colombo", "Tony Salerno"],
+    "correct_answer": "Joseph Bonanno"
+  },
+  {
+    "title": "Co znamenal pojem 'Five Families'?",
+    "subheading": "Tento pojem označuje specifické uspořádání mafiánských struktur v New Yorku.",
+    "answers": ["Pět nejmocnějších mafiánských rodin New Yorku", "Pět rodin italských přistěhovalců", "Pět policejních jednotek", "Pět kasinových společností"],
+    "correct_answer": "Pět nejmocnějších mafiánských rodin New Yorku"
+  },
+  {
+    "title": "Kdo byl Anthony 'Tony Ducks' Corallo?",
+    "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu druhé poloviny 20. století.",
+    "answers": ["Boss rodiny Lucchese", "Boss rodiny Gambino", "Agent FBI", "Politik New Yorku"],
+    "correct_answer": "Boss rodiny Lucchese"
+  },
+  {
+    "title": "Proč získal Anthony Corallo přezdívku 'Tony Ducks'?",
+    "subheading": "Jeho přezdívka vznikla díky určité vlastnosti spojované s jeho mafiánskou kariérou.",
+    "answers": ["Protože často unikal zatčení", "Protože vlastnil farmu s kachnami", "Protože pracoval jako farmář", "Protože měl vlastní restauraci"],
+    "correct_answer": "Protože často unikal zatčení"
+  },
+  {
+    "title": "Kdo byl Philip 'Rusty' Rastelli?",
+    "subheading": "Jeho působení bylo spojeno s jednou z tradičních mafiánských rodin New Yorku.",
+    "answers": ["Boss rodiny Bonanno", "Boss rodiny Colombo", "Agent FBI", "Kasínový podnikatel"],
+    "correct_answer": "Boss rodiny Bonanno"
+  },
+  {
+    "title": "Který mafián byl známý přezdívkou 'Crazy Joe'?",
+    "subheading": "Jeho jméno je spojováno s bouřlivým obdobím jedné z newyorských mafiánských rodin.",
+    "answers": ["Joe Gallo", "Joe Bonanno", "Joe Masseria", "Joe Colombo"],
+    "correct_answer": "Joe Gallo"
+  },
+  {
+    "title": "Kdo byl Joe Colombo?",
+    "subheading": "Patřil mezi významné představitele amerického podsvětí ve druhé polovině 20. století.",
+    "answers": ["Boss rodiny Colombo", "Boss Chicago Outfit", "Šéf FBI", "Soudce"],
+    "correct_answer": "Boss rodiny Colombo"
+  },
+  {
+    "title": "Co byla První válka Colombo rodiny?",
+    "subheading": "Tento konflikt ovlivnil další vývoj jedné z mafiánských organizací v New Yorku.",
+    "answers": ["Mafiánská válka o kontrolu rodiny", "Válka mezi USA a Itálií", "Policejní operace", "Politický konflikt"],
+    "correct_answer": "Mafiánská válka o kontrolu rodiny"
+  },
+  {
+    "title": "Který mafián byl známý jako 'Big Tuna'?",
+    "subheading": "Jeho kariéra byla spojena s jednou z nejznámějších mafiánských skupin v Chicagu.",
+    "answers": ["Tony Accardo", "Al Capone", "Frank Nitti", "Sam Giancana"],
+    "correct_answer": "Tony Accardo"
+  },
+  {
+    "title": "Kdo byl Sam Giancana?",
+    "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu v období studené války.",
+    "answers": ["Šéf Chicago Outfit", "Boss Gambino", "Agent FBI", "Politik"],
+    "correct_answer": "Šéf Chicago Outfit"
+  },
+  {
+    "title": "Co znamená pojem 'protection racket'?",
+    "subheading": "Tento výraz označuje jednu z metod získávání peněz používaných organizovaným zločinem.",
+    "answers": ["Vybírání peněz za údajnou ochranu", "Ochrana svědků", "Policejní ochranný program", "Bezpečnostní služba"],
+    "correct_answer": "Vybírání peněz za údajnou ochranu"
+  },
+  {
+    "title": "Jak se nazývala dohoda mezi americkou vládou a mafií během 2. světové války?",
+    "subheading": "Tato spolupráce vznikla v období, kdy Spojené státy řešily bezpečnostní otázky spojené s válkou.",
+    "answers": ["Operation Underworld", "Operation Mafia", "Operation Harbor", "Operation Cosa"],
+    "correct_answer": "Operation Underworld"
+  },
+  {
+    "title": "Kde měl Lucky Luciano největší vliv před deportací?",
+    "subheading": "Před svým vyhoštěním patřil mezi významné postavy amerického podsvětí.",
+    "answers": ["New York", "Los Angeles", "Miami", "Detroit"],
+    "correct_answer": "New York"
+  },
+  {
+    "title": "Kam byl Lucky Luciano deportován po propuštění z vězení?",
+    "subheading": "Po skončení svého působení ve Spojených státech pokračoval jeho život v jiné zemi.",
+    "answers": ["Itálie", "Kanada", "Kuba", "Mexiko"],
+    "correct_answer": "Itálie"
+  },
+  {
+    "title": "Která země byla významným místem pro americkou mafii kvůli hazardu v 50. letech?",
+    "subheading": "Tato země se stala jedním z míst, kde se setkávaly zájmy mafie a kasinového průmyslu.",
+    "answers": ["Kuba", "Kanada", "Brazílie", "Francie"],
+    "correct_answer": "Kuba"
+  },
+  {
+    "title": "Kdo byl Fulgencio Batista?",
+    "subheading": "Jeho vláda ovlivnila politickou situaci na Kubě před významnou historickou změnou.",
+    "answers": ["Kubánský vůdce", "Americký mafián", "Ředitel FBI", "Soudce"],
+    "correct_answer": "Kubánský vůdce"
+  },
+  {
+    "title": "Jak ovlivnila kubánská revoluce mafii?",
+    "subheading": "Politická změna na Kubě měla dopad na zahraniční investice a podnikatelské aktivity.",
+    "answers": ["Mafie přišla o část vlivu a kasin", "Mafie získala větší moc", "Mafie ovládla vládu", "Mafie přesunula sídlo do Evropy"],
+    "correct_answer": "Mafie přišla o část vlivu a kasin"
+  },
+  {
+    "title": "Který mafián byl známý kontakty s politiky a vysokou společností?",
+    "subheading": "Jeho styl vedení se lišil od mnoha jiných mafiánských bossů své doby.",
+    "answers": ["Frank Costello", "Joe Gallo", "Sammy Gravano", "Roy DeMeo"],
+    "correct_answer": "Frank Costello"
+  },
+  {
+    "title": "Co byla DeMeo Crew?",
+    "subheading": "Tato skupina působila v rámci jedné z významných amerických mafiánských struktur.",
+    "answers": ["Skupina vykonavatelů Gambino rodiny", "Policejní jednotka", "Politická organizace", "Kasínová společnost"],
+    "correct_answer": "Skupina vykonavatelů Gambino rodiny"
+  },
+  {
+    "title": "Jaký význam měl rok 1985 pro americkou mafii?",
+    "subheading": "Tento rok patřil mezi důležité momenty ve vztahu mezi úřady a mafiánskými organizacemi.",
+    "answers": ["Mafia Commission Trial", "Zrušení prohibice", "Vznik mafie", "Konec Cosa Nostry"],
+    "correct_answer": "Mafia Commission Trial"
+  },
+  {
+    "title": "Který mafián byl známý přezdívkou 'The Snake'?",
+    "subheading": "Tato přezdívka patřila jedné z významných postav amerického organizovaného zločinu.",
+    "answers": ["Frank Costello", "Vincent Gigante", "Sammy Gravano", "Joe Colombo"],
+    "correct_answer": "Vincent Gigante"
+  },
+  {
+    "title": "Co byla tzv. 'Banana War' v mafii?",
+    "subheading": "Tento konflikt ovlivnil vývoj jedné z tradičních mafiánských rodin v New Yorku.",
+    "answers": ["Boj o moc uvnitř rodiny Bonanno", "Válka o pašování banánů", "Konflikt s kolumbijskými kartely", "Policejní operace"],
+    "correct_answer": "Boj o moc uvnitř rodiny Bonanno"
+  },
+  {
+    "title": "Kdo byl Joseph Masseria?",
+    "subheading": "Patřil mezi významné mafiánské postavy období před vznikem moderního systému rodin.",
+    "answers": ["Boss zavražděný během Castellammarské války", "Ředitel FBI", "Šéf Chicago Outfit", "Soudce"],
+    "correct_answer": "Boss zavražděný během Castellammarské války"
+  },
+  {
+    "title": "Kdo byl Arnold Rothstein?",
+    "subheading": "Jeho působení bylo spojeno s ranou érou organizovaného zločinu v New Yorku.",
+    "answers": ["Gangster a organizátor hazardu", "Agent FBI", "Prezident kasina", "Soudce"],
+    "correct_answer": "Gangster a organizátor hazardu"
+  },
+  {
+    "title": "S jakou událostí byl spojován Arnold Rothstein?",
+    "subheading": "Tato událost patří mezi známé sportovní skandály americké historie.",
+    "answers": ["Skandál Black Sox", "Masakr na den svatého Valentýna", "Pizza Connection", "Mafia Commission Trial"],
+    "correct_answer": "Skandál Black Sox"
+  },
+  {
+    "title": "Jak se nazývala síť nelegálních sázkových kanceláří ovládaných mafií?",
+    "subheading": "Hazardní aktivity tvořily významnou část příjmů organizovaného zločinu.",
+    "answers": ["Bookmaking", "Banking", "Smuggling Act", "Casino Law"],
+    "correct_answer": "Bookmaking"
+  },
+  {
+    "title": "Co znamená pojem 'associate' v mafiánské hierarchii?",
+    "subheading": "Tento pojem označuje určité postavení člověka napojeného na mafiánskou organizaci.",
+    "answers": ["Spolupracovník mafie bez oficiálního členství", "Nejvyšší boss", "Policejní agent", "Soudce"],
+    "correct_answer": "Spolupracovník mafie bez oficiálního členství"
+  },
+  {
+    "title": "Jak se nazývala tajná přísaha při vstupu do Cosa Nostry?",
+    "subheading": "Tento rituál byl spojen s přijetím nového člena do mafiánské organizace.",
+    "answers": ["Made ceremony", "The Commission", "Omertà", "RICO"],
+    "correct_answer": "Made ceremony"
+  },
+  {
+    "title": "Která mafiánská rodina byla spojována s Meyerem Lanskym?",
+    "subheading": "Jeho činnost zasahovala do více oblastí amerického organizovaného zločinu.",
+    "answers": ["Nebylo omezeno na jednu rodinu", "Pouze Gambino", "Pouze Bonanno", "Pouze Colombo"],
+    "correct_answer": "Nebylo omezeno na jednu rodinu"
+  },
+  {
+    "title": "Která agentura vyšetřovala daňové úniky Al Capona?",
+    "subheading": "Tento případ ukázal, že mafiánské osobnosti mohly být stíhány i jinými způsoby než za násilné zločiny.",
+    "answers": ["Internal Revenue Service (IRS)", "CIA", "NASA", "Ministerstvo obrany"],
+    "correct_answer": "Internal Revenue Service (IRS)"
+  },
+  {
+    "title": "Kde zemřel Lucky Luciano v roce 1962?",
+    "subheading": "Jeho život skončil mimo Spojené státy, kde získal největší vliv.",
+    "answers": ["Neapol", "New York", "Chicago", "Las Vegas"],
+    "correct_answer": "Neapol"
+  },
+  {
+    "title": "Které odvětví ovládala mafie prostřednictvím odborů?",
+    "subheading": "Organizovaný zločin měl v minulosti vliv na některé ekonomické oblasti v USA.",
+    "answers": ["Stavebnictví a přístavní práce", "Vesmírný průmysl", "Výzkum medicíny", "Výrobu letadel"],
+    "correct_answer": "Stavebnictví a přístavní práce"
+  },
+  {
+    "title": "Co se stalo s Jimmym Hoffou v roce 1975?",
+    "subheading": "Jeho případ zůstává jednou z nejznámějších záhad spojených s americkými odbory.",
+    "answers": ["Zmizel a nebyl nikdy nalezen", "Byl prezidentem USA", "Odešel do Itálie", "Stal se agentem FBI"],
+    "correct_answer": "Zmizel a nebyl nikdy nalezen"
+  },
+  {
+    "title": "Kdo byl John 'Sonny' Franzese?",
+    "subheading": "Patřil mezi dlouholeté představitele jedné z tradičních mafiánských rodin New Yorku.",
+    "answers": ["Underboss rodiny Colombo", "Šéf FBI", "Boss Chicago Outfit", "Politik New Yorku"],
+    "correct_answer": "Underboss rodiny Colombo"
+  },
+  {
+    "title": "Kdo byl Carmine Galante?",
+    "subheading": "Jeho působení bylo spojeno s významným obdobím jedné z newyorských mafiánských rodin.",
+    "answers": ["Boss rodiny Bonanno", "Boss rodiny Gambino", "Agent FBI", "Kasínový podnikatel"],
+    "correct_answer": "Boss rodiny Bonanno"
+  },
+  {
+    "title": "Jak zemřel Carmine Galante v roce 1979?",
+    "subheading": "Jeho smrt patřila mezi události, které ovlivnily vztahy mezi mafiánskými skupinami.",
+    "answers": ["Byl zastřelen v restauraci", "Zemřel ve vězení", "Zemřel při autonehodě", "Byl popraven státem"],
+    "correct_answer": "Byl zastřelen v restauraci"
+  },
+  {
+    "title": "Kdo byl Anthony 'Fat Tony' Salerno?",
+    "subheading": "Patřil mezi významné představitele amerického organizovaného zločinu ve druhé polovině 20. století.",
+    "answers": ["Boss rodiny Genovese", "Boss rodiny Bonanno", "Ředitel FBI", "Starosta New Yorku"],
+    "correct_answer": "Boss rodiny Genovese"
+  },
+  {
+    "title": "Proč byl Joey Massino významný pro FBI?",
+    "subheading": "Jeho rozhodnutí mělo výrazný dopad na vyšetřování tradičních mafiánských struktur.",
+    "answers": ["Stal se spolupracujícím svědkem", "Založil FBI", "Ovládl Las Vegas", "Ukončil prohibici"],
+    "correct_answer": "Stal se spolupracujícím svědkem"
+  },
+  {
+    "title": "Co byla tzv. 'French Connection'?",
+    "subheading": "Tento případ patřil mezi známé mezinárodní aktivity organizovaného zločinu.",
+    "answers": ["Síť pašování drog mezi Evropou a USA", "Mafiánská restaurace", "Policejní jednotka", "Politická dohoda"],
+    "correct_answer": "Síť pašování drog mezi Evropou a USA"
+  },
+  {
+    "title": "Co znamenal pojem 'Five Families' v New Yorku?",
+    "subheading": "Tento pojem označuje významnou strukturu amerického organizovaného zločinu.",
+    "answers": ["Pět hlavních mafiánských rodin", "Pět policejních oddělení", "Pět kasin", "Pět politických stran"],
+    "correct_answer": "Pět hlavních mafiánských rodin"
+  },
+  {
+    "title": "Jaký typ důkazů často používala FBI proti mafii v 70. a 80. letech?",
+    "subheading": "Vyšetřovatelé využívali nové metody, které umožnily získávat informace přímo uvnitř organizací.",
+    "answers": ["Odposlechy a tajné nahrávky", "Vojenské útoky", "Satelitní snímky", "Prezidentské dekrety"],
+    "correct_answer": "Odposlechy a tajné nahrávky"
+  },
+  {
+    "title": "Kdo byl William 'Willie the Rat' Cammisano?",
+    "subheading": "Jeho jméno bylo spojeno s jednou z méně známých kapitol amerického organizovaného zločinu.",
+    "answers": ["Mafiánský spolupracovník", "Ředitel FBI", "Senátor", "Soudce"],
+    "correct_answer": "Mafiánský spolupracovník"
+  },
+  {
+    "title": "Jak se nazývala spolupráce mafiánů s legálními podniky za účelem praní peněz?",
+    "subheading": "Organizovaný zločin často hledal způsoby, jak skrýt původ nelegálně získaných prostředků.",
+    "answers": ["Praní peněz", "Legalizace státu", "Privatizace", "Finanční reforma"],
+    "correct_answer": "Praní peněz"
+  },
+  {
     "title": "Kdo byl Stefano Magaddino?",
     "subheading": "Patřil mezi významné postavy amerického organizovaného zločinu mimo hlavní centra mafie.",
     "answers": ["Boss mafie v Buffalu", "Šéf FBI", "Politik Chicaga", "Majitel kasina"],
@@ -840,96 +840,96 @@
     "correct_answer": "Teroristické útoky a masové násilí"
   },
   {
-  "title": "Kdo byl Meyer Lansky známý jako v rámci americké mafie?",
-  "subheading": "Nebyl známý jako pouliční boss, ale měl velký vliv v zákulisí.",
-  "answers": ["Finanční stratég mafie", "Šéf FBI", "Politický vůdce", "Vojenský velitel"],
-  "correct_answer": "Finanční stratég mafie"
-},
-{
-  "title": "Který mafián byl známý jako 'The Executioner'?",
-  "subheading": "Přezdívka odkazovala na jeho pověst nebezpečného vykonavatele.",
-  "answers": ["Albert Anastasia", "Carlo Gambino", "Frank Costello", "Joe Bonanno"],
-  "correct_answer": "Albert Anastasia"
-},
-{
-  "title": "Jak se nazývala skupina nájemných vrahů spojená s americkou mafií ve 30. letech?",
-  "subheading": "Byla spojována s několika významnými zločiny té doby.",
-  "answers": ["Murder, Inc.", "The Commission", "Five Families", "Black Hand"],
-  "correct_answer": "Murder, Inc."
-},
-{
-  "title": "Kdo byl hlavní zakladatel moderní struktury americké mafie?",
-  "subheading": "Prosazoval větší spolupráci mezi různými mafiánskými skupinami.",
-  "answers": ["Lucky Luciano", "Al Capone", "Bugsy Siegel", "Joe Colombo"],
-  "correct_answer": "Lucky Luciano"
-},
-{
-  "title": "Jaký význam měl vznik The Commission pro mafii?",
-  "subheading": "Změnila způsob řešení sporů mezi jednotlivými skupinami.",
-  "answers": ["Koordinace mezi mafiánskými rodinami", "Vznik policejního oddělení", "Zrušení prohibice", "Kontrola médií"],
-  "correct_answer": "Koordinace mezi mafiánskými rodinami"
-},
-{
-  "title": "Který americký stát byl historicky známý silnou přítomností mafie mimo New York?",
-  "subheading": "Místní organizovaný zločin zde měl významný vliv.",
-  "answers": ["New Jersey", "Oregon", "Aljaška", "Montana"],
-  "correct_answer": "New Jersey"
-},
-{
-  "title": "Kdo byl Mickey Cohen?",
-  "subheading": "Patřil mezi známé postavy organizovaného zločinu na západním pobřeží USA.",
-  "answers": ["Gangster z Los Angeles", "Agent FBI", "Politik Kalifornie", "Kasínový právník"],
-  "correct_answer": "Gangster z Los Angeles"
-},
-{
-  "title": "S jakým městem byl spojen Mickey Cohen?",
-  "subheading": "Působil v oblasti, která byla známá filmovým průmyslem.",
-  "answers": ["Los Angeles", "Boston", "Detroit", "Philadelphia"],
-  "correct_answer": "Los Angeles"
-},
-{
-  "title": "Kdo byl Bugsy Siegelův spolupracovník při rozvoji hazardu?",
-  "subheading": "Podílel se na finanční stránce mafiánských projektů.",
-  "answers": ["Meyer Lansky", "John Gotti", "Tony Accardo", "Vito Genovese"],
-  "correct_answer": "Meyer Lansky"
-},
-{
-  "title": "Co byla organizace Black Hand v historii italského organizovaného zločinu?",
-  "subheading": "Předcházela pozdějším mafiánským strukturám v USA.",
-  "answers": ["Síť vyděračů a zločinců", "Vládní agentura", "Policejní jednotka", "Politická strana"],
-  "correct_answer": "Síť vyděračů a zločinců"
-},
-{
-  "title": "Který mafián byl spojen s městem Detroit?",
-  "subheading": "Tato oblast měla vlastní významnou zločineckou organizaci.",
-  "answers": ["Joseph Zerilli", "John Gotti", "Lucky Luciano", "Joe Colombo"],
-  "correct_answer": "Joseph Zerilli"
-},
-{
-  "title": "Jak se nazývala mafiánská organizace působící v Detroitu?",
-  "subheading": "Patřila mezi známé regionální skupiny amerického podsvětí.",
-  "answers": ["Detroit Partnership", "Chicago Outfit", "Luciano Family", "Murder Inc."],
-  "correct_answer": "Detroit Partnership"
-},
-{
-  "title": "Kdo byl Joe Masseria známý jako?",
-  "subheading": "Patřil mezi starší generaci mafiánských bossů v New Yorku.",
-  "answers": ["The Boss", "The Chin", "Dapper Don", "Big Tuna"],
-  "correct_answer": "The Boss"
-},
-{
-  "title": "Jaký dopad měla smrt Joe Masserii na americkou mafii?",
-  "subheading": "Jeho konec znamenal změnu rozložení moci v New Yorku.",
-  "answers": ["Posílila nová generace mafiánů", "Zanikla veškerá mafie", "Vznikla FBI", "Skončila prohibice"],
-  "correct_answer": "Posílila nová generace mafiánů"
-},
-{
-  "title": "Který mafián byl spojen s rodinou Lucchese a letištěm JFK?",
-  "subheading": "Jeho skupina měla vliv na některé aktivity v New Yorku.",
-  "answers": ["Jimmy Burke", "Sammy Gravano", "Carlo Gambino", "Meyer Lansky"],
-  "correct_answer": "Jimmy Burke"
-},
-{
+    "title": "Kdo byl Meyer Lansky známý jako v rámci americké mafie?",
+    "subheading": "Nebyl známý jako pouliční boss, ale měl velký vliv v zákulisí.",
+    "answers": ["Finanční stratég mafie", "Šéf FBI", "Politický vůdce", "Vojenský velitel"],
+    "correct_answer": "Finanční stratég mafie"
+  },
+  {
+    "title": "Který mafián byl známý jako 'The Executioner'?",
+    "subheading": "Přezdívka odkazovala na jeho pověst nebezpečného vykonavatele.",
+    "answers": ["Albert Anastasia", "Carlo Gambino", "Frank Costello", "Joe Bonanno"],
+    "correct_answer": "Albert Anastasia"
+  },
+  {
+    "title": "Jak se nazývala skupina nájemných vrahů spojená s americkou mafií ve 30. letech?",
+    "subheading": "Byla spojována s několika významnými zločiny té doby.",
+    "answers": ["Murder, Inc.", "The Commission", "Five Families", "Black Hand"],
+    "correct_answer": "Murder, Inc."
+  },
+  {
+    "title": "Kdo byl hlavní zakladatel moderní struktury americké mafie?",
+    "subheading": "Prosazoval větší spolupráci mezi různými mafiánskými skupinami.",
+    "answers": ["Lucky Luciano", "Al Capone", "Bugsy Siegel", "Joe Colombo"],
+    "correct_answer": "Lucky Luciano"
+  },
+  {
+    "title": "Jaký význam měl vznik The Commission pro mafii?",
+    "subheading": "Změnila způsob řešení sporů mezi jednotlivými skupinami.",
+    "answers": ["Koordinace mezi mafiánskými rodinami", "Vznik policejního oddělení", "Zrušení prohibice", "Kontrola médií"],
+    "correct_answer": "Koordinace mezi mafiánskými rodinami"
+  },
+  {
+    "title": "Který americký stát byl historicky známý silnou přítomností mafie mimo New York?",
+    "subheading": "Místní organizovaný zločin zde měl významný vliv.",
+    "answers": ["New Jersey", "Oregon", "Aljaška", "Montana"],
+    "correct_answer": "New Jersey"
+  },
+  {
+    "title": "Kdo byl Mickey Cohen?",
+    "subheading": "Patřil mezi známé postavy organizovaného zločinu na západním pobřeží USA.",
+    "answers": ["Gangster z Los Angeles", "Agent FBI", "Politik Kalifornie", "Kasínový právník"],
+    "correct_answer": "Gangster z Los Angeles"
+  },
+  {
+    "title": "S jakým městem byl spojen Mickey Cohen?",
+    "subheading": "Působil v oblasti, která byla známá filmovým průmyslem.",
+    "answers": ["Los Angeles", "Boston", "Detroit", "Philadelphia"],
+    "correct_answer": "Los Angeles"
+  },
+  {
+    "title": "Kdo byl Bugsy Siegelův spolupracovník při rozvoji hazardu?",
+    "subheading": "Podílel se na finanční stránce mafiánských projektů.",
+    "answers": ["Meyer Lansky", "John Gotti", "Tony Accardo", "Vito Genovese"],
+    "correct_answer": "Meyer Lansky"
+  },
+  {
+    "title": "Co byla organizace Black Hand v historii italského organizovaného zločinu?",
+    "subheading": "Předcházela pozdějším mafiánským strukturám v USA.",
+    "answers": ["Síť vyděračů a zločinců", "Vládní agentura", "Policejní jednotka", "Politická strana"],
+    "correct_answer": "Síť vyděračů a zločinců"
+  },
+  {
+    "title": "Který mafián byl spojen s městem Detroit?",
+    "subheading": "Tato oblast měla vlastní významnou zločineckou organizaci.",
+    "answers": ["Joseph Zerilli", "John Gotti", "Lucky Luciano", "Joe Colombo"],
+    "correct_answer": "Joseph Zerilli"
+  },
+  {
+    "title": "Jak se nazývala mafiánská organizace působící v Detroitu?",
+    "subheading": "Patřila mezi známé regionální skupiny amerického podsvětí.",
+    "answers": ["Detroit Partnership", "Chicago Outfit", "Luciano Family", "Murder Inc."],
+    "correct_answer": "Detroit Partnership"
+  },
+  {
+    "title": "Kdo byl Joe Masseria známý jako?",
+    "subheading": "Patřil mezi starší generaci mafiánských bossů v New Yorku.",
+    "answers": ["The Boss", "The Chin", "Dapper Don", "Big Tuna"],
+    "correct_answer": "The Boss"
+  },
+  {
+    "title": "Jaký dopad měla smrt Joe Masserii na americkou mafii?",
+    "subheading": "Jeho konec znamenal změnu rozložení moci v New Yorku.",
+    "answers": ["Posílila nová generace mafiánů", "Zanikla veškerá mafie", "Vznikla FBI", "Skončila prohibice"],
+    "correct_answer": "Posílila nová generace mafiánů"
+  },
+  {
+    "title": "Který mafián byl spojen s rodinou Lucchese a letištěm JFK?",
+    "subheading": "Jeho skupina měla vliv na některé aktivity v New Yorku.",
+    "answers": ["Jimmy Burke", "Sammy Gravano", "Carlo Gambino", "Meyer Lansky"],
+    "correct_answer": "Jimmy Burke"
+  },
+  {
     "title": "Kdo byl Donnie Brasco?",
     "subheading": "Jednalo se o krycí identitu agenta, který pronikl do mafiánského prostředí.",
     "answers": ["Joseph D. Pistone", "Sammy Gravano", "Joe Massino", "Rudy Giuliani"],
@@ -1202,199 +1202,109 @@
   {
     "title": "Co byla operace Old Bridge?",
     "subheading": "Akce ukázala, že tradiční mafie stále udržovala mezinárodní vazby i po roce 2000.",
-    "answers": [
-      "Vyšetřování pašování drog mezi USA a Itálií",
-      "Tajná operace proti terorismu",
-      "Program ochrany svědků",
-      "Vyšetřování finanční krize"
-    ],
+    "answers": ["Vyšetřování pašování drog mezi USA a Itálií", "Tajná operace proti terorismu", "Program ochrany svědků", "Vyšetřování finanční krize"],
     "correct_answer": "Vyšetřování pašování drog mezi USA a Itálií"
   },
   {
     "title": "Kdo byl Nicholas 'Little Nicky' Corozzo?",
     "subheading": "Patřil mezi významné postavy rodiny Gambino v období po roce 2000.",
-    "answers": [
-      "Mafiánský boss a vysoký člen Gambino rodiny",
-      "Agent FBI",
-      "Federální žalobce",
-      "Politik New Yorku"
-    ],
+    "answers": ["Mafiánský boss a vysoký člen Gambino rodiny", "Agent FBI", "Federální žalobce", "Politik New Yorku"],
     "correct_answer": "Mafiánský boss a vysoký člen Gambino rodiny"
   },
   {
     "title": "Jaká operace FBI vedla k rozsáhlým zatčením členů mafie v roce 2011?",
     "subheading": "Jednalo se o jednu z největších akcí proti organizovanému zločinu v USA.",
-    "answers": [
-      "Mafia Roundup",
-      "Operation Underworld",
-      "Operation Ghost",
-      "Operation Empire"
-    ],
+    "answers": ["Mafia Roundup", "Operation Underworld", "Operation Ghost", "Operation Empire"],
     "correct_answer": "Mafia Roundup"
   },
   {
     "title": "Kolik mafiánů bylo přibližně zatčeno během akce Mafia Roundup v roce 2011?",
     "subheading": "Federální úřady zasáhly proti několika mafiánským rodinám najednou.",
-    "answers": [
-      "Více než 100 osob",
-      "Přibližně 10 osob",
-      "Pouze jeden boss",
-      "Více než 500 osob"
-    ],
+    "answers": ["Více než 100 osob", "Přibližně 10 osob", "Pouze jeden boss", "Více než 500 osob"],
     "correct_answer": "Více než 100 osob"
   },
   {
     "title": "Které mafiánské rodiny byly zasaženy operací FBI v roce 2011?",
     "subheading": "Zásah ukázal, že Five Families stále existovaly i v moderní době.",
-    "answers": [
-      "Gambino, Genovese, Lucchese, Colombo a Bonanno",
-      "Pouze Chicago Outfit",
-      "Pouze rodina Gambino",
-      "Pouze sicilská mafie"
-    ],
+    "answers": ["Gambino, Genovese, Lucchese, Colombo a Bonanno", "Pouze Chicago Outfit", "Pouze rodina Gambino", "Pouze sicilská mafie"],
     "correct_answer": "Gambino, Genovese, Lucchese, Colombo a Bonanno"
   },
   {
     "title": "Kdo byl John 'Junior' Gotti?",
     "subheading": "Syn známého bosse Gambino se snažil pokračovat v rodinném odkazu.",
-    "answers": [
-      "Syn Johna Gottiho a bývalý člen Gambino rodiny",
-      "Agent FBI v utajení",
-      "Boss Chicago Outfit",
-      "Soudce v New Yorku"
-    ],
+    "answers": ["Syn Johna Gottiho a bývalý člen Gambino rodiny", "Agent FBI v utajení", "Boss Chicago Outfit", "Soudce v New Yorku"],
     "correct_answer": "Syn Johna Gottiho a bývalý člen Gambino rodiny"
   },
   {
     "title": "Jak FBI získávala důkazy proti moderní mafii v 21. století?",
     "subheading": "Vyšetřování už nebylo založeno pouze na klasických informátorech.",
-    "answers": [
-      "Odposlechy, sledování a skryté nahrávky",
-      "Pouze veřejné výslechy",
-      "Vojenskými operacemi",
-      "Pouze novinovými články"
-    ],
+    "answers": ["Odposlechy, sledování a skryté nahrávky", "Pouze veřejné výslechy", "Vojenskými operacemi", "Pouze novinovými články"],
     "correct_answer": "Odposlechy, sledování a skryté nahrávky"
   },
   {
     "title": "Kdo byl Joseph Massino a proč byl významný po roce 2000?",
     "subheading": "Jeho rozhodnutí změnilo historii jedné z newyorských mafiánských rodin.",
-    "answers": [
-      "Boss Bonanno, který začal spolupracovat s FBI",
-      "Šéf FBI",
-      "Zakladatel RICO zákona",
-      "Boss Chicago Outfit"
-    ],
+    "answers": ["Boss Bonanno, který začal spolupracovat s FBI", "Šéf FBI", "Zakladatel RICO zákona", "Boss Chicago Outfit"],
     "correct_answer": "Boss Bonanno, který začal spolupracovat s FBI"
   },
   {
     "title": "Jaký význam mělo svědectví Josepha Massina pro FBI?",
     "subheading": "Byl jedním z nejvýše postavených mafiánů, kteří začali vypovídat.",
-    "answers": [
-      "Pomohl usvědčit další členy mafie",
-      "Založil novou mafiánskou rodinu",
-      "Získal kontrolu nad Las Vegas",
-      "Zrušil RICO zákon"
-    ],
+    "answers": ["Pomohl usvědčit další členy mafie", "Založil novou mafiánskou rodinu", "Získal kontrolu nad Las Vegas", "Zrušil RICO zákon"],
     "correct_answer": "Pomohl usvědčit další členy mafie"
   },
   {
     "title": "Kdo byl Vincent 'Vinny Gorgeous' Basciano?",
     "subheading": "Patřil mezi poslední známé bossy rodiny Bonanno.",
-    "answers": [
-      "Boss rodiny Bonanno",
-      "Agent FBI",
-      "Boss Gambino",
-      "Federální soudce"
-    ],
+    "answers": ["Boss rodiny Bonanno", "Agent FBI", "Boss Gambino", "Federální soudce"],
     "correct_answer": "Boss rodiny Bonanno"
   },
   {
     "title": "Jaký seriál pomohl veřejnosti poznat práci FBI agenta uvnitř mafie?",
     "subheading": "Příběh vycházel ze skutečných událostí infiltrujícího agenta.",
-    "answers": [
-      "Donnie Brasco",
-      "The Wire",
-      "Narcos",
-      "Breaking Bad"
-    ],
+    "answers": ["Donnie Brasco", "The Wire", "Narcos", "Breaking Bad"],
     "correct_answer": "Donnie Brasco"
   },
   {
     "title": "Kdo byl skutečný agent FBI známý pod jménem Donnie Brasco?",
     "subheading": "Jeho několikaletá infiltrace patří mezi nejslavnější operace FBI.",
-    "answers": [
-      "Joseph D. Pistone",
-      "Eliot Ness",
-      "Robert Mueller",
-      "John Connolly"
-    ],
+    "answers": ["Joseph D. Pistone", "Eliot Ness", "Robert Mueller", "John Connolly"],
     "correct_answer": "Joseph D. Pistone"
   },
   {
     "title": "Do které mafiánské rodiny pronikl agent Joseph Pistone?",
     "subheading": "Operace pomohla odhalit fungování mafie zevnitř.",
-    "answers": [
-      "Bonanno",
-      "Gambino",
-      "Genovese",
-      "Lucchese"
-    ],
+    "answers": ["Bonanno", "Gambino", "Genovese", "Lucchese"],
     "correct_answer": "Bonanno"
   },
   {
     "title": "Jaký byl důsledek operace Donnie Brasco pro mafii?",
     "subheading": "Odhalení vedlo k významným změnám uvnitř jedné mafiánské rodiny.",
-    "answers": [
-      "Zatčení a oslabení části vedení Bonanno rodiny",
-      "Vznik nové mafiánské aliance",
-      "Konec FBI vyšetřování",
-      "Převzetí Las Vegas mafií"
-    ],
+    "answers": ["Zatčení a oslabení části vedení Bonanno rodiny", "Vznik nové mafiánské aliance", "Konec FBI vyšetřování", "Převzetí Las Vegas mafií"],
     "correct_answer": "Zatčení a oslabení části vedení Bonanno rodiny"
   },
   {
     "title": "Co znamená pojem 'cooperating witness' v moderních procesech proti mafii?",
     "subheading": "Tento nástroj se stal jednou z největších zbraní proti organizovanému zločinu.",
-    "answers": [
-      "Mafián, který začne spolupracovat s vyšetřovateli",
-      "Tajný agent FBI",
-      "Federální soudce",
-      "Člen poroty"
-    ],
+    "answers": ["Mafián, který začne spolupracovat s vyšetřovateli", "Tajný agent FBI", "Federální soudce", "Člen poroty"],
     "correct_answer": "Mafián, který začne spolupracovat s vyšetřovateli"
   },
   {
     "title": "Který federální zákon zůstal klíčovým nástrojem proti mafii i po roce 2000?",
     "subheading": "Umožňuje stíhat členy organizací za jejich celkovou činnost.",
-    "answers": [
-      "RICO Act",
-      "Volstead Act",
-      "Patriot Act",
-      "Sherman Act"
-    ],
+    "answers": ["RICO Act", "Volstead Act", "Patriot Act", "Sherman Act"],
     "correct_answer": "RICO Act"
   },
   {
     "title": "Proč byla moderní mafie v USA méně viditelná než ve 20. století?",
     "subheading": "Organizovaný zločin změnil způsob fungování kvůli většímu tlaku úřadů.",
-    "answers": [
-      "Více využívala skryté podnikání a finanční operace",
-      "Přestala existovat",
-      "Působila pouze v Itálii",
-      "Zcela opustila nelegální činnost"
-    ],
+    "answers": ["Více využívala skryté podnikání a finanční operace", "Přestala existovat", "Působila pouze v Itálii", "Zcela opustila nelegální činnost"],
     "correct_answer": "Více využívala skryté podnikání a finanční operace"
   },
   {
     "title": "Jaký význam měla operace 'Family Secrets' proti Chicago Outfit?",
     "subheading": "Velké vyšetřování odhalilo historické zločiny chicagského podsvětí.",
-    "answers": [
-      "Vedla k odsouzení významných členů Chicago Outfit",
-      "Pomohla mafii získat nové území",
-      "Založila novou mafiánskou rodinu",
-      "Byla operací proti drogám v Mexiku"
-    ],
+    "answers": ["Vedla k odsouzení významných členů Chicago Outfit", "Pomohla mafii získat nové území", "Založila novou mafiánskou rodinu", "Byla operací proti drogám v Mexiku"],
     "correct_answer": "Vedla k odsouzení významných členů Chicago Outfit"
   },
   {

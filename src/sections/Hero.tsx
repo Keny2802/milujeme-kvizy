@@ -44,9 +44,7 @@ const Hero:FC<DefaultType> = ({
                                 {" "}
                                 <Text textVariant="strongBodyText">2. světovou válku</Text> až po <Text textVariant="strongBodyText">americko-italskou mafii</Text>.
                             </Text>
-                            <Flex
-                            // layoutVariant="desktopOnly"
-                            className="w-full">
+                            <Flex className="w-full">
                                 {ctaArray.map((item, idx) => {
                                     const { backgroundVariant, href, title } = item;
 
