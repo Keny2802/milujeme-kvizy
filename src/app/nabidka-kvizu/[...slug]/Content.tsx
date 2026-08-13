@@ -33,6 +33,7 @@ import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
 import QuizControllers from "@/components/QuizControllers";
 import Icon from "@/components/Icon/Icon";
+import Notification from "@/components/Notification/Notification";
 
 const Content: FC<DefaultType> = ({ ...attrs }) => {
     const currentPathName = usePathname();
@@ -206,6 +207,24 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
             <Quizes className="md:mt-[calc(var(--spacing-xl)*1.25)]" />
             <Contact />
             <Footer />
+            <Notification
+            selectedAnswer={selectedAnswer}
+            {
+                ...( correctAnswer === selectedAnswer && {
+                    variantState: "correct",
+                    backgroundVariant: "green",
+                } || correctAnswer !== selectedAnswer && {
+                    variantState: "incorrect",
+                    backgroundVariant: "red",
+                } || selectedAnswer === "" && {
+                    variantState: null,
+                    backgroundVariant: null,
+                })
+            }
+            >
+                { correctAnswer === selectedAnswer ? <Text>Správná odpověď</Text> : <Text>Špatná odpověď</Text> }
+                {/* { inCorrectAnswersCount && ( <Text>Špatná odpověď</Text> ) } */}
+            </Notification>
         </Fragment>
     );
 };
