@@ -34,22 +34,31 @@ import Footer from "@/components/Footer";
 import QuizControllers from "@/components/QuizControllers";
 import Icon from "@/components/Icon/Icon";
 import Notification from "@/components/Notification/Notification";
+import History from "@/components/AnswersHistory/History";
+import useScore from "../../../../store";
 
 const Content: FC<DefaultType> = ({ ...attrs }) => {
     const currentPathName = usePathname();
     const router = useRouter();
+    const { score, setScore, } = useScore();
 
-    const [currentIndex, setCurrentIndex] = useState<number>(0);
+    const [currentIndex, setCurrentIndex] = useState<number>(250);
     // const [currentIndex, setCurrentIndex] = useState<number>(83);
-    const [score, setScore] = useState<number>(currentIndex);
+    // const [score, setScore] = useState<number>(currentIndex);
     const [selectedAnswer, setSelectedAnswer] = useState<string>("");
     const [isCorrectAnswerVisible, setCorrectAnswerVisible] = useState<boolean>(false);
     const [isShuffled, setToShuffled] = useState<boolean>(false);
     const [layoutVariant, setLayoutVariant] = useState<LayoutVariantsType>("responsive");
     const [correctAnswersCount, setCorrectAnswersCount] = useState<number>(0);
+    const [isCorrectAnswersHistoryOpen, setCorrectAnswersHistoryOpen] = useState<boolean>(false);
+    const [historyCorrectAnswersList, setToHistoryCorrectAnswersList] = useState<any[]>([]);
+    const [historyInCorrectAnswersList, setToHistoryInCorrectAnswersList] = useState<any[]>([]);
+    const [isInCorrectAnswersHistoryOpen, setInCorrectAnswersHistoryOpen] = useState<boolean>(false);
     const [inCorrectAnswersCount, setInCorrectAnswersCount] = useState<number>(0);
     const [storedQuiz, setStoredQuiz] = useState<any>();
     const LS_KEY = "stored_quiz_question";
+
+    // when score is maximum amount of points it will be different text and modes of quizes number of quizes asnwers
 
     useEffect(() => {
         const storedNewQuizQuestion = JSON.parse(JSON.stringify(localStorage.getItem(LS_KEY)));
@@ -89,13 +98,23 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     };
 
     const NextQuizAnswer = () => {
+        const isCorrect = selectedAnswer === correctAnswer;
+
         if (currentIndex === currentQuiz.length - 1) {
             router.push("/gratulace");
             return;
         };
 
-        if (isCorrectAnswerVisible) {
-            setScore((prev: number) => prev === 0 ? 0 : prev - 1);
+        // if (isCorrectAnswerVisible) {
+        //     // setScore((prev: number) => prev === 0 ? 0 : prev - 1);
+        //     setScore((prev: number) => prev + 1)
+        // };
+
+        if (isCorrect) {
+            setScore((prev: number) => prev + 1);
+            setCorrectAnswersCount((prev: number) => prev + 1);
+        } else {
+            setInCorrectAnswersCount((prev: number) => prev + 1);
         };
 
         setCurrentIndex((prev: number) => prev === currentQuiz.length - 1 ? 0 : prev + 1);
@@ -103,6 +122,8 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
         setInCorrectAnswersCount((prev: number) => selectedAnswer !== correctAnswer ? prev + 1 : prev);
         setSelectedAnswer("");
         setCorrectAnswerVisible(false);
+        setToHistoryCorrectAnswersList((prev) => selectedAnswer === correctAnswer ? [...prev, currentQuiz[currentIndex]] : prev);
+        setToHistoryInCorrectAnswersList((prev) => selectedAnswer !== correctAnswer ? [...prev, currentQuiz[currentIndex]] : prev);
     };
 
     return (
@@ -138,7 +159,9 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                                 <Flex
                                 layoutVariant="desktopOnly"
                                 verticalVariant="itemsCenter"
-                                gapVariant="sm">
+                                gapVariant="sm"
+                                onClick={() => setCorrectAnswersHistoryOpen(true)}
+                                className="cursor-pointer">
                                     <Icon backgroundVariant="green500"> <CheckCircleIcon /> </Icon>
                                     <Text>{correctAnswersCount}</Text>
                                 </Flex>
@@ -146,7 +169,9 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                                 <Flex
                                 layoutVariant="desktopOnly"
                                 verticalVariant="itemsCenter"
-                                gapVariant="sm">
+                                gapVariant="sm"
+                                onClick={() => setInCorrectAnswersHistoryOpen(true)}
+                                className="cursor-pointer">
                                     <Icon backgroundVariant="red500"> <XCircleIcon /> </Icon>
                                     <Text>{inCorrectAnswersCount}</Text>
                                 </Flex>
@@ -174,7 +199,7 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                             </Text>
                             <QuizCtas
                             mixedQuizAnswers={
-                                isShuffled && mixedCurrentQuiz &&mixedCurrentQuiz[currentIndex].answers ||
+                                isShuffled && mixedCurrentQuiz && mixedCurrentQuiz[currentIndex].answers ||
                                 !isShuffled && mixedQuizAnswers
                             }
                             selectedAnswer={selectedAnswer}
@@ -225,6 +250,36 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
                 { correctAnswer === selectedAnswer ? <Text>Správná odpověď</Text> : <Text>Špatná odpověď</Text> }
                 {/* { inCorrectAnswersCount && ( <Text>Špatná odpověď</Text> ) } */}
             </Notification>
+            {/* <History
+            isOpen={isCorrectAnswersHistoryOpen || isInCorrectAnswersHistoryOpen}
+            historyList={historyCorrectAnswersList || historyInCorrectAnswersList}
+            setHistoryModalOpen={setCorrectAnswersHistoryOpen || setInCorrectAnswersHistoryOpen}
+            setToHistoryList={setToHistoryCorrectAnswersList || setToHistoryInCorrectAnswersList}
+            /> */}
+
+            <History
+            isOpen={isCorrectAnswersHistoryOpen}
+            historyType="correct"
+            historyCount={correctAnswersCount}
+            historyList={historyCorrectAnswersList}
+            setHistoryModalOpen={setCorrectAnswersHistoryOpen}
+            setToHistoryList={setToHistoryCorrectAnswersList}
+            />
+            <History
+            isOpen={isInCorrectAnswersHistoryOpen}
+            historyType="incorrect"
+            historyCount={inCorrectAnswersCount}
+            historyList={historyInCorrectAnswersList}
+            setHistoryModalOpen={setInCorrectAnswersHistoryOpen}
+            setToHistoryList={setToHistoryInCorrectAnswersList}
+            />
+
+            {/* <History
+            { ...( isCorrectAnswersHistoryOpen ? { isOpen: isCorrectAnswersHistoryOpen, } : { isOpen: isInCorrectAnswersHistoryOpen, } ) }
+            { ...( historyCorrectAnswersList ? { historyList: historyCorrectAnswersList, } : { historyList: historyInCorrectAnswersList, } ) }
+            { ...( setCorrectAnswersHistoryOpen ? { setHistoryModalOpen: setCorrectAnswersHistoryOpen, } : { setHistoryModalOpen: setInCorrectAnswersHistoryOpen, } ) }
+            { ...( setToHistoryCorrectAnswersList ? { setToHistoryList: setToHistoryCorrectAnswersList, } : { setToHistoryList: setToHistoryInCorrectAnswersList, } ) }
+            /> */}
         </Fragment>
     );
 };

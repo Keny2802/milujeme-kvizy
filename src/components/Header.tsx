@@ -134,7 +134,8 @@ const Header: FC<DefaultType> = ({
               </Flex>
             </List>
             <Cta
-            href={shuffledQuizHrefs[randomIndex].toString()}
+            // href={shuffledQuizHrefs[randomIndex].toString()}
+            href="/prihlaseni"
             onClick={() => setRandomIndex(randomizeIndex)}
             backgroundVariant="black"
             borderBackgroundVariant="none"
@@ -142,7 +143,8 @@ const Header: FC<DefaultType> = ({
               "hidden md:inline-block uppercase",
             )}>
               <Text>
-                Hrát náhodně
+                {/* Hrát náhodně */}
+                Přihlásit se
               </Text>
             </Cta>
             <Wrapper className="mr-sm md:m-0 inline-block md:hidden">

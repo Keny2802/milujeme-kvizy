@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import clsx from "clsx";
 
 import type { DefaultType } from "@/types/DefaultType";
+import useScore from "../../../store";
 import Section from "@/components/Section";
 import Flex from "@/components/Flex";
 import Photo from "@/components/Photo";
@@ -20,6 +21,13 @@ const Page:FC<DefaultType> = ({
     ...attrs
 }) => {
     const router = useRouter();
+    const { score, } = useScore();
+
+    const maxQuizScore = 260 | 100 | 300;
+
+    const resultScoreText = score === 0 ? "Nooo. Stávají se horší věci."
+    : score < 5 ? "Nic moc" : score <= 15 ? "Lepší než nic"
+    : score === maxQuizScore ? "Jsi jednička." : "Ujde to";
     
     return (
         <Fragment>
@@ -39,14 +47,11 @@ const Page:FC<DefaultType> = ({
                     alt="Gratulace za schopnost dokončení celého kvízu"
                     loading="eager"
                     />
+                    <Text textVariant="card">{score} získaných bodů</Text>
                     <Text
                     textVariant="section"
-                    className="uppercase">
-                        Velká gratulace
-                    </Text>
-                    <Text className="text-gray-500">
-                        Dokážeš tento kvíz ještě jednou zopakovat? 
-                    </Text>
+                    className="uppercase">{resultScoreText}</Text>
+                    <Text className="text-gray-500">Dokážeš tento kvíz ještě jednou zopakovat?</Text>
                     <Flex>
                         {ctaArray.map((cta, idx) => {
                             const { href, title } = cta;

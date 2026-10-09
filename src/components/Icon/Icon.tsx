@@ -19,6 +19,7 @@ const Icon:FC<IconType> = ({
         white: "text-white",
         black: "text-black",
         blackOne: "text-black-1",
+        gray: "text-gray dark:text-gray-dark-mode",
         green500: "text-green-500",
         red500: "text-red-500",
     };

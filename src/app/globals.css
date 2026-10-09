@@ -5,6 +5,8 @@
   --color-white: var(--color-white);
   --color-black: var(--color-black);
   --color-black-1: var(--color-black-1);
+  --color-gray: var(--text-gray);
+  --color-gray-dark-mode: var(--text-gray-dark-mode);
 
   --spacing-mini: var(--spacing-mini);
   --spacing-xs: var(--spacing-xs);
@@ -21,6 +23,8 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-black-1: #212121;
+  --text-gray: #4b5563;
+  --text-gray-dark-mode: #9ca3af;
 
   --spacing-mini: 6px;
   --spacing-xs: 12px;

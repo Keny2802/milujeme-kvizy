@@ -2,7 +2,7 @@ import type { AllHTMLAttributes } from "react";
 import type { GenericMappingType } from "../Generics/GenericMapping";
 
 type PaddingVariantsType =
-"mini" | "xs" |
+"zero" | "mini" | "xs" |
 "sm" | "md"
 | "lg" | "xl"
 | "twoXL" | "threeXL";

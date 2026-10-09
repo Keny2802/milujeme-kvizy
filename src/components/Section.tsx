@@ -22,6 +22,7 @@ const Section:FC<SectionType> = ({
     };
 
     const paddingVariants:MappedPaddingVariantsType = {
+        zero: "p-0",
         mini: "p-mini",
         xs: "p-xs",
         sm: "p-mini md:p-xs lg:p-sm",

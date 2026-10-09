@@ -65,7 +65,10 @@ const Flex:FC<Props> = ({
         itemsStretch: "items-stretch",
     };
 
+    // gap variants i na menší a větší screeny jiný gap
+
     const gapVariants:MappedGapVariantsType = {
+        zero: "gap-0",
         mini: "gap-mini",
         xs: "gap-xs",
         sm: "gap-sm",
@@ -86,7 +89,8 @@ const Flex:FC<Props> = ({
             verticalLayoutVariants[verticalVariant],
             gapVariants[gapVariant],
             attrs.className
-        )}>
+        )}
+        { ...( attrs.onClick && { onClick: attrs.onClick } ) }>
             {children}
         </Wrapper>
     </Fragment>

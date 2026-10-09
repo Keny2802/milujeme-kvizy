@@ -17,6 +17,7 @@ type VerticalLayoutVariantsType =
 "itemsBaselineLast" | "itemsStretch";
 
 type GapVariantsType =
+"zero" |
 "mini" | "xs"
 | "sm" | "md"
 | "lg" | "xl"

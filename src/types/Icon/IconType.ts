@@ -1,8 +1,24 @@
 import type { AllHTMLAttributes } from "react";
 import type { GenericMappingType } from "../Generics/GenericMapping";
 
-type BackgroundVariantsType = "violet" | "white" | "black" | "blackOne" | "green500" | "red500";
-type SizeVariantsType = "mini" | "xs" | "sm" | "md" | "lg" | "xl" | "twoXL"  | "threeXL";
+type BackgroundVariantsType =
+"violet"
+| "white"
+| "black"
+| "blackOne"
+| "gray"
+| "green500"
+| "red500";
+
+type SizeVariantsType =
+"mini"
+| "xs"
+| "sm"
+| "md"
+| "lg"
+| "xl"
+| "twoXL"
+| "threeXL";
 
 type MappedBackgroundVariantsType = GenericMappingType<BackgroundVariantsType>;
 type MappedSizeVariantsType = GenericMappingType<SizeVariantsType>;

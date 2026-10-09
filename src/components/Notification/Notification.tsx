@@ -27,7 +27,7 @@ const Notification:FC<NotificationType> = ({
                 <AnimatePresence>
                     <motion.div
                     initial={{ opacity: 0, y: 0, scale: 0, }}
-                    animate={{ opacity: 1, y: -20, scale: 1, }}
+                    animate={{ opacity: 1, x: -20, scale: 1, }}
                     exit={{ opacity: 0, y: 0, scale: 0, }}
                     transition={{ type: "spring", duration: 0.6, ease: "easeInOut" }}
                     className={clsx(
