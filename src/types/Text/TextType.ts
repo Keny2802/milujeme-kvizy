@@ -3,8 +3,8 @@ import type { GenericMappingType } from "../Generics/GenericMapping";
 
 type TextVariants =
 "hero" | "section"
-| "card" | "bodyText"
-| "strongBodyText" | "small";
+| "card" | "subTitleText"
+| "strongBodyText" | "bodyText" | "small";
 
 type FontVariants = "spaceGrotesk" | "Inter";
 type MappedFontVariants = GenericMappingType<FontVariants>;

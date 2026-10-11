@@ -18,9 +18,10 @@ const Text: FC<TextType> = ({
     section: "text-4xl md:text-5xl font-extrabold",
     card: "text-2xl md:text-3xl font-bold",
     // bodyText -> lg:text-[calc(var(--spacing-sm)/1.09)]
-    bodyText: "text-lg md:text-[calc(var(--spacing-sm)/1.09)]",
+    subTitleText: "text-lg md:text-[calc(var(--spacing-sm)/1.09)]",
     // strongBodyText -> lg:text-[calc(var(--spacing-sm)/1.09)]
     strongBodyText: "text-base md:text-lg lg:text-[calc(var(--spacing-sm)/1.09)] font-medium",
+    bodyText: "text-base md:text-lg",
     small: "text-sm md:text-[15px]",
   };
 
@@ -47,7 +48,7 @@ const Text: FC<TextType> = ({
       {...attrs}
       className={clsx(TextVariants[textVariant], attrs.className)}>{children}</h3>
     );
-  } else if (textVariant === "bodyText") {
+  } else if (textVariant === "subTitleText") {
     return (
       <p 
       {...attrs}
@@ -58,6 +59,12 @@ const Text: FC<TextType> = ({
       <strong 
       {...attrs}
       className={clsx(TextVariants[textVariant], attrs.className)}>{children}</strong>
+    );
+  } else if (textVariant === "bodyText") {
+    return (
+      <p 
+      {...attrs}
+      className={clsx(TextVariants[textVariant], attrs.className)}>{children}</p>
     );
   } else if (textVariant === "small") {
     return (

@@ -37,6 +37,16 @@ import Notification from "@/components/Notification/Notification";
 import History from "@/components/AnswersHistory/History";
 import useScore from "../../../../store";
 
+type QuizProgressProps = {
+    currentIndex: number;
+    selectedAnswer: string;
+    correctAnswersCount: number;
+    inCorrectAnswersCount: number;
+    historyCorrectAnswersList: unknown[];
+    historyInCorrectAnswersList: unknown[];
+    isShuffled: boolean;
+};
+
 const Content: FC<DefaultType> = ({ ...attrs }) => {
     const currentPathName = usePathname();
     const router = useRouter();
@@ -56,28 +66,76 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
     const [isInCorrectAnswersHistoryOpen, setInCorrectAnswersHistoryOpen] = useState<boolean>(false);
     const [inCorrectAnswersCount, setInCorrectAnswersCount] = useState<number>(0);
     const [storedQuiz, setStoredQuiz] = useState<any>();
-    const LS_KEY = "stored_quiz_question";
-
+    const [isHydrated, setHydrated] = useState<boolean>(false)
     // when score is maximum amount of points it will be different text and modes of quizes number of quizes asnwers
 
-    useEffect(() => {
-        const storedNewQuizQuestion = JSON.parse(JSON.stringify(localStorage.getItem(LS_KEY)));
-
-        if (storedNewQuizQuestion) setStoredQuiz(storedNewQuizQuestion);
-    }, [currentIndex]);
-
-    useEffect(() => {
-        localStorage.setItem(LS_KEY, JSON.stringify(currentQuiz[currentIndex]));
-    }, [currentIndex]);
-
+    const LS_KEY = `stored_quiz_${currentPathName}`;
     const currentPage = QuizesCardArray.find((page) => {
         return page.href === currentPathName;
     });
-
     const italianCosaNostraPage = currentPage?.href === "/nabidka-kvizu/kviz-italske-cosa-nostry";
     const americanMafiaPage = currentPage?.href === "/nabidka-kvizu/kviz-americko-italska-mafie";
     const worldWarPage = currentPage?.href === "/nabidka-kvizu/kviz-2-svetova-valka";
     const currentQuiz = italianCosaNostraPage ? quizItalianCosaNostra : americanMafiaPage ? quizAmericanMafia : worldWarPage ? quizWorldWar : quizWorldWar;
+
+    useEffect(() => {
+        setHydrated(false);
+        
+        try {
+            const savedQuizProgress = localStorage.getItem(LS_KEY);
+
+            if (savedQuizProgress) {
+                const parsedQuizProgress: QuizProgressProps = JSON.parse(savedQuizProgress);
+                const validCurrentQuizIndex =
+                Number.isInteger(parsedQuizProgress.currentIndex) && parsedQuizProgress.currentIndex >= 0
+                && parsedQuizProgress.currentIndex < currentQuiz.length;
+
+                if (validCurrentQuizIndex) {
+                    setCurrentIndex(parsedQuizProgress.currentIndex);
+                    setSelectedAnswer(parsedQuizProgress.selectedAnswer ?? "");
+                    setCorrectAnswersCount(parsedQuizProgress.correctAnswersCount ?? 0);
+                    setInCorrectAnswersCount(parsedQuizProgress.inCorrectAnswersCount ?? 0);
+                    setToHistoryCorrectAnswersList(parsedQuizProgress.historyCorrectAnswersList ?? []);
+                    setToHistoryInCorrectAnswersList(parsedQuizProgress.historyInCorrectAnswersList ?? []);
+                    setToShuffled(parsedQuizProgress.isShuffled ?? false);
+                };
+            };
+        } catch (err) {
+            console.error("Chyba zobrazení kvízu:", err);
+        } finally {
+            setHydrated(true);
+        };
+    }, [
+        currentQuiz, LS_KEY,
+    ]);
+
+    useEffect(() => {
+        if (!isHydrated) return;
+
+        const parsedQuizProgress: QuizProgressProps = {
+            currentIndex,
+            selectedAnswer,
+            correctAnswersCount,
+            inCorrectAnswersCount,
+            historyCorrectAnswersList,
+            historyInCorrectAnswersList,
+            isShuffled,
+        };
+
+        try {
+            localStorage.setItem(LS_KEY, JSON.stringify(parsedQuizProgress));
+        } catch (err) {
+            console.error("Chyba uložení kvízů", err);
+        };
+    }, [
+        currentIndex,
+        selectedAnswer,
+        correctAnswersCount,
+        inCorrectAnswersCount,
+        historyCorrectAnswersList,
+        historyInCorrectAnswersList,
+        isShuffled,
+    ]);
     
     const mixedCurrentQuiz = useMemo(() => {
         if (!isShuffled) return;

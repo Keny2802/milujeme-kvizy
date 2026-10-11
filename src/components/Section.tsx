@@ -10,7 +10,7 @@ import Wrapper from "./Wrapper";
 
 const Section:FC<SectionType> = ({
     backgroundVariant = "white",
-    paddingVariant = "xl",
+    paddingVariant = "threeXL",
     children,
     ...attrs
 }) => {

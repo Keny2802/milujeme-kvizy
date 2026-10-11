@@ -41,9 +41,7 @@ const Contact:FC<DefaultType> = ({
                                 className="uppercase">
                                     Kontakt
                                 </Text>
-                                <Text>
-                                    Máte dotaz nebo s námi chcete spolupracovat? Neváhejte se nám ozvat.
-                                </Text>
+                                <Text textVariant="subTitleText">Máte dotaz nebo s námi chcete spolupracovat? Neváhejte se nám ozvat.</Text>
                             </Flex>
                         </Flex>
                     </Wrapper>

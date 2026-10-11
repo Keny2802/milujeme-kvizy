@@ -39,7 +39,7 @@ const Hero:FC<DefaultType> = ({
                             className="uppercase line-through">
                                 hrajte kvízy ještě dnes
                             </Text>
-                            <Text className="lg:text-[calc(var(--spacing-sm)/1.09)]">
+                            <Text textVariant="subTitleText" className="lg:text-[calc(var(--spacing-sm)/1.09)]">
                                 Zabavte se velkolepými kvízy od středověku přes
                                 {" "}
                                 <Text textVariant="strongBodyText">2. světovou válku</Text> až po <Text textVariant="strongBodyText">americko-italskou mafii</Text>.

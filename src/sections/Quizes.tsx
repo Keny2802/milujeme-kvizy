@@ -57,7 +57,7 @@ const Quizes:FC<DefaultType> = ({
                                 className="uppercase">
                                     Kompletní kvízy k hraní
                                 </Text>
-                                <Text>
+                                <Text textVariant="subTitleText">
                                     Můžete si namáhat hlavu u kvízů středověku až po
                                     {" "}
                                     <Text textVariant="strongBodyText">napínavé a akční kvízy 30. až 80. let 20. století americko-italské mafie</Text>.
@@ -68,8 +68,8 @@ const Quizes:FC<DefaultType> = ({
                 </Flex>
                 <Wrapper className="max-w-full mt-lg md:mt-xl lg:mt-2xl">
                     <Grid gapVariant="lg">
-                        {QuizesCardArray.map((item, idx) => {
-                            const { src, alt, title, subheading, href } = item;
+                        {QuizesCardArray.map(({ src, alt, title, subheading, href, }, idx) => {
+                            // const { src, alt, title, subheading, href } = item;
 
                             return (
                                 <Wrapper
