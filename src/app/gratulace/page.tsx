@@ -6,6 +6,7 @@ import clsx from "clsx";
 
 import type { DefaultType } from "@/types/DefaultType";
 import useScore from "../../../store";
+import usePreviousPathName from "../hooks/usePreviousPathName";
 import Section from "@/components/Section";
 import Flex from "@/components/Flex";
 import Photo from "@/components/Photo";
@@ -22,12 +23,16 @@ const Page:FC<DefaultType> = ({
 }) => {
     const router = useRouter();
     const { score, } = useScore();
+    const previousPage = usePreviousPathName();
 
     const maxQuizScore = 260 | 100 | 300;
 
     const resultScoreText = score === 0 ? "Nooo. Stávají se horší věci."
     : score < 5 ? "Nic moc" : score <= 15 ? "Lepší než nic"
     : score === maxQuizScore ? "Jsi jednička." : "Ujde to";
+
+    const LS_KEY = `stored_quiz_${previousPage}`;
+    // const LS_KEY = `stored_quiz_question`;
     
     return (
         <Fragment>
@@ -73,7 +78,11 @@ const Page:FC<DefaultType> = ({
                                     <Cta
                                     key={idx}
                                     variant="button"
-                                    onClick={() => router.back()}>
+                                    onClick={() => {
+                                        // localStorage.removeItem(LS_KEY);
+                                        localStorage.clear();
+                                        router.back();
+                                    }}>
                                         <Text
                                         textVariant="strongBodyText"
                                         className="uppercase">

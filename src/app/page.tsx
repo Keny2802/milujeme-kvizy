@@ -6,6 +6,7 @@ import TryUs from "@/sections/TryUs";
 import Quizes from "@/sections/Quizes";
 import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
+import BottomHeader from "@/components/BottomHeader";
 
 const Page = () => {
   return (
@@ -16,6 +17,7 @@ const Page = () => {
       <Quizes />
       <Contact />
       <Footer />
+      <BottomHeader />
     </Fragment>
   );
 };

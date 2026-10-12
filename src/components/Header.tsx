@@ -12,7 +12,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
-import { MinusIcon, PlusIcon, Bars3Icon } from "@heroicons/react/24/solid";
+import { MinusIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import clsx from "clsx";
 
 import type { DefaultType } from "@/types/DefaultType";
@@ -84,7 +84,7 @@ const Header: FC<DefaultType> = ({
           opacity: isHidden ? 0 : 1,
         }}
         className={clsx(
-          "fixed top-0 w-full md:w-11/12 bg-violet md:mt-md lg:mt-lg p-xs z-50 md:rounded-4xl",
+          "hidden md:block fixed top-0 w-full md:w-11/12 bg-violet md:mt-md lg:mt-lg sm:p-xs md:p-sm z-50 md:rounded-4xl",
         )}
         transition={{
           duration: 0.3,
@@ -136,7 +136,7 @@ const Header: FC<DefaultType> = ({
             <Cta
             // href={shuffledQuizHrefs[randomIndex].toString()}
             href="/prihlaseni"
-            onClick={() => setRandomIndex(randomizeIndex)}
+            // onClick={() => setRandomIndex(randomizeIndex)}
             backgroundVariant="black"
             borderBackgroundVariant="none"
             className={clsx(
@@ -147,7 +147,8 @@ const Header: FC<DefaultType> = ({
                 Přihlásit se
               </Text>
             </Cta>
-            <Wrapper className="mr-sm md:m-0 inline-block md:hidden">
+            {/* inline-block md:hidden */}
+            <Wrapper className="mr-sm md:m-0 hidden md:inline-block">
                 {isMobileMenuVisible ? (
                 <MinusIcon
                 onClick={() => setMobileMenuTovisible(false)}

@@ -95,17 +95,13 @@ const MobileMenu:FC<MobileMenuType> = ({
                                 );
                             })}
                             <Cta
-                            href={quizHrefs[randomIndex].toString()}
-                            onClick={() => {
-                                setRandomIndex(randomizeIndex);
-                                setMobileMenuTovisible(false);
-                            }}
+                            href="/prihlaseni"
                             backgroundVariant="black"
                             borderBackgroundVariant="none"
-                            className="uppercase w-full">
-                                <Text>
-                                    Hrát náhodně
-                                </Text>
+                            className={clsx(
+                            "md:hidden uppercase",
+                            )}>
+                                <Text>Přihlásit se</Text>
                             </Cta>
                         </Flex>
                     </List>
