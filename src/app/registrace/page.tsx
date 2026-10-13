@@ -14,6 +14,7 @@ import Cta from "@/components/Cta";
 import Photo from "@/components/Photo";
 import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
+import BottomHeader from "@/components/BottomHeader";
 
 const Page = () => {
     const [visiblePassword, setPasswordVisible] = useState<boolean>(false);
@@ -79,6 +80,7 @@ const Page = () => {
             </Section>
             <Contact />
             <Footer />
+            <BottomHeader />
         </Fragment>
     );
 };

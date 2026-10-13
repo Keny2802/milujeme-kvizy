@@ -18,8 +18,8 @@ type BottomHeaderProps = {
 type BottomHeaderArrayProps = { icon: any; href: string; title: string; };
 
 const bottomHeaderArray:BottomHeaderArrayProps[] = [
-    { icon: House, href: "/", title: "Domů", },
-    { icon: Brain, href: "#nabidka-kvizu", title: "Kvízy", },
+    { icon: House, href: "/#hero", title: "Domů", },
+    { icon: Brain, href: "/#nabidka-kvizu", title: "Kvízy", },
     { icon: DoorOpen, href: "/prihlaseni", title: "Přihlášení", },
     { icon: Menu, href: "#menu", title: "Menu", },
 ];
@@ -39,10 +39,10 @@ const BottomHeader: FC<BottomHeaderProps> = ({
             >
                 {bottomHeaderArray.map(({ icon: IconComponent, href, title, }, idx) => (
                     <Anchor
+                    key={idx}
                     href={href}
                     { ...( href.startsWith("#") && { onClick: (e) => HashLess(e, href) } ) }>
                         <Flex
-                        key={idx}
                         layoutVariant="mobileOnly"
                         verticalVariant="itemsCenter"
                         gapVariant="zero">

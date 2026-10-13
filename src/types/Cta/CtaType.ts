@@ -8,6 +8,7 @@ type BorderBackgroundVariantsType = "violet" | "black" | "white" | "none";
 // type RequiredBackgroundVariantsType = { [ K in keyof Pick<MappedBackgroundVariantsType, "green" | "gray"> ]?: string; };
 type VariantsType = "button" | "link";
 type ButtonVariantsType = "button" | "submit" | "reset";
+type HoverSoundsPreferences = "smoothlyHover1" | "smoothlyHover2";
 
 type MappedBackgroundVariantsType = GenericMappingType<BackgroundVariantsType>;
 type MappedVariantsType = GenericMappingType<VariantsType>;
@@ -22,6 +23,9 @@ type CtaType = AllHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> & {
     linkBackgroundVariant?: boolean;
     variant?: VariantsType;
     buttonVariant?: ButtonVariantsType;
+    hoverSoundPreference?: HoverSoundsPreferences;
+    wantHoverSound?: boolean;
+    hoverSoundVolume?: number;
     href?: string;
     children: React.ReactNode;
 };

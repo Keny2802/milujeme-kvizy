@@ -148,7 +148,7 @@ const Header: FC<DefaultType> = ({
               </Text>
             </Cta>
             {/* inline-block md:hidden */}
-            <Wrapper className="mr-sm md:m-0 hidden md:inline-block">
+            <Wrapper className="mr-sm md:m-0 hidden">
                 {isMobileMenuVisible ? (
                 <MinusIcon
                 onClick={() => setMobileMenuTovisible(false)}

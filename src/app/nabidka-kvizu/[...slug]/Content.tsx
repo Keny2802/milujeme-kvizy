@@ -35,6 +35,7 @@ import QuizControllers from "@/components/QuizControllers";
 import Icon from "@/components/Icon/Icon";
 import Notification from "@/components/Notification/Notification";
 import History from "@/components/AnswersHistory/History";
+import BottomHeader from "@/components/BottomHeader";
 import useScore from "../../../../store";
 
 type QuizProgressProps = {
@@ -338,6 +339,7 @@ const Content: FC<DefaultType> = ({ ...attrs }) => {
             { ...( setCorrectAnswersHistoryOpen ? { setHistoryModalOpen: setCorrectAnswersHistoryOpen, } : { setHistoryModalOpen: setInCorrectAnswersHistoryOpen, } ) }
             { ...( setToHistoryCorrectAnswersList ? { setToHistoryList: setToHistoryCorrectAnswersList, } : { setToHistoryList: setToHistoryInCorrectAnswersList, } ) }
             /> */}
+            <BottomHeader />
         </Fragment>
     );
 };

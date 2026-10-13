@@ -1,9 +1,14 @@
+"use client";
+
 import {
     type FC,
     Fragment,
     memo,
 } from "react";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/all";
 import { Smartphone } from "lucide-react";
+import gsap from "gsap";
 
 import type { DefaultType } from "@/types/DefaultType";
 import Section from "@/components/Section";
@@ -22,9 +27,28 @@ const benefits:BenefitsProps[] = [
     { title: "Nemáte čas se nudit", subtitle: "Připravujeme pro Vás týdenní výzvy, které Vás v mentálním pohybu.", },
 ];
 
+gsap.registerPlugin(ScrollTrigger);
+
 const TryUs:FC<DefaultType> = ({
     ...attrs
 }) => {
+  useGSAP(() => {
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: "#vyzkousejte-milujeme-kvizy",
+            start: "top top",
+            end: "bottom top",
+            scrub: true,
+        },
+    });
+
+    tl.to(["#iphone-16-pro-max", "#iphone-16-pro-max-milujeme-kvizy"], {
+        rotateY: "360deg",
+        duration: 1,
+        ease: "power1.inOut", 
+    });
+  }, []);  
+
   return (
     <Fragment>
         <Section
@@ -86,6 +110,7 @@ const TryUs:FC<DefaultType> = ({
                                 height={750}
                                 src="/models/png/iphone-15-milujeme-kvizy.png"
                                 alt="Iphone 16 PRO MAX"
+                                id="iphone-16-pro-max"
                                 />
 
                                 <Wrapper className="w-8/12 h-full absolute bottom-1/4 left-1/2 -translate-x-1/2 translate-y-[38.5%] overflow-hidden">
@@ -95,6 +120,7 @@ const TryUs:FC<DefaultType> = ({
                                     src="/models/png/iphone-16-pro-max-milujeme-kvizy-hero-section.png"
                                     alt="Milujeme Kvízy Iphone 16 PRO MAX"
                                     className="object-cover"
+                                    id="iphone-16-pro-max-milujeme-kvizy"
                                     />
                                 </Wrapper>
                             </Wrapper>

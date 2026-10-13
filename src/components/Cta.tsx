@@ -1,4 +1,7 @@
-import type { FC } from "react";
+"use client";
+
+import type { FC, } from "react";
+import { Howl } from "howler";
 import clsx from "clsx";
 
 import type {
@@ -15,10 +18,24 @@ const Cta: FC<CtaType> = ({
   linkBackgroundVariant = true,
   variant = "link",
   buttonVariant = "button",
+  wantHoverSound = true,
+  hoverSoundPreference = "smoothlyHover1",
+  hoverSoundVolume = 0.025,
   href,
   children,
   ...attrs
 }) => {
+  const soundPreferences = {
+    smoothlyHover1: "/sounds/hover-interface-smoothly-sound-1.wav",
+    smoothlyHover2: "/sounds/hover-interface-smoothly-sound-2.wav",
+  };
+
+  const hoverSound = new Howl({
+    src: soundPreferences[hoverSoundPreference],
+    volume: hoverSoundVolume,
+    // loop: true,
+  });
+
   // w-full md:max-w-[calc(var(--spacing-3xl)*3)]
   const backgroundVariants:MappedBackgroundVariantsType = {
     violet: "bg-violet text-white p-xs md:p-sm text-center cursor-pointer border-2 translate-x-[4px] translate-y-[4px] rounded-4xl",
@@ -49,7 +66,8 @@ const Cta: FC<CtaType> = ({
       "w-full md:max-w-max",
       backgroundVariants[backgroundVariant],
       borderBackgroundVariants[borderBackgroundVariant],
-      attrs.className)}>
+      attrs.className)}
+      { ...( wantHoverSound && { onMouseEnter: () => hoverSound.play() } ) }>
         {children}
       </button>
     );
@@ -64,8 +82,9 @@ const Cta: FC<CtaType> = ({
       "w-full md:max-w-max",
       linkBackgroundVariant && backgroundVariants[backgroundVariant],
       borderBackgroundVariants[borderBackgroundVariant],
-      attrs.className
-    )}>
+      attrs.className,
+    )}
+    { ...( wantHoverSound && { onMouseEnter: () => hoverSound.play() } ) }>
         {children}
       </Anchor>
     );
