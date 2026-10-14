@@ -1,6 +1,7 @@
 "use client";
 
 import { type FC, useState, Fragment, memo, } from "react";
+import { usePathname } from "next/navigation";
 import { House, Brain, DoorOpen, Menu, Minus, } from "lucide-react";
 
 import Wrapper from "./Wrapper";
@@ -17,17 +18,19 @@ type BottomHeaderProps = {
 
 type BottomHeaderArrayProps = { icon: any; href: string; title: string; };
 
-const bottomHeaderArray:BottomHeaderArrayProps[] = [
-    { icon: House, href: "/#hero", title: "Domů", },
-    { icon: Brain, href: "/#nabidka-kvizu", title: "Kvízy", },
-    { icon: DoorOpen, href: "/prihlaseni", title: "Přihlášení", },
-    { icon: Menu, href: "#menu", title: "Menu", },
-];
-
 const BottomHeader: FC<BottomHeaderProps> = ({
 
 }) => {
+  const pathname = usePathname();
   const [isMobileMenuVisible, setMobileMenuTovisible] = useState<boolean>(false);
+
+  const isHome = pathname === "/" ? "/#hero" : "/";
+  const bottomHeaderArray:BottomHeaderArrayProps[] = [
+        { icon: House, href: isHome, title: "Domů", },
+        { icon: Brain, href: "/#nabidka-kvizu", title: "Kvízy", },
+        { icon: DoorOpen, href: "/prihlaseni", title: "Přihlášení", },
+        { icon: Menu, href: "#menu", title: "Menu", },
+    ];
 
   return (
     <Fragment>

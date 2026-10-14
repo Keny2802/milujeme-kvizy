@@ -26,9 +26,7 @@ const Page = () => {
             {/* <Header /> */}
             <Section
             paddingVariant="zero"
-            backgroundVariant={smallerScreens ? "white" : "violet"}
-            // className="mt-[calc(var(--spacing-lg)*3)] md:mt-[calc(var(--spacing-xl)*3)]"
-            >
+            backgroundVariant={smallerScreens ? "white" : "violet"}>
                 <Flex horizontalVariant="justifyEvenly" verticalVariant="itemsCenter" gapVariant="xl">
                     <Section>
                         <Flex layoutVariant="mobileOnly" gapVariant="lg">
@@ -77,9 +75,7 @@ const Page = () => {
                     height={800}
                     src="/nabidka-kvizu/mafie-v-italii.avif"
                     alt="Přihlásit se - Milujeme Kvízy"
-                    className="hidden lg:inline-block max-w-[80%] rounded-l-3xl"
-                    // md:ml-sm
-                    />
+                    className="hidden lg:inline-block max-w-[80%] rounded-l-3xl"/>
                 </Flex>
             </Section>
             <Contact />

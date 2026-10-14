@@ -74,9 +74,7 @@ const Page = () => {
                     height={800}
                     src="/nabidka-kvizu/mafie-v-italii.avif"
                     alt="Přihlásit se - Milujeme Kvízy"
-                    className="hidden lg:inline-block max-w-[80%] rounded-l-3xl"
-                    // md:ml-sm lg:inline-block
-                    />
+                    className="hidden lg:inline-block max-w-[80%] rounded-l-3xl"/>
                 </Flex>
             </Section>
             <Contact />
